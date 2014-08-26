@@ -15,3 +15,4 @@
 //= require backbone
 //= require marionette
 //= require bootstrap-sprockets
+//= require backbone/app
