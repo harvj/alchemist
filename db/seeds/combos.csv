@@ -1,0 +1,849 @@
+angel,sword,arch angel
+angel,knight,arch angel
+angel,death,dark angel
+angel,demon,dark angel
+angel,superhero,arch angel
+angel,space,heavens
+angel,villian,devil
+angel,life,guardian angel
+angel,trident,poseidon
+angel,human,guardian angel
+angel,fairy,fairy godmother
+ash,villian,war god
+ash,superhero,war god
+ash,fairy,magic
+ash,human,war god
+ash,metal,bomb
+ash,holy water,human
+ash,life,phoenix
+ash,rainbow,fireworks
+ash,fire,phoenix
+ash,wizard,geomancer
+ash,knight,war god
+ash,magic,phoenix
+ash,chinchilla,dust bath
+ash,energy,fireworks
+ash,wind,sandstorm
+ash,bear,panda
+bat,superhero,super bat
+bat,tree,baseball bat
+bat,human,vampire
+bat,metal,baseball bat
+bat,science,super bat
+bat,life,vampire
+bat,knight,super bat
+bat,earth,gargoyle
+bat,wizard,shapeshifter
+bat,demon,imp
+bat,golem,gargoyle
+bat,undead,vampire
+bat,food,vamp crunch
+bear,food,gummy bear
+bear,ash,panda
+bear,radiation,dire bear
+bear,tree,koala
+bear,sword,adventure kid
+bear,metal,mecha bear
+bear,science,mecha bear
+bear,rainbow,gummy bear
+bear,knight,emok
+bear,wizard,shapeshifter
+bear,magic,bear magus
+bear,undead,zombie bear
+bear,werewolf,werebear
+bear,trident,emok
+bear,water,polar bear
+bear,human,adventure kid
+bear,demon,zombie bear
+chinchilla,wizard,wiz's apprentice
+chinchilla,rainbow,care chilla
+chinchilla,radiation,chinzilla
+chinchilla,wings,aviator chin
+chinchilla,sword,ninchilla
+chinchilla,wind,aviator chin
+chinchilla,knight,chinchilla knight
+chinchilla,vampire,vampchilla
+chinchilla,ash,dust bath
+chinchilla,magic,wiz's apprentice
+chinchilla,food,gremlin
+chinchilla,life,care chilla
+chinchilla,energy,pikamon
+chinchilla,metal,bionic chinchilla
+chinchilla,superhero,wonderful chin
+chinchilla,space,aviator chin
+chinchilla,water,gremlin
+chinchilla,undead,chinzombie
+chinchilla,science,bionic chinchilla
+chinchilla,villian,gremlin
+death,magic,undead
+death,human,ghost
+death,wings,vulture
+death,horse,death's horse
+death,sword,scythe
+death,wind,poison
+death,knight,undead knight
+death,wizard,necromancer
+death,water,poison
+death,life,undead
+death,energy,ghost
+death,metal,death metal
+death,superhero,the reaper
+death,space,black hole
+death,sun,black hole
+death,angel,dark angel
+death,science,death's ray
+death,food,vulture
+death,fire,demon
+demon,dragon,devil
+demon,elf,goblin
+demon,wings,devil
+demon,villian,devil
+demon,superhero,demonite
+demon,water serpent,cthulhu
+demon,fairy,imp
+demon,bear,zombie bear
+demon,rainbow,clown
+demon,bat,imp
+demon,wizard,warlock
+demon,wind,harpy
+demon,devil,devil
+demon,angel,dark angel
+dragon,dragon,hydra
+dragon,poison,poison dragon
+dragon,villian,smug
+dragon,water serpent,hydra
+dragon,human,ash
+dragon,metal,armored dragon
+dragon,snake,wyvern
+dragon,knight,dragon rider
+dragon,rainbow,puff
+dragon,time,ancient dragon
+dragon,magic,puff
+dragon,wizard,pyromancer
+dragon,demon,devil
+dragon,wind,puff
+dragon,radiation,gorezilla
+dragon,undead,skeletal dragon
+dragon,water,water serpent
+earth,magic,golem
+earth,human,dwarf
+earth,wolf,gargoyle
+earth,bat,gargoyle
+earth,sword,hammer
+earth,ash,sandstorm
+earth,time,fossil
+earth,wizard,pyromancer
+earth,villian,grabbers
+earth,energy,earthquake
+earth,life,golem
+earth,water,tree
+earth,superhero,rock slide
+earth,fairy,gnome
+earth,earth,earthquake
+earth,snake,grabbers
+earth,space,planet
+earth,science,great wall
+earth,fire,lava
+elf,demon,goblin
+elf,superhero,legendary hero
+elf,wizard,elf wizard
+elf,villian,dark elf
+elf,magic,elf wizard
+elf,food,elf baker
+elf,life,elf wizard
+elf,time,legendary hero
+elf,sword,legendary hero
+energy,rainbow,laser
+energy,chinchilla,pikamon
+energy,wings,blue bull
+energy,horse,car
+energy,poison,radiation
+energy,sword,plasma sword
+energy,wind,windmill of doom
+energy,knight,space guardian
+energy,ash,fireworks
+energy,water,maelstrom
+energy,life,ai
+energy,metal,transformobot
+energy,superhero,space guardian
+energy,water serpent,electric eel
+energy,earth,earthquake
+energy,death,ghost
+energy,snake,electric eel
+energy,undead,frankenstein
+energy,food,blue bull
+energy,hammer,thor's hammer
+energy,fire,fireworks
+fairy,villian,malevolent
+fairy,tree,dryad
+fairy,human,elf
+fairy,earth,gnome
+fairy,rainbow,leprechaun
+fairy,fire,fire sprite
+fairy,wind,air sprite
+fairy,demon,imp
+fairy,ash,magic
+fairy,angel,fairy godmother
+fairy,water,water sprite
+fire,magic,fireball
+fire,human,ash
+fire,wolf,firefox
+fire,wings,phoenix
+fire,horse,war's horse
+fire,sword,flame sword
+fire,wind,wildfire
+fire,knight,red knight
+fire,vampire,death
+fire,ash,phoenix
+fire,time,ash
+fire,wizard,pyromancer
+fire,water,steam
+fire,tree,ash
+fire,metal,sword
+fire,energy,fireworks
+fire,fairy,fire sprite
+fire,superhero,the incinerator
+fire,earth,lava
+fire,villian,fire lord
+fire,death,demon
+fire,snake,dragon
+fire,golem,fire golem
+fire,undead,death
+fire,science,fireworks
+fire,life,fire golem
+fire,food,hot pepper
+fire,fire,wildfire
+food,human,farmer
+food,rainbow,rainbow candy
+food,radiation,fluff puff
+food,chinchilla,gremlin
+food,wings,blue bull
+food,bat,vamp crunch
+food,poison,poison apple
+food,elf,elf baker
+food,vampire,vamp crunch
+food,trident,spork of doom
+food,tree,poison apple
+food,bear,gummy bear
+food,energy,blue bull
+food,water,punchy
+food,superhero,healthy hero
+food,villian,burgerlar
+food,life,punchy
+food,space,pastry cat
+food,death,vulture
+food,undead,human
+food,golem,fluff puff
+food,fire,hot pepper
+golem,wolf,gargoyle
+golem,superhero,rock slide
+golem,tree,wooden golem
+golem,metal,metal golem
+golem,science,frankenstein
+golem,life,dwarf
+golem,fire,fire golem
+golem,bat,gargoyle
+golem,magic,arcane golem
+golem,wind,air elemental
+golem,water,ice golem
+golem,food,fluff puff
+hammer,time,hammer time
+hammer,knight,paladin
+hammer,metal,sledgehammer
+hammer,energy,thor's hammer
+hammer,superhero,thor
+hammer,science,blacksmith
+hammer,magic,thor's hammer
+hammer,human,blacksmith
+hammer,sword,morning star
+holy water,poison,water
+holy water,human,cleric
+holy water,life,fountain of youth
+holy water,time,fountain of youth
+holy water,knight,paladin
+holy water,wizard,cleric
+holy water,vampire,fire
+holy water,ash,human
+holy water,undead,fire
+holy water,sword,excaliber
+horse,wings,pegasus
+horse,villian,headless rider
+horse,death,death's horse
+horse,metal,car
+horse,human,centaur
+horse,energy,car
+horse,knight,cavalry
+horse,fire,war's horse
+horse,rainbow,unicorn
+horse,magic,unicorn
+horse,wind,pegasus
+horse,life,unicorn
+horse,space,unicorn
+horse,radiation,pestilence's horse
+horse,water,seahorse
+horse,undead,headless rider
+human,space,astronaut
+human,ash,war god
+human,human,human
+human,dragon,ash
+human,death,ghost
+human,fire,ash
+human,wolf,werewolf
+human,magic,wizard
+human,trident,farmer
+human,bear,adventure kid
+human,angel,guardian angel
+human,tree,vampire hunter
+human,hammer,blacksmith
+human,rainbow,clown
+human,radiation,superhero
+human,wings,angel
+human,poison,assassin
+human,undead,undead
+human,fairy,elf
+human,earth,dwarf
+human,bat,vampire
+human,snake,medusa
+human,food,farmer
+human,life,immortal
+human,water,mermaid
+human,vampire,vampire
+human,sword,knight
+human,time,death
+human,science,cyborg
+human,holy water,cleric
+human,werewolf,werewolf
+human,horse,centaur
+human,metal,knight
+knight,wizard,battle mage
+knight,dragon,dragon rider
+knight,chinchilla,chinchilla knight
+knight,wings,arch angel
+knight,horse,cavalry
+knight,poison,green knight
+knight,bat,super bat
+knight,ash,war god
+knight,trident,gladiator
+knight,holy water,paladin
+knight,magic,battle mage
+knight,water,blue knight
+knight,energy,space guardian
+knight,bear,emok
+knight,villian,undead knight
+knight,superhero,sir lancelot
+knight,life,paladin
+knight,space,space guardian
+knight,death,undead knight
+knight,undead,undead knight
+knight,angel,arch angel
+knight,science,ultimate soldier
+knight,hammer,paladin
+knight,fire,red knight
+life,space,alien
+life,human,immortal
+life,ash,phoenix
+life,death,undead
+life,fire,fire golem
+life,wolf,nine tailed fox
+life,chinchilla,care chilla
+life,magic,fairy
+life,sun,alien
+life,angel,guardian angel
+life,elf,elf wizard
+life,tree,treant
+life,rainbow,unicorn
+life,wings,phoenix
+life,undead,lich
+life,poison,virus
+life,earth,golem
+life,wind,air elemental
+life,bat,vampire
+life,food,punchy
+life,villian,decimation
+life,knight,paladin
+life,water,ice golem
+life,science,doctor
+life,time,death
+life,wizard,cleric
+life,holy water,fountain of youth
+life,golem,dwarf
+life,horse,unicorn
+life,energy,ai
+life,metal,transformobot
+magic,dragon,puff
+magic,human,wizard
+magic,chinchilla,wiz's apprentice
+magic,wings,fairy
+magic,horse,unicorn
+magic,sword,excaliber
+magic,wind,genie
+magic,elf,elf wizard
+magic,knight,battle mage
+magic,vampire,dracula
+magic,ash,phoenix
+magic,wizard,arch mage
+magic,water,holy water
+magic,tree,treant
+magic,bear,bear magus
+magic,villian,the snake lord
+magic,superhero,the magician
+magic,earth,golem
+magic,water serpent,lochness
+magic,life,fairy
+magic,death,undead
+magic,undead,skeletal mage
+magic,golem,arcane golem
+magic,space,pastry cat
+magic,hammer,thor's hammer
+magic,fire,fireball
+metal,dragon,armored dragon
+metal,human,knight
+metal,radiation,bomb
+metal,chinchilla,bionic chinchilla
+metal,wings,jet fighter
+metal,horse,car
+metal,sword,giant sword
+metal,bat,baseball bat
+metal,wind,jet fighter
+metal,ash,bomb
+metal,time,d-3000
+metal,werewolf,death
+metal,water,submarine
+metal,tree,catapult
+metal,energy,transformobot
+metal,bear,mecha bear
+metal,superhero,steel hero
+metal,villian,magnet dude
+metal,life,transformobot
+metal,death,death metal
+metal,space,spaceship
+metal,golem,metal golem
+metal,hammer,sledgehammer
+metal,fire,sword
+poison,dragon,poison dragon
+poison,wings,wasp
+poison,villian,poison ivy
+poison,tree,killer plant
+poison,human,assassin
+poison,life,virus
+poison,holy water,water
+poison,snake,cobra
+poison,time,death
+poison,knight,green knight
+poison,energy,radiation
+poison,wizard,witch doctor
+poison,wind,radiation
+poison,food,poison apple
+poison,sword,poison dagger
+poison,sun,radiation
+radiation,horse,pestilence's horse
+radiation,dragon,gorezilla
+radiation,wolf,dire wolf
+radiation,superhero,mutant man
+radiation,tree,killer plant
+radiation,water serpent,kraken
+radiation,metal,bomb
+radiation,snake,anaconda
+radiation,human,superhero
+radiation,time,half-life
+radiation,science,bomb
+radiation,bear,dire bear
+radiation,food,fluff puff
+radiation,sword,the badger
+radiation,chinchilla,chinzilla
+rainbow,horse,unicorn
+rainbow,dragon,puff
+rainbow,villian,clown
+rainbow,fairy,leprechaun
+rainbow,human,clown
+rainbow,bear,gummy bear
+rainbow,science,laser
+rainbow,energy,laser
+rainbow,rainbow,double rainbow
+rainbow,chinchilla,care chilla
+rainbow,life,unicorn
+rainbow,space,pastry cat
+rainbow,demon,clown
+rainbow,ash,fireworks
+rainbow,food,rainbow candy
+rainbow,sword,laser sword
+science,human,cyborg
+science,wolf,dire wolf
+science,rainbow,laser
+science,radiation,bomb
+science,chinchilla,bionic chinchilla
+science,wings,jet fighter
+science,bat,super bat
+science,sword,laser sword
+science,knight,ultimate soldier
+science,trident,spork of doom
+science,werewolf,dr. savage
+science,time,d-3000
+science,life,doctor
+science,bear,mecha bear
+science,space,einstein
+science,superhero,lieutenant usa
+science,earth,great wall
+science,sun,death ray
+science,snake,general viper
+science,death,death ray
+science,golem,frankenstein
+science,undead,frankenstein
+science,hammer,blacksmith
+science,fire,fireworks
+snake,dragon,wyvern
+snake,poison,cobra
+snake,wings,snakes on a jet
+snake,villian,general viper
+snake,tree,poison apple
+snake,human,medusa
+snake,earth,grabbers
+snake,science,general viper
+snake,energy,electric eel
+snake,time,ouroboros
+snake,fire,dragon
+snake,wizard,the snake lord
+snake,wind,snakes on a jet
+snake,space,snakes on a jet
+snake,radiation,anaconda
+snake,water,water serpent
+space,magic,pastry cat
+space,human,astronaut
+space,rainbow,pastry cat
+space,chinchilla,aviator chin
+space,wings,spaceship
+space,horse,unicorn
+space,sword,laser sword
+space,knight,space guardian
+space,time,dr. what
+space,wizard,dr. what
+space,tree,the world tree
+space,villian,titan of death
+space,metal,spaceship
+space,life,alien
+space,superhero,raccoon guardian
+space,water serpent,xenomorph
+space,earth,planet
+space,death,black hole
+space,snake,snakes on a jet
+space,angel,heavens
+space,science,einstein
+space,food,pastry cat
+sun,poison,radiation
+sun,villian,death ray
+sun,superhero,ultra dude
+sun,tree,the world tree
+sun,death,black hole
+sun,life,alien
+sun,science,death ray
+sun,time,black hole
+sun,wind,radiation
+sun,vampire,fire
+sun,werewolf,human
+sun,water,rainbow
+sun,sword,laser sword
+sun,sun,super nova
+superhero,space,raccoon guardian
+superhero,death,the reaper
+superhero,ash,war god
+superhero,fire,the incinerator
+superhero,wolf,the badger
+superhero,chinchilla,wonderful chin
+superhero,magic,the magician
+superhero,sun,ultra dude
+superhero,trident,poseidon
+superhero,angel,arch angel
+superhero,elf,legendary hero
+superhero,tree,vampire hunter
+superhero,hammer,thor
+superhero,radiation,mutant man
+superhero,wings,raging bird
+superhero,undead,the reaper
+superhero,earth,rock slide
+superhero,demon,demonite
+superhero,wind,windmaster eng
+superhero,bat,super bat
+superhero,food,healthy hero
+superhero,villian,discipliner
+superhero,knight,sir lancelot
+superhero,water,ocean defender
+superhero,vampire,the magician
+superhero,sword,the badger
+superhero,time,persian royalty
+superhero,wizard,arch mage
+superhero,science,lieutenant usa
+superhero,golem,rock slide
+superhero,energy,space guardian
+superhero,metal,steel hero
+sword,magic,excaliber
+sword,human,knight
+sword,rainbow,laser sword
+sword,radiation,the badger
+sword,chinchilla,ninchilla
+sword,sword,giant sword
+sword,poison,poison dagger
+sword,elf,legendary hero
+sword,holy water,excaliber
+sword,wizard,battle mage
+sword,water,trident
+sword,energy,plasma sword
+sword,metal,giant sword
+sword,bear,adventure kid
+sword,superhero,the badger
+sword,sun,laser sword
+sword,earth,hammer
+sword,villian,the grater
+sword,death,scythe
+sword,undead,bone sword
+sword,angel,arch angel
+sword,science,laser sword
+sword,hammer,morning star
+sword,space,laser sword
+sword,fire,flame sword
+time,dragon,ancient dragon
+time,human,death
+time,radiation,half-life
+time,poison,death
+time,elf,legendary hero
+time,holy water,fountain of youth
+time,werewolf,young wolf
+time,villian,d-3000
+time,tree,the world tree
+time,metal,d-3000
+time,life,death
+time,superhero,persian royalty
+time,water serpent,cthulhu
+time,earth,fossil
+time,sun,black hole
+time,snake,ouroboros
+time,undead,mummy
+time,space,dr. what
+time,science,d-3000
+time,hammer,hammer time
+time,fire,ash
+tree,magic,treant
+tree,human,vampire hunter
+tree,radiation,killer plant
+tree,bat,baseball bat
+tree,poison,killer plant
+tree,wind,cursed flute
+tree,vampire,death
+tree,time,the world tree
+tree,wizard,druid
+tree,water,the world tree
+tree,villian,poison ivy
+tree,metal,catapult
+tree,bear,koala
+tree,superhero,vampire hunter
+tree,fairy,dryad
+tree,life,treant
+tree,sun,the world tree
+tree,space,the world tree
+tree,golem,wooden golem
+tree,snake,poison apple
+tree,food,poison apple
+tree,fire,ash
+trident,angel,poseidon
+trident,knight,gladiator
+trident,demon,devil
+trident,superhero,poseidon
+trident,bear,emok
+trident,villian,devil
+trident,science,spork of doom
+trident,food,spork of doom
+trident,human,farmer
+undead,magic,skeletal mage
+undead,dragon,skeletal dragon
+undead,human,undead
+undead,chinchilla,chinzombie
+undead,wings,ghost
+undead,horse,headless rider
+undead,bat,vampire
+undead,sword,bone sword
+undead,wind,ghost
+undead,knight,undead knight
+undead,holy water,fire
+undead,wizard,necromancer
+undead,energy,frankenstein
+undead,bear,zombie bear
+undead,time,mummy
+undead,water,pirate zombie
+undead,superhero,the reaper
+undead,villian,lich
+undead,life,lich
+undead,science,frankenstein
+undead,food,human
+undead,fire,death
+vampire,wings,bat
+vampire,villian,dracula
+vampire,superhero,vampire hunter
+vampire,tree,death
+vampire,human,vampire
+vampire,holy water,fire
+vampire,chinchilla,vampchilla
+vampire,fire,death
+vampire,magic,dracula
+vampire,wizard,dracula
+vampire,werewolf,hybrid
+vampire,food,vamp crunch
+vampire,sun,fire
+villian,space,titan of death
+villian,dragon,smug
+villian,ash,war god
+villian,fire,fire lord
+villian,water serpent,cthulhu
+villian,wolf,cerberus
+villian,chinchilla,gremlin
+villian,magic,the snake lord
+villian,sun,death ray
+villian,trident,devil
+villian,angel,devil
+villian,elf,dark elf
+villian,tree,poison ivy
+villian,rainbow,clown
+villian,undead,lich
+villian,poison,poison ivy
+villian,earth,grabbers
+villian,fairy,malevolent
+villian,demon,devil
+villian,snake,general viper
+villian,food,burgerlar
+villian,life,decimation
+villian,knight,undead knight
+villian,water,ice king
+villian,vampire,dracula
+villian,sword,the grater
+villian,time,d-3000
+villian,wizard,the snake lord
+villian,superhero,discipliner
+villian,vampire,cerberus
+villian,horse,headless rider
+villian,metal,magnet dude
+water,magic,holy water
+water,human,mermaid
+water,dragon,water serpent
+water,food,punchy
+water,chinchilla,gremlin
+water,horse,seahorse
+water,sword,trident
+water,wind,cyclone
+water,knight,blue knight
+water,wizard,hydromancer
+water,water,flood
+water,tree,the world tree
+water,metal,submarine
+water,energy,maelstrom
+water,fairy,water sprite
+water,superhero,ocean defender
+water,earth,tree
+water,sun,rainbow
+water,snake,water serpent
+water,undead,pirate zombie
+water,death,poison
+water,golem,ice golem
+water,bear,polar bear
+water,villian,ice king
+water,life,ice golem
+water,fire,steam
+water serpent,radiation,kraken
+water serpent,dragon,hydra
+water serpent,demon,cthulhu
+water serpent,water serpent,hydra
+water serpent,wizard,hydromancer
+water serpent,villian,cthulhu
+water serpent,magic,lochness
+water serpent,space,xenomorph
+water serpent,time,cthulhu
+water serpent,energy,electric eel
+werewolf,bear,werebear
+werewolf,metal,death
+werewolf,sun,human
+werewolf,vampire,hybrid
+werewolf,villian,cerberus
+werewolf,science,dr. savage
+werewolf,human,werewolf
+werewolf,time,young wolf
+wind,magic,genie
+wind,dragon,puff
+wind,demon,harpy
+wind,wolf,spirit wolf
+wind,chinchilla,aviator chin
+wind,horse,pegasus
+wind,poison,radiation
+wind,wind,cyclone
+wind,ash,sandstorm
+wind,wizard,aeromancer
+wind,tree,cursed flute
+wind,water,cyclone
+wind,metal,jet fighter
+wind,energy,windmill of doom
+wind,superhero,windmaster eng
+wind,earth,sandstorm
+wind,sun,radiation
+wind,fairy,air sprite
+wind,death,poison
+wind,snake,snakes on a jet
+wind,golem,air elemental
+wind,undead,ghost
+wind,life,air elemental
+wind,fire,wildfire
+wings,magic,fairy
+wings,human,angel
+wings,demon,devil
+wings,chinchilla,aviator chin
+wings,horse,pegasus
+wings,poison,wasp
+wings,knight,arch angel
+wings,vampire,bat
+wings,wizard,witch
+wings,energy,blue bull
+wings,life,phoenix
+wings,metal,jet fighter
+wings,space,spaceship
+wings,superhero,raging bird
+wings,death,vulture
+wings,snake,snakes on a jet
+wings,undead,ghost
+wings,science,jet fighter
+wings,food,blue bull
+wings,fire,phoenix
+wizard,magic,arch mage
+wizard,dragon,pyromancer
+wizard,demon,warlock
+wizard,wolf,shapeshifter
+wizard,chinchilla,wiz's apprentice
+wizard,bat,shapeshifter
+wizard,wings,witch
+wizard,poison,witch doctor
+wizard,knight,battle mage
+wizard,wind,aeromancer
+wizard,elf,elf wizard
+wizard,sword,battle mage
+wizard,vampire,dracula
+wizard,earth,geomancer
+wizard,holy water,cleric
+wizard,tree,druid
+wizard,water,hydromancer
+wizard,bear,shapeshifter
+wizard,snake,the snake lord
+wizard,superhero,arch mage
+wizard,ash,geomancer
+wizard,water serpent,hydromancer
+wizard,life,cleric
+wizard,undead,necromancer
+wizard,villian,the snake lord
+wizard,death,necromancer
+wizard,space,dr. what
+wizard,fire,pyromancer
+wolf,villian,cerberus
+wolf,wolf,wolfpack
+wolf,superhero,the badger
+wolf,human,werewolf
+wolf,earth,gargoyle
+wolf,science,dire wolf
+wolf,life,nine tailed fox
+wolf,fire,firefox
+wolf,wizard,shapeshifter
+wolf,wind,spirit wolf
+wolf,radiation,dire wolf
+wolf,golem,gargoyle

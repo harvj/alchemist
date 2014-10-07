@@ -1,0 +1,17 @@
+<%
+  combo_cards = @card.present? ? Card.combo.where.not(name: @card.name).sort_by{|c| -c.multiplier} : Card.combo
+%>
+
+<ul class='nav nav-pills nav-stacked'>
+  <% if @card.present? %>
+    <%= content_tag(:li, class: 'active') do %>
+      <%= link_to @card.display_name, combos_path(card: @card) %>
+    <% end %>
+  <% end %>
+
+  <% combo_cards.each do |card| %>
+    <%= content_tag :li do %>
+      <%= link_to card.display_name, combos_path(card: card) %>
+    <% end %>
+  <% end %>
+</ul>

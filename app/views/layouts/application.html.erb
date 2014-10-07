@@ -8,7 +8,18 @@
 </head>
 <body>
 
-<%= yield %>
+<%= render partial: 'application/top_nav' %>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-md-3'>
+      <%= render partial: 'application/side_nav' %>
+    </div>
+    <div class='col-md-9'>
+      <%= yield %>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

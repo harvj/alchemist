@@ -16,3 +16,4 @@
 //= require marionette
 //= require bootstrap-sprockets
 //= require backbone/app
+//= require_tree ./backbone/apps
