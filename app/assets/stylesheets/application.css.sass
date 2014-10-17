@@ -2,57 +2,7 @@
 @import 'bootstrap-sprockets'
 @import 'bootstrap'
 @import 'colors'
+@import 'views/cards'
+@import 'views/side_nav'
 
-$card-radius: 5px
-
-ul.cards-list
-  max-width: 400px
-
-li.card
-  font-weight: 500
-  border-radius: $card-radius
-  border-width: 2.5px
-  margin-bottom: 2px
-  padding: 5px 8px
-  opacity: 0.6
-  .badge
-    font-size: 11px
-  &:first-child, &:last-child
-    border-radius: $card-radius
-  &.bronze
-    border-color: $bronze-dark
-    background-color: $bronze-light
-  &.silver
-    border-color: $silver-dark
-    background-color: $silver-light
-  &.gold
-    border-color: $gold-dark
-    background-color: $gold-light
-  &.diamond
-    border-color: $diamond-dark
-    background-color: $diamond-light
-  span.badge
-    border: 1px solid #555
-    &.defense
-      color: #333
-      background-color: #eee
-    &.offense
-      color: #eee
-      background-color: #333
-    &.final
-      background-color: $final
-    &.combo
-      color: #333
-      background-color: $combo
-    &.bronze
-      color: #111
-      background-color: $bronze-dark
-    &.silver
-      color: #111
-      background-color: $silver-dark
-    &.gold
-      color: #333
-      background-color: $gold-dark
-    &.diamond
-      background-color: $diamond-dark
 

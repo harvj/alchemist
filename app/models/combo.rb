@@ -1,8 +1,17 @@
 class Combo < ActiveRecord::Base
 
+  TIERS = {
+    first: 37.5,
+    second: 34.5,
+    third: 32.0,
+    fourth: 26.5
+  }
+
   belongs_to :card
   belongs_to :match, class_name: 'Card'
   belongs_to :final, class_name: 'Card'
+
+  validates_presence_of :card_id, :match_id, :final_id
 
   def offense_for_level(level)
     final.base_offense + (dominant_multiplier * (level - 1))

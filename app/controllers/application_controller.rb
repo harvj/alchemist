@@ -6,4 +6,9 @@ class ApplicationController < ActionController::Base
   def index
   end
 
+  def current_deck
+    @current_deck ||= Deck.first
+  end
+  helper_method :current_deck
+
 end

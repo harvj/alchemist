@@ -32,6 +32,7 @@ car,bronze,3,4,final
 care chilla,silver,5,9,final
 catapult,bronze,8,0,final
 cavalry,silver,5,5,final
+caveman,silver,9,6,final
 centaur,bronze,5,4,final
 cerberus,diamond,11,9,final
 chinchilla,silver,2,2,combo
@@ -40,6 +41,7 @@ chinzilla,gold,9,9,final
 chinzombie,gold,10,8,final
 cleric,gold,6,11,final
 clown,silver,10,3,final
+club,silver,13,0,final
 cobra,bronze,6,1,final
 cthulhu,gold,7,10,final
 cursed apple,gold,13,4,final
@@ -49,6 +51,8 @@ cyclone,diamond,12,9,final
 d-3000,diamond,12,11,final
 dark angel,gold,10,6,final
 dark elf,diamond,14,10,final
+dark hero,gold,11,6,final
+dark matter,silver,10,4,final
 death,bronze,3,0,combo
 death metal,bronze,7,0,final
 death ray,diamond,19,2,final
@@ -62,6 +66,7 @@ dire wolf,silver,8,3,final
 discipliner,gold,11,5,final
 doctor,gold,8,8,final
 double rainbow,gold,13,5,final
+dr. jekyll,gold,12,7,final
 dr. savage,diamond,10,11,final
 dr. what,diamond,10,10,final
 dracula,gold,8,7,final
@@ -98,6 +103,7 @@ food,gold,5,5,combo
 fossil,diamond,12,9,final
 fountain of youth,diamond,0,20,final
 frankenstein,diamond,8,14,final
+friendly dino,gold,9,8,final
 gargoyle,silver,5,8,final
 general viper,diamond,9,11,final
 genie,diamond,9,14,final
@@ -131,16 +137,21 @@ hydra,gold,9,7,final
 hydromancer,gold,8,8,final
 ice golem,silver,4,8,final
 ice king,diamond,8,13,final
+ifrit,diamond,11,11,final
 immortal,diamond,8,14,final
 imp,silver,7,4,final
+jaeger,diamond,15,10,final
 jet fighter,bronze,7,4,final
 killer plant,bronze,5,2,final
+king,gold,10,8,final
 knight,silver,3,4,combo
+knowledge,silver,4,3,combo
 koala,diamond,12,9,final
 kraken,gold,7,10,final
 laser,diamond,18,2,final
 laser sword,gold,13,3,final
 lava,bronze,5,1,final
+learning rainbow,gold,10,6,final
 legendary hero,gold,9,8,final
 leprechaun,gold,11,3,final
 lich,gold,10,8,final
@@ -151,15 +162,25 @@ maelstrom,diamond,10,10,final
 magic,silver,2,2,combo
 magnet dude,diamond,13,10,final
 malevolent,diamond,12,11,final
+master alchemist,diamond,13,12,final
 mecha bear,diamond,9,14,final
 medusa,silver,7,4,final
+megalodon,gold,16,2,final
 mermaid,silver,6,6,final
 metal,bronze,0,3,combo
 metal golem,silver,3,11,final
+meteor,silver,15,0,final
+monster,gold,4,5,combo
+monster slayer,diamond,19,4,final
 morning star,silver,10,1,final
+mr. ted,silver,8,5,final
 mummy,gold,8,10,final
+muse,silver,7,6,final
 mutant man,gold,10,10,final
 necromancer,gold,8,6,final
+night dragon,gold,13,6,final
+nightmare,gold,0,0,final
+nightshade,silver,7,6,final
 ninchilla,gold,11,6,final
 nine tailed fox,diamond,10,12,final
 ocean defender,silver,7,3,final
@@ -181,6 +202,8 @@ poison dragon,gold,12,5,final
 poison oak,diamond,15,7,final
 polar bear,gold,9,9,final
 poseidon,silver,8,6,final
+prehistoric,silver,5,2,combo
+professor y,gold,12,7,final
 puff,silver,8,6,final
 punchy,diamond,18,7,final
 pyromancer,gold,10,6,final
@@ -191,8 +214,10 @@ rainbow,bronze,4,1,combo
 rainbow candy,gold,10,5,final
 red knight,silver,9,5,final
 rock slide,silver,5,9,final
+sandman,diamond,8,13,final
 sandstorm,diamond,15,6,final
 science,gold,5,4,combo
+scholar,silver,8,6,final
 scythe,silver,11,0,final
 seahorse,bronze,6,2,final
 shapeshifter,gold,7,7,final
@@ -215,6 +240,7 @@ sun,bronze,3,0,combo
 super bat,gold,8,6,final
 super nova,gold,14,0,final
 superhero,silver,4,3,combo
+swamp monster,diamond,12,12,final
 sword,silver,5,1,combo
 the badger,gold,8,8,final
 the grater,diamond,9,13,final
@@ -231,6 +257,7 @@ transformobot,diamond,12,12,final
 treant,silver,8,6,final
 tree,bronze,0,4,combo
 trident,bronze,4,0,combo
+troll,diamond,13,8,final
 ultimate soldier,diamond,13,12,final
 ultra dude,silver,8,7,final
 undead,bronze,1,2,combo
@@ -242,6 +269,10 @@ vampire,bronze,4,1,combo
 vampire hunter,silver,7,3,final
 villian,gold,7,3,combo
 virus,diamond,19,2,final
+void,silver,4,3,combo
+void fiend,silver,10,5,final
+void shaman,gold,11,7,final
+voidwalker,gold,11,6,final
 vulture,bronze,5,2,final
 war god,gold,9,9,final
 war's horse,silver,4,7,final
@@ -265,7 +296,15 @@ wolf,bronze,2,1,combo
 wolfpack,bronze,5,4,final
 wonderful chin,gold,10,10,final
 wooden golem,silver,2,12,final
+wraith,diamond,17,3,final
 wyvern,silver,6,5,final
 xenomorph,diamond,14,7,final
+yeti,gold,7,10,final
 young wolf,diamond,10,12,final
+ziz,diamond,12,8,final
 zombie bear,diamond,11,10,final
+unknown diamond,diamond,0,0,final
+unknown gold,gold,0,0,final
+unknown silver,silver,0,0,final
+unknown bronze,bronze,0,0,final
+unknown,unknown,0,0,final
