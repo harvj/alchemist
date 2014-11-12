@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
  resources :combos, only: [:index]
 
+ resources :decks, only: [:show]
+
 end

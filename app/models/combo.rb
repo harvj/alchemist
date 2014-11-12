@@ -1,10 +1,10 @@
 class Combo < ActiveRecord::Base
 
   TIERS = {
-    first: 37.5,
-    second: 34.5,
-    third: 32.0,
-    fourth: 26.5
+    first: 43.0,
+    second: 40.0,
+    third: 37.0,
+    fourth: 34.0
   }
 
   belongs_to :card
@@ -25,8 +25,13 @@ class Combo < ActiveRecord::Base
     [card.multiplier, match.multiplier].max
   end
 
-  def score
-    offense_for_level(5) + (defense_for_level(5) * 0.6)
+  def calculate_score
+    offense_for_level(5) + (defense_for_level(5) * 0.85)
+  end
+
+  def calculate_score!
+    self.score = calculate_score
+    save!
   end
 
 end

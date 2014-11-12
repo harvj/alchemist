@@ -30,8 +30,9 @@ CSV.foreach('db/seeds/deck_cards.csv') do |row|
   break if row[0] == 'stop'
   row[0].to_i.times do
     card = Card.find_by!(name: row[1])
-    deck.cards << DeckCard.create!(card_id: card.id, level: row[2], fused: row[3])
+    deck.deck_cards << DeckCard.create!(card_id: card.id, level: row[2], fused: row[3])
   end
 end
 
+Rake::Task['data:combo_scores'].invoke
 Rake::Task['data:card_scores'].invoke

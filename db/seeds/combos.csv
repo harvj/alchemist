@@ -1,3 +1,4 @@
+angel,knowledge,angel of wisdom
 angel,knight,arch angel
 angel,superhero,arch angel
 angel,sword,arch angel
@@ -10,7 +11,6 @@ angel,human,guardian angel
 angel,life,guardian angel
 angel,space,heavens
 angel,trident,poseidon
-angel,knowledge,unknown gold
 ash,metal,bomb
 ash,chinchilla,dust bath
 ash,energy,fireworks
@@ -34,12 +34,12 @@ bat,tree,baseball bat
 bat,earth,gargoyle
 bat,golem,gargoyle
 bat,demon,imp
+bat,prehistoric,pterodactyl
+bat,knowledge,shapeshifter
 bat,wizard,shapeshifter
 bat,knight,super bat
 bat,science,super bat
 bat,superhero,super bat
-bat,knowledge,shapeshifter
-bat,prehistoric,unknown gold
 bat,food,vamp crunch
 bat,human,vampire
 bat,life,vampire
@@ -82,7 +82,7 @@ chinchilla,water,gremlin
 chinchilla,sword,ninchilla
 chinchilla,void,ninchilla
 chinchilla,energy,pikamon
-chinchilla,prehistoric,unknown gold
+chinchilla,prehistoric,saberchilla
 chinchilla,vampire,vampchilla
 chinchilla,knowledge,wiz's apprentice
 chinchilla,magic,wiz's apprentice
@@ -98,6 +98,7 @@ death,fire,demon
 death,energy,ghost
 death,human,ghost
 death,prehistoric,meteor
+death,knowledge,necromancer
 death,wizard,necromancer
 death,water,poison
 death,wind,poison
@@ -106,7 +107,6 @@ death,superhero,the reaper
 death,life,undead
 death,magic,undead
 death,knight,undead knight
-death,knowledge,necromancer
 death,food,vulture
 death,wings,vulture
 death,monster,wraith
@@ -116,6 +116,7 @@ demon,angel,dark angel
 demon,superhero,demonite
 demon,devil,devil
 demon,dragon,devil
+demon,knowledge,devil
 demon,trident,devil
 demon,villian,devil
 demon,wings,devil
@@ -124,13 +125,13 @@ demon,wind,harpy
 demon,bat,imp
 demon,fairy,imp
 demon,void,unknown
-demon,knowledge,unknown gold
 demon,wizard,warlock
 demon,bear,zombie bear
 dragon,time,ancient dragon
 dragon,metal,armored dragon
 dragon,human,ash
 dragon,demon,devil
+dragon,knowledge,devil
 dragon,knight,dragon rider
 dragon,monster,gorezilla
 dragon,radiation,gorezilla
@@ -144,7 +145,6 @@ dragon,wind,puff
 dragon,wizard,pyromancer
 dragon,undead,skeletal dragon
 dragon,villian,smug
-dragon,knowledge,unknown gold
 dragon,water,water serpent
 dragon,snake,wyvern
 earth,human,dwarf
@@ -168,16 +168,16 @@ earth,superhero,rock slide
 earth,wind,sandstorm
 earth,monster,swamp monster
 earth,water,tree
-earth,prehistoric,unknown gold
+earth,prehistoric,triceratops
 elf,villian,dark elf
 elf,void,dark hero
-elf,monster,goblin
 elf,food,elf baker
 elf,knowledge,elf wizard
 elf,life,elf wizard
 elf,magic,elf wizard
 elf,wizard,elf wizard
 elf,demon,goblin
+elf,monster,goblin
 elf,superhero,legendary hero
 elf,sword,legendary hero
 elf,time,legendary hero
@@ -214,8 +214,8 @@ fairy,demon,imp
 fairy,monster,imp
 fairy,rainbow,leprechaun
 fairy,ash,magic
-fairy,knowledge,muse
 fairy,villian,malevolent
+fairy,knowledge,muse
 fairy,void,unknown
 fairy,water,water sprite
 fire,human,ash
@@ -234,6 +234,7 @@ fire,wolf,firefox
 fire,energy,fireworks
 fire,science,fireworks
 fire,sword,flame sword
+fire,prehistoric,gorezilla
 fire,food,hot pepper
 fire,monster,ifrit
 fire,earth,lava
@@ -245,7 +246,6 @@ fire,knight,red knight
 fire,water,steam
 fire,metal,sword
 fire,superhero,the incinerator
-fire,prehistoric,unknown gold
 fire,horse,war's horse
 fire,fire,wildfire
 fire,wind,wildfire
@@ -354,9 +354,9 @@ human,metal,knight
 human,sword,knight
 human,snake,medusa
 human,water,mermaid
+human,knowledge,scholar
 human,radiation,superhero
 human,undead,undead
-human,knowledge,scholar
 human,bat,vampire
 human,vampire,vampire
 human,tree,vampire hunter
@@ -394,44 +394,44 @@ knight,void,unknown
 knight,ash,war god
 knowledge,wind,aeromancer
 knowledge,energy,ai
+knowledge,angel,angel of wisdom
 knowledge,golem,arcane golem
 knowledge,wizard,arch mage
 knowledge,bear,bear magus
 knowledge,radiation,bomb
+knowledge,holy water,cleric
 knowledge,food,cursed apple
 knowledge,tree,cursed apple
+knowledge,demon,devil
+knowledge,dragon,devil
 knowledge,space,dr. what
 knowledge,time,dr. what
 knowledge,vampire,dracula
 knowledge,science,einstein
 knowledge,elf,elf wizard
+knowledge,trident,farmer
 knowledge,earth,geomancer
+knowledge,life,human
 knowledge,water,hydromancer
 knowledge,knight,king
 knowledge,rainbow,learning rainbow
 knowledge,ash,magic
-knowledge,fairy,muse
+knowledge,villian,mama brain
 knowledge,horse,mr. ted
-knowledge,demon,necromancer
+knowledge,fairy,muse
+knowledge,death,necromancer
 knowledge,undead,necromancer
 knowledge,superhero,professor y
 knowledge,fire,pyromancer
+knowledge,human,scholar
 knowledge,bat,shapeshifter
 knowledge,wolf,shapeshifter
 knowledge,snake,the snake lord
 knowledge,void,unknown
-knowledge,angel,unknown gold
-knowledge,death,unknown gold
-knowledge,dragon,unknown gold
-knowledge,holy water,unknown gold
-knowledge,sword,unknown gold
-knowledge,trident,unknown gold
-knowledge,villian,unknown gold
-knowledge,human,scholar
-knowledge,life,human
-knowledge,magic,wizard
+knowledge,sword,usb of 999 truths
 knowledge,poison,witch doctor
 knowledge,chinchilla,wiz's apprentice
+knowledge,magic,wizard
 life,energy,ai
 life,wind,air elemental
 life,space,alien
@@ -448,6 +448,7 @@ life,fire,fire golem
 life,holy water,fountain of youth
 life,earth,golem
 life,angel,guardian angel
+life,knowledge,human
 life,water,ice golem
 life,human,immortal
 life,undead,lich
@@ -462,7 +463,6 @@ life,death,undead
 life,horse,unicorn
 life,rainbow,unicorn
 life,void,unknown
-life,knowledge,human
 life,bat,vampire
 life,poison,virus
 magic,golem,arcane golem
@@ -491,9 +491,9 @@ magic,tree,treant
 magic,death,undead
 magic,horse,unicorn
 magic,void,unknown
-magic,knowledge,wizard
 magic,chinchilla,wiz's apprentice
 magic,human,wizard
+magic,knowledge,wizard
 metal,dragon,armored dragon
 metal,prehistoric,armored dragon
 metal,bat,baseball bat
@@ -520,7 +520,6 @@ metal,water,submarine
 metal,fire,sword
 metal,energy,transformobot
 metal,life,transformobot
-metal,void,unknown
 monster,chinchilla,chinzilla
 monster,rainbow,clown
 monster,elf,dark hero
@@ -569,29 +568,29 @@ poison,knowledge,witch doctor
 poison,wizard,witch doctor
 prehistoric,snake,anaconda
 prehistoric,metal,armored dragon
+prehistoric,tree,brontosaurus
 prehistoric,human,caveman
 prehistoric,knight,caveman
 prehistoric,hammer,club
 prehistoric,bear,dire bear
 prehistoric,wolf,dire wolf
-prehistoric,trident,farmer
 prehistoric,time,fossil
+prehistoric,rainbow,friendly dino
+prehistoric,fire,gorezilla
 prehistoric,radiation,gorezilla
+prehistoric,science,indiana ford
 prehistoric,monster,megalodon
+prehistoric,water,megalodon
 prehistoric,death,meteor
 prehistoric,space,meteor
+prehistoric,bat,pterodactyl
+prehistoric,wind,pterodactyl
+prehistoric,wings,pterodactyl
 prehistoric,magic,puff
-prehistoric,bat,unknown gold
-prehistoric,chinchilla,unknown gold
-prehistoric,earth,unknown gold
-prehistoric,fire,unknown gold
-prehistoric,rainbow,friendly dino
-prehistoric,science,unknown gold
-prehistoric,tree,unknown gold
-prehistoric,undead,unknown gold
-prehistoric,water,megalodon
-prehistoric,wind,unknown gold
-prehistoric,wings,unknown gold
+prehistoric,chinchilla,saberchilla
+prehistoric,earth,triceratops
+prehistoric,trident,triceratops
+prehistoric,undead,zombiesaur
 radiation,snake,anaconda
 radiation,knowledge,bomb
 radiation,metal,bomb
@@ -616,6 +615,7 @@ rainbow,monster,clown
 rainbow,villian,clown
 rainbow,rainbow,double rainbow
 rainbow,ash,fireworks
+rainbow,prehistoric,friendly dino
 rainbow,bear,gummy bear
 rainbow,energy,laser
 rainbow,science,laser
@@ -627,7 +627,6 @@ rainbow,dragon,puff
 rainbow,food,rainbow candy
 rainbow,horse,unicorn
 rainbow,life,unicorn
-rainbow,prehistoric,friendly dino
 science,chinchilla,bionic chinchilla
 science,hammer,blacksmith
 science,radiation,bomb
@@ -646,6 +645,7 @@ science,monster,frankenstein
 science,undead,frankenstein
 science,snake,general viper
 science,earth,great wall
+science,prehistoric,indiana ford
 science,wings,jet fighter
 science,rainbow,laser
 science,sword,laser sword
@@ -655,7 +655,6 @@ science,trident,spork of doom
 science,bat,super bat
 science,knight,ultimate soldier
 science,void,unknown
-science,prehistoric,unknown gold
 snake,prehistoric,anaconda
 snake,radiation,anaconda
 snake,poison,cobra
@@ -746,8 +745,8 @@ superhero,undead,the reaper
 superhero,hammer,thor
 superhero,sun,ultra dude
 superhero,void,unknown
-superhero,vampire,vampire hunter
 superhero,tree,vampire hunter
+superhero,vampire,vampire hunter
 superhero,ash,war god
 superhero,wind,windmaster eng
 superhero,chinchilla,wonderful chin
@@ -777,7 +776,7 @@ sword,radiation,the badger
 sword,superhero,the badger
 sword,villian,the grater
 sword,water,trident
-sword,knowledge,unknown gold
+sword,knowledge,usb of 999 truths
 time,dragon,ancient dragon
 time,fire,ash
 time,sun,black hole
@@ -803,10 +802,11 @@ time,tree,the world tree
 time,werewolf,young wolf
 tree,fire,ash
 tree,bat,baseball bat
+tree,prehistoric,brontosaurus
 tree,metal,catapult
 tree,food,cursed apple
-tree,snake,cursed apple
 tree,knowledge,cursed apple
+tree,snake,cursed apple
 tree,wind,cursed flute
 tree,vampire,death
 tree,wizard,druid
@@ -823,7 +823,6 @@ tree,water,the world tree
 tree,life,treant
 tree,magic,treant
 tree,void,unknown
-tree,prehistoric,unknown gold
 tree,human,vampire hunter
 tree,superhero,vampire hunter
 tree,golem,wooden golem
@@ -831,13 +830,13 @@ trident,demon,devil
 trident,villian,devil
 trident,bear,emok
 trident,human,farmer
+trident,knowledge,farmer
 trident,knight,gladiator
 trident,angel,poseidon
 trident,superhero,poseidon
 trident,food,spork of doom
 trident,science,spork of doom
-trident,knowledge,unknown gold
-trident,prehistoric,unknown gold
+trident,prehistoric,triceratops
 undead,sword,bone sword
 undead,chinchilla,chinzombie
 undead,fire,death
@@ -852,6 +851,7 @@ undead,life,lich
 undead,villian,lich
 undead,monster,mummy
 undead,time,mummy
+undead,knowledge,necromancer
 undead,wizard,necromancer
 undead,water,pirate zombie
 undead,dragon,skeletal dragon
@@ -860,13 +860,13 @@ undead,superhero,the reaper
 undead,human,undead
 undead,knight,undead knight
 undead,void,unknown
-undead,knowledge,unknown gold
-undead,prehistoric,unknown gold
 undead,bat,vampire
 undead,bear,zombie bear
+undead,prehistoric,zombiesaur
 vampire,wings,bat
 vampire,fire,death
 vampire,tree,death
+vampire,knowledge,dracula
 vampire,magic,dracula
 vampire,villian,dracula
 vampire,wizard,dracula
@@ -874,7 +874,6 @@ vampire,holy water,fire
 vampire,sun,fire
 vampire,werewolf,hybrid
 vampire,void,unknown
-vampire,knowledge,unknown gold
 vampire,food,vamp crunch
 vampire,chinchilla,vampchilla
 vampire,human,vampire
@@ -902,6 +901,7 @@ villian,water,ice king
 villian,undead,lich
 villian,metal,magnet dude
 villian,fairy,malevolent
+villian,knowledge,mama brain
 villian,poison,poison oak
 villian,tree,poison oak
 villian,dragon,smug
@@ -911,37 +911,35 @@ villian,wizard,the snake lord
 villian,space,titan of death
 villian,knight,undead knight
 villian,void,unknown
-villian,knowledge,unknown gold
 villian,ash,war god
 void,space,black hole
 void,sun,black hole
+void,wind,cyclone
 void,angel,dark angel
 void,elf,dark hero
+void,energy,dark matter
+void,science,dark matter
 void,dragon,night dragon
 void,horse,nightmare
+void,tree,nightshade
 void,chinchilla,ninchilla
-void,energy,unknown
+void,knight,shadow prelate
+void,demon,unknown
 void,fairy,unknown
-void,golem,unknown
 void,holy water,unknown
-void,knight,unknown
 void,knowledge,unknown
 void,life,unknown
 void,magic,unknown
-void,metal,unknown
 void,monster,unknown
 void,poison,unknown
-void,science,unknown
 void,superhero,unknown
-void,tree,unknown
 void,undead,unknown
 void,vampire,unknown
 void,villian,unknown
 void,water,unknown
-void,wind,unknown
 void,wings,unknown
-void,wizard,unknown
-void,demon,unknown
+void,wizard,void shaman
+void,golem,voidwalker
 water,knight,blue knight
 water,wind,cyclone
 water,water,flood
@@ -953,6 +951,7 @@ water,golem,ice golem
 water,life,ice golem
 water,villian,ice king
 water,energy,maelstrom
+water,prehistoric,megalodon
 water,human,mermaid
 water,superhero,ocean defender
 water,undead,pirate zombie
@@ -967,7 +966,6 @@ water,tree,the world tree
 water,earth,tree
 water,sword,trident
 water,void,unknown
-water,prehistoric,megalodon
 water,dragon,water serpent
 water,snake,water serpent
 water,fairy,water sprite
@@ -1006,6 +1004,7 @@ wind,demon,harpy
 wind,metal,jet fighter
 wind,horse,pegasus
 wind,death,poison
+wind,prehistoric,pterodactyl
 wind,dragon,puff
 wind,poison,radiation
 wind,sun,radiation
@@ -1014,7 +1013,6 @@ wind,earth,sandstorm
 wind,snake,snakes on a jet
 wind,wolf,spirit wolf
 wind,void,unknown
-wind,prehistoric,unknown gold
 wind,fire,wildfire
 wind,superhero,windmaster eng
 wind,energy,windmill of doom
@@ -1032,11 +1030,11 @@ wings,science,jet fighter
 wings,horse,pegasus
 wings,fire,phoenix
 wings,life,phoenix
+wings,prehistoric,pterodactyl
 wings,superhero,raging bird
 wings,snake,snakes on a jet
 wings,space,spaceship
 wings,void,unknown
-wings,prehistoric,unknown gold
 wings,death,vulture
 wings,poison,wasp
 wings,wizard,witch

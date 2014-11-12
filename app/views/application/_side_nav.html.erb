@@ -1,6 +1,5 @@
 <%
   combo_cards = @card.present? ? Card.combo.where.not(name: @card.name).sort_by{|c| [-c.multiplier, -c.score]} : Card.combo
-
 %>
 
 <ul id='side_nav' class='nav nav-pills nav-stacked'>
