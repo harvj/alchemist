@@ -28,9 +28,11 @@ deck = Deck.create!
 
 CSV.foreach('db/seeds/deck_cards.csv') do |row|
   break if row[0] == 'stop'
-  row[0].to_i.times do
+  row[0].to_i.times do |i|
     card = Card.find_by!(name: row[1])
-    deck.deck_cards << DeckCard.create!(card_id: card.id, level: row[2], fused: row[3])
+    value = row[i + 2]
+    level = value == 'F' ? 5 : value
+    deck.deck_cards << DeckCard.create!(card_id: card.id, level: level, fused: value == 'F')
   end
 end
 

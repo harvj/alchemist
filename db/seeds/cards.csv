@@ -1,331 +1,347 @@
-adventure kid,diamond,13,12,final,
-aeromancer,diamond,10,10,final,
-ai,diamond,11,10,final,
-air elemental,diamond,12,8,final,
-air sprite,gold,7,10,final,
-alien,diamond,15,8,final,
-all hallow's eve,gold,0,2,combo,orb
-anaconda,bronze,6,2,final,
-ancient dragon,diamond,13,12,final,
+adventure kid,diamond,13,12,final,protection
+aeromancer,diamond,10,10,final,counter attack
+ai,diamond,11,10,final,counter attack
+air elemental,diamond,12,8,final,counter attack
+air sprite,gold,7,10,final,critical strike
+albert,diamond,14,14,final,curse
+alien,diamond,15,8,final,counter attack
+anaconda,bronze,6,2,final,pierce
+ancient dragon,diamond,13,12,final,crushing blow
 angel,bronze,1,4,combo,orb
 angel of wisdom,gold,8,12,final,
+anna,diamond,16,12,final,critical strike
 arcane golem,gold,9,5,final,
-arch angel,gold,9,9,final,
-arch mage,gold,14,5,final,
-armored dragon,silver,6,6,final,
+arch angel,gold,9,9,final,block
+arch mage,gold,14,5,final,reflect
+armored dragon,silver,6,6,final,block
 ash,bronze,0,1,combo,orb
-assassin,gold,15,0,final,
+assassin,gold,15,0,final,pierce
 astronaut,gold,8,8,final,
-aviator chin,gold,9,7,final,
-baseball bat,bronze,5,1,final,
+aviator chin,gold,9,7,final,siphon
+baseball bat,bronze,5,1,final,reflect
 bat,bronze,2,1,combo,orb
-battle mage,silver,8,7,final,
+battle mage,silver,8,7,final,reflect
 bear,gold,4,6,combo,orb
 bear magus,gold,11,8,final,
-bionic chinchilla,gold,6,10,final,
+bionic chinchilla,gold,6,10,final,amplify
+black friday,diamond,13,12,final,crushing blow
 black hole,gold,13,1,final,
-blacksmith,gold,8,8,final,
-blue bull,diamond,14,6,final,
-blue knight,silver,7,7,final,
+blacksmith,gold,8,8,final,reflect
+blue bull,diamond,14,6,final,critical strike
+blue knight,silver,7,7,final,reflect
 bomb,bronze,9,0,final,amplify
-bone sword,gold,11,5,final,
+bone sword,gold,11,5,final,siphon
 brontosaurus,gold,8,8,final,
-burgerlar,diamond,17,7,final,
-car,bronze,3,4,final,
-care chilla,silver,5,9,final,
+burgerlar,diamond,17,7,final,counter attack
+car,bronze,3,4,final,block
+care chilla,silver,5,9,final,weaken
+carver of doom,diamond,17,6,final,
 catapult,bronze,8,0,final,pierce
-cavalry,silver,5,5,final,
-caveman,silver,9,6,final,
-centaur,bronze,5,4,final,
-cerberus,diamond,11,9,final,
+cavalry,silver,5,5,final,amplify
+caveman,silver,9,6,final,reflect
+centaur,bronze,5,4,final,amplify
+cerberus,diamond,11,9,final,crushing blow
 chinchilla,silver,2,2,combo,orb
-chinchilla knight,gold,8,9,final,
-chinzilla,gold,9,9,final,
+chinchilla knight,gold,8,9,final,block
+chinzilla,gold,9,9,final,amplify
 chinzombie,gold,10,8,final,siphon
-cleric,gold,6,11,final,
-clown,silver,10,3,final,
-club,silver,13,0,final,
+cleric,gold,6,11,final,weaken
+clown,silver,10,3,final,siphon
+club,silver,13,0,final,amplify
 clyde,gold,13,7,final,absorb
-cobra,bronze,6,1,final,
-cthulhu,gold,7,10,final,
+cobra,bronze,6,1,final,pierce
+cthulhu,gold,7,10,final,weaken
 cursed apple,gold,13,4,final,
 cursed flute,diamond,14,8,final,curse
-cyborg,diamond,9,12,final,
-cyclone,diamond,12,9,final,
-d-3000,diamond,12,11,final,
+cyborg,diamond,9,12,final,protection
+cyclone,diamond,12,9,final,absorb
+d-3000,diamond,12,11,final,critical strike
 dark angel,gold,10,6,final,
-dark elf,diamond,14,10,final,
+dark elf,diamond,14,10,final,critical strike
 dark hero,gold,11,6,final,
-dark matter,silver,10,4,final,
+dark matter,silver,10,4,final,siphon
 death,bronze,3,0,combo,orb
-death metal,bronze,7,0,final,
-death ray,diamond,19,2,final,
-death's horse,gold,8,6,final,
-decimation,diamond,15,10,final,
+death metal,bronze,7,0,final,amplify
+death ray,diamond,19,2,final,absorb
+death's horse,gold,8,6,final,reflect
+decimation,diamond,15,10,final,counter attack
 demon,bronze,4,1,combo,orb
-demonite,gold,7,8,final,
+demonite,gold,7,8,final,reflect
 devil,gold,7,7,final,weaken
-dire bear,diamond,12,8,final,
-dire wolf,silver,8,3,final,
-discipliner,gold,11,5,final,
-doctor,gold,8,8,final,
-double rainbow,gold,13,5,final,
-dr. jekyll,gold,12,7,final,
-dr. savage,diamond,10,11,final,
-dr. what,diamond,10,10,final,
-dracula,gold,8,7,final,
+dire bear,diamond,12,8,final,crushing blow
+dire wolf,silver,8,3,final,reflect
+discipliner,gold,11,5,final,critical strike
+doctor,gold,8,8,final,protection
+double rainbow,gold,13,5,final,amplify
+dr. jekyll,gold,12,7,final,counter attack
+dr. savage,diamond,10,11,final,curse
+dr. what,diamond,10,10,final,counter attack
+dracula,gold,8,7,final,siphon
 dragon,bronze,3,2,combo,orb
-dragon rider,gold,11,6,final,
-druid,gold,6,10,final,
-dryad,gold,4,10,final,
-dust bath,gold,4,10,final,
-dwarf,silver,5,8,final,
+dragon rider,gold,11,6,final,reflect
+druid,gold,6,10,final,weaken
+dryad,gold,4,10,final,weaken
+dust bath,gold,4,10,final,weaken
+dwarf,silver,5,8,final,block
 earth,bronze,0,2,combo,orb
-earthquake,bronze,8,0,final,
-einstein,diamond,15,6,final,
-electric eel,diamond,10,13,final,
+earthquake,bronze,8,0,final,weaken
+einstein,diamond,15,6,final,curse
+electric eel,diamond,10,13,final,absorb
 elf,bronze,3,2,combo,orb
-elf baker,diamond,12,9,final,
+elf baker,diamond,12,9,final,absorb
 elf wizard,gold,8,10,final,
-emok,diamond,14,10,final,
+ella,diamond,15,13,final,crushing blow
+emok,diamond,14,10,final,curse
 energy,gold,7,2,combo,orb
 excaliber,gold,13,4,final,
 fairy,bronze,2,3,combo,orb
-fairy godmother,gold,3,11,final,
-farmer,gold,7,7,final,
+fairy godmother,gold,3,11,final,block
+farmer,gold,7,7,final,pierce
 fire,bronze,2,0,combo,orb
-fire golem,silver,8,4,final,
-fire lord,diamond,13,8,final,
-fire sprite,silver,8,3,final,
-fireball,silver,11,0,final,
-firefox,silver,7,4,final,
-fireworks,gold,14,2,final,
-flame sword,silver,10,2,final,
-flood,bronze,5,2,final,
-fluff puff,diamond,3,18,final,
+fire golem,silver,8,4,final,amplify
+fire lord,diamond,13,8,final,crushing blow
+fire sprite,silver,8,3,final,siphon
+fireball,silver,11,0,final,amplify
+firefox,silver,7,4,final,siphon
+fireworks,gold,14,2,final,critical strike
+flame sword,silver,10,2,final,reflect
+flood,bronze,5,2,final,siphon
+fluff puff,diamond,3,18,final,protection
 food,gold,5,5,combo,orb
-fossil,diamond,12,9,final,
-fountain of youth,diamond,0,20,final,
+fossil,diamond,12,9,final,protection
+fountain of youth,diamond,0,20,final,protection
+francois,diamond,18,10,final,protection
 frankenstein,diamond,8,14,final,crushing blow
 friendly dino,gold,9,8,final,
-gargoyle,silver,5,8,final,
-general viper,diamond,9,11,final,
-genie,diamond,9,14,final,
-geomancer,gold,5,11,final,
-ghost,bronze,6,3,final,
-giant sword,bronze,8,3,final,
-gladiator,gold,11,4,final,
-gnome,silver,4,7,final,
-goblin,gold,9,5,final,
+gargoyle,silver,5,8,final,block
+general viper,diamond,9,11,final,critical strike
+genie,diamond,9,14,final,curse
+geomancer,gold,5,11,final,amplify
+ghost,bronze,6,3,final,weaken
+giant sword,bronze,8,3,final,pierce
+gladiator,gold,11,4,final,pierce
+gnome,silver,4,7,final,block
+goblin,gold,9,5,final,pierce
 golem,bronze,1,4,combo,orb
-gorezilla,gold,10,7,final,
-grabbers,bronze,3,4,final,
+gorezilla,gold,10,7,final,amplify
+grabbers,bronze,3,4,final,block
 great wall,gold,0,18,final,
-green knight,silver,5,9,final,
-gremlin,gold,9,6,final,
-guardian angel,gold,2,14,final,
-gummy bear,diamond,6,17,final,
-half-life,diamond,14,8,final,
+green knight,silver,5,9,final,block
+gremlin,gold,9,6,final,absorb
+guardian angel,gold,2,14,final,block
+gummy bear,diamond,6,17,final,protection
+half-life,diamond,14,8,final,counter attack
+halloween,gold,0,2,combo,orb
 hammer,bronze,4,1,combo,orb
-hammer time,diamond,8,16,final,
-harpy,diamond,13,9,final,
-headless rider,silver,7,5,final,
-healthy hero,gold,9,9,final,
-heavens,diamond,0,20,final,
+hammer time,diamond,8,16,final,protection
+harpy,diamond,13,9,final,counter attack
+harvest,diamond,11,10,final,absorb
+headless rider,silver,7,5,final,siphon
+healthy hero,gold,9,9,final,protection
+heavens,diamond,0,20,final,protection
 holy water,bronze,1,4,combo,orb
 horse,bronze,1,2,combo,orb
-hot pepper,diamond,19,1,final,
+hot pepper,diamond,19,1,final,crushing blow
 human,silver,3,2,combo,orb
-hybrid,gold,9,9,final,
-hydra,gold,9,7,final,
-hydromancer,gold,8,8,final,
-ice golem,silver,4,8,final,
-ice king,diamond,8,13,final,
+hybrid,gold,9,9,final,siphon
+hydra,gold,9,7,final,reflect
+hydromancer,gold,8,8,final,siphon
+ice golem,silver,4,8,final,block
+ice king,diamond,8,13,final,curse
 ifrit,diamond,11,11,final,crushing blow
-immortal,diamond,8,14,final,
-imp,silver,7,4,final,
+immortal,diamond,8,14,final,absorb
+imp,silver,7,4,final,weaken
 indiana ford,gold,8,8,final,
 jack-o'-lantern,gold,12,5,final,curse
-jaeger,diamond,15,10,final,
-jet fighter,bronze,7,4,final,
-killer plant,bronze,5,2,final,
+jaeger,diamond,15,10,final,crushing blow
+jet fighter,bronze,7,4,final,amplify
+killer plant,bronze,5,2,final,siphon
 king,gold,10,8,final,
 knight,silver,3,4,combo,orb
 knowledge,silver,4,3,combo,orb
-koala,diamond,12,9,final,
+koala,diamond,12,9,final,curse
 kraken,gold,7,10,final,
-laser,diamond,18,2,final,
-laser sword,gold,13,3,final,
-lava,bronze,5,1,final,
+laser,diamond,18,2,final,critical strike
+laser sword,gold,13,3,final,pierce
+lava,bronze,5,1,final,amplify
 learning rainbow,gold,10,6,final,
-legendary hero,gold,9,8,final,
+legendary hero,gold,9,8,final,block
 leprechaun,gold,11,3,final,weaken
 lich,gold,10,8,final,
-lieutenant usa,diamond,10,14,final,
+lieutenant usa,diamond,10,14,final,counter attack
 life,gold,2,7,combo,orb
-lochness,silver,6,7,final,
-maelstrom,diamond,10,10,final,
+lochness,silver,6,7,final,block
+lucy,diamond,16,12,final,absorb
+maelstrom,diamond,10,10,final,absorb
 magic,silver,2,2,combo,orb
-magnet dude,diamond,13,10,final,
-malevolent,diamond,12,11,final,
+magnet dude,diamond,13,10,final,absorb
+malevolent,diamond,12,11,final,curse
 mama brain,gold,10,5,final,
 master alchemist,diamond,13,12,final,curse
-mecha bear,diamond,9,14,final,
-medusa,silver,7,4,final,
-megalodon,gold,16,2,final,
-mermaid,silver,6,6,final,
+mayflower,diamond,10,12,final,
+mecha bear,diamond,9,14,final,crushing blow
+medusa,silver,7,4,final,weaken
+megalodon,gold,16,2,final,pierce
+mermaid,silver,6,6,final,weaken
 metal,bronze,0,3,combo,orb
-metal golem,silver,3,11,final,
-meteor,silver,15,0,final,
+metal golem,silver,3,11,final,block
+meteor,silver,15,0,final,pierce
 monster,gold,4,5,combo,orb
-monster slayer,diamond,19,4,final,
-morning star,silver,10,1,final,
-mr. ted,silver,8,5,final,
+monster slayer,diamond,19,4,final,critical strike
+morning star,silver,10,1,final,pierce
+mr. pimm,diamond,15,13,final,counter attack
+mr. ted,silver,8,5,final,weaken
 mummy,gold,8,10,final,counter attack
 murder of crows,diamond,14,8,final,counter attack
-muse,silver,7,6,final,
-mutant man,gold,10,10,final,
+muse,silver,7,6,final,amplify
+mutant man,gold,10,10,final,reflect
 necromancer,gold,8,6,final,weaken
 night dragon,gold,13,6,final,
-nightmare,gold,0,0,final,
+nightmare,gold,8,7,final,
 nightshade,silver,7,6,final,
-ninchilla,gold,11,6,final,
-nine tailed fox,diamond,10,12,final,
-ocean defender,silver,7,3,final,
-ouroboros,diamond,8,15,final,
-paladin,gold,7,10,final,
-panda,diamond,6,16,final,
-pastry cat,diamond,14,10,final,
-pegasus,bronze,4,4,final,
-persian royalty,diamond,13,8,final,
-pestilence's horse,gold,8,6,final,
+ninchilla,gold,11,6,final,reflect
+nine tailed fox,diamond,10,12,final,absorb
+ocean defender,silver,7,3,final,siphon
+ouroboros,diamond,8,15,final,critical strike
+paladin,gold,7,10,final,block
+panda,diamond,6,16,final,crushing blow
+pastry cat,diamond,14,10,final,critical strike
+pegasus,bronze,4,4,final,reflect
+persian royalty,diamond,13,8,final,critical strike
+pestilence's horse,gold,8,6,final,reflect
 peter,gold,14,6,final,absorb
-phoenix,silver,11,4,final,
-pikamon,diamond,10,13,final,
-pirate zombie,silver,7,6,final,
+phoenix,silver,11,4,final,siphon
+pikamon,diamond,10,13,final,absorb
+pilgrim,diamond,12,9,final,critical strike
+pilgrim chin,diamond,12,10,final,critical strike
+pirate zombie,silver,7,6,final,pierce
 planet,gold,5,12,final,
-plasma sword,diamond,14,8,final,
+plasma sword,diamond,14,8,final,critical strike
+plymouth rock,gold,6,10,final,protection
 poison,bronze,3,0,combo,orb
 poison dagger,gold,14,1,final,
-poison dragon,gold,12,5,final,
-poison oak,diamond,15,7,final,
-polar bear,gold,9,9,final,
-poseidon,silver,8,6,final,
+poison dragon,gold,12,5,final,weaken
+poison oak,diamond,15,7,final,critical strike
+polar bear,gold,9,9,final,crushing blow
+poseidon,silver,8,6,final,pierce
 prehistoric,silver,5,2,combo,orb
-professor y,gold,12,7,final,
+professor y,gold,12,7,final,curse
 pterodactyl,gold,11,5,final,
-puff,silver,8,6,final,
-punchy,diamond,18,7,final,
+puff,silver,8,6,final,amplify
+punchy,diamond,18,7,final,crushing blow
 pyromancer,gold,10,6,final,
-raccoon guardian,diamond,17,5,final,
+raccoon guardian,diamond,17,5,final,counter attack
 radiation,bronze,3,0,combo,orb
-raging bird,gold,12,2,final,
+raging bird,gold,12,2,final,amplify
 rainbow,bronze,4,1,combo,orb
 rainbow candy,gold,10,5,final,
-red knight,silver,9,5,final,
-rock slide,silver,5,9,final,
-saberchilla,gold,13,7,final,
-sandman,diamond,8,13,final,
-sandstorm,diamond,15,6,final,
+red knight,silver,9,5,final,reflect 
+rock slide,silver,5,9,final,block
+saberchilla,gold,13,7,final,pierce
+sandman,diamond,8,13,final,absorb
+sandstorm,diamond,15,6,final,curse
 scarecrow,diamond,13,12,final,protection
-scholar,silver,8,6,final,
+scholar,silver,8,6,final,pierce
 science,gold,5,4,combo,orb
-scythe,silver,11,0,final,
-seahorse,bronze,6,2,final,
-shadow prelate,gold,0,0,final,
-shapeshifter,gold,7,7,final,
+scythe,silver,11,0,final,pierce
+seahorse,bronze,6,2,final,reflect
+shadow prelate,gold,16,4,final,
+shapeshifter,gold,7,7,final,reflect
 sinister gourdling,diamond,14,10,final,absorb
-sir lancelot,gold,9,10,final,
-skeletal dragon,gold,10,6,final,
-skeletal mage,silver,8,2,final,
-sledgehammer,silver,10,2,final,
-smug,diamond,15,10,final,
+sir lancelot,gold,9,10,final,pierce
+skeletal dragon,gold,10,6,final,siphon
+skeletal mage,silver,8,2,final,weaken
+sledgehammer,silver,10,2,final,reflect
+smug,diamond,15,10,final,crushing blow
 snake,bronze,2,1,combo,orb
-snakes on a jet,bronze,7,1,final,
+snakes on a jet,bronze,7,1,final,pierce
+soul stealer,gold,13,3,final,
 space,gold,5,5,combo,orb
-space guardian,diamond,14,11,final,
-spaceship,gold,11,8,final,
-spirit wolf,diamond,13,12,final,
+space guardian,diamond,14,11,final,protection
+spaceship,gold,11,8,final,critical strike
+spirit wolf,diamond,13,12,final,absorb
 spooky tree,diamond,11,10,final,crushing blow
-spork of doom,diamond,16,7,final,
-steam,bronze,2,4,final,
-steel hero,gold,7,9,final,
-submarine,bronze,4,4,final,
+spork of doom,diamond,16,7,final,curse
+steam,bronze,2,4,final,weaken
+steel hero,gold,7,9,final,block
+submarine,bronze,4,4,final,block
 sun,bronze,3,0,combo,orb
-super bat,gold,8,6,final,
-super nova,gold,14,0,final,
+super bat,gold,8,6,final,reflect
+super nova,gold,14,0,final,amplify
 superhero,silver,4,3,combo,orb
 swamp monster,diamond,12,12,final,curse
 sword,silver,5,1,combo,orb
-the badger,gold,8,8,final,
+the badger,gold,8,8,final,amplify
 the grater,diamond,9,13,final,counter attack
-the incinerator,silver,10,3,final,
-the magician,silver,5,7,final,
-the reaper,silver,8,6,final,
-the snake lord,gold,11,7,final,
-the world tree,silver,7,4,final,
-thor,gold,9,9,final,
+the incinerator,silver,10,3,final,amplify
+the magician,silver,5,7,final,weaken
+the reaper,silver,8,6,final,amplify
+the snake lord,gold,11,7,final,siphon
+the world tree,silver,7,4,final,siphon
+thor,gold,9,9,final,reflect
 thor's hammer,gold,9,9,final,
 time,gold,5,5,combo,orb
 titan of death,diamond,12,10,final,absorb
 tombstone,gold,8,10,final,protection
-transformobot,diamond,12,12,final,
-treant,silver,8,6,final,
+transformobot,diamond,12,12,final,protection
+treant,silver,8,6,final,reflect
 tree,bronze,0,4,combo,orb
 triceratops,gold,7,7,final,
 trick or treater,diamond,12,11,final,critical strike
 trident,bronze,4,0,combo,orb
 troll,diamond,13,8,final,crushing blow
-ultimate soldier,diamond,13,12,final,
-ultra dude,silver,8,7,final,
+turkey,gold,9,8,final,absorb
+turkey day,gold,4,3,combo,orb
+turkey zombie,diamond,15,8,final,counter attack
+turkeyzilla,diamond,14,10,final,crushing blow
+ultimate soldier,diamond,13,12,final,counter attack
+ultra dude,silver,8,7,final,amplify
 undead,bronze,1,2,combo,orb
-undead knight,gold,10,7,final,
-unicorn,gold,9,7,final,
-unknown,unknown,0,0,final,
-unknown bronze,bronze,0,0,final,
-unknown diamond,diamond,0,0,final,
-unknown gold,gold,0,0,final,
-unknown silver,silver,0,0,final,
+undead knight,gold,10,7,final,siphon
+unicorn,gold,9,7,final,pierce
 usb of 999 truths,gold,13,3,final,
 vamp crunch,diamond,13,9,final,curse
-vampchilla,gold,9,5,final,
+vampchilla,gold,9,5,final,siphon
 vampire,bronze,4,1,combo,orb
-vampire hunter,silver,7,3,final,
+vampire hunter,silver,7,3,final,pierce
+vera,diamond,19,9,final,curse
 villian,gold,7,3,combo,orb
-virus,diamond,19,2,final,
+virus,diamond,19,2,final,crushing blow
 void,silver,4,3,combo,orb
 void fiend,silver,10,5,final,
+void horror,gold,12,6,final,
 void shaman,gold,11,7,final,
-voidwalker,gold,11,6,final,
-vulture,bronze,5,2,final,
-war god,gold,9,9,final,
-war's horse,silver,4,7,final,
+voidwalker,gold,11,6,final,reflect
+vulture,bronze,5,2,final,pierce
+war god,gold,9,9,final,reflect
+war's horse,silver,4,7,final,weaken
 warlock,gold,9,7,final,
-wasp,silver,9,2,final,
+wasp,silver,9,2,final,pierce
 water,bronze,1,1,combo,orb
 water serpent,bronze,3,2,combo,orb
-water sprite,silver,6,6,final,
-werebear,diamond,11,9,final,
+water sprite,silver,6,6,final,siphon
+werebear,diamond,11,9,final,counter attack
 werewolf,bronze,3,2,combo,orb
-wildfire,bronze,7,0,final,
+wildfire,bronze,7,0,final,amplify
 wind,gold,8,1,combo,orb
-windmaster eng,diamond,8,16,final,
-windmill of doom,gold,5,14,final,
+windmaster eng,diamond,8,16,final,critical strike
+windmill of doom,gold,5,14,final,protection
 wings,bronze,1,2,combo,orb
-witch,silver,9,3,final,
+witch,silver,9,3,final,weaken
 witch doctor,gold,11,5,final,
 witch's brew,diamond,13,10,final,curse
-wiz's apprentice,silver,8,3,final,
+wiz's apprentice,silver,8,3,final,weaken
 wizard,silver,6,0,combo,orb
 wolf,bronze,2,1,combo,orb
-wolfpack,bronze,5,4,final,
-wonderful chin,gold,10,10,final,
-wooden golem,silver,2,12,final,
-wraith,diamond,17,3,final,
-wyvern,silver,6,5,final,
-xenomorph,diamond,14,7,final,
-yeti,gold,7,10,final,
-young wolf,diamond,10,12,final,
+wolfpack,bronze,5,4,final,amplify
+wonderful chin,gold,10,10,final,block
+wooden golem,silver,2,12,final,block
+wraith,diamond,17,3,final,curse
+wyvern,silver,6,5,final,pierce
+xanthar,diamond,16,12,final,absorb
+xenomorph,diamond,14,7,final,absorb
+yeti,gold,7,10,final,protection
+young wolf,diamond,10,12,final,absorb
 ziz,diamond,12,8,final,critical strike
 zombie bear,diamond,11,10,final,absorb
 zombiesaur,gold,12,6,final,
