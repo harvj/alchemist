@@ -1,0 +1,60 @@
+<%
+  rows = []
+  t1_total = 0
+  t2_total = 0
+  t3_total = 0
+%>
+
+<% @cards.each do |card| %>
+  <% rows << { name: card.display_name, id: card.id, color: card.color } %>
+  <% current_row = rows.last %>
+
+  <% @cards.map{|c|c.id.to_i}.sort.each do |match_id| %>
+    <% score = card.combos.where(match_id: match_id).pluck(:score).first.try(:round,1) %>
+    <% if score.present? %>
+      <% current_row[tier_class(score)].present? ? current_row[tier_class(score)] << score : current_row[tier_class(score)] = [score] %>
+    <% end %>
+  <% end %>
+  <%
+    t1_count = current_row['tier-1'].try(:count) || 0
+    t2_count = current_row['tier-2'].try(:count) || 0
+    t3_count = current_row['tier-3'].try(:count) || 0
+    t1_total += t1_count
+    t2_total += t2_count
+    t3_total += t3_count
+    t1_score = current_row['tier-1'] ? current_row['tier-1'].map{|s|s**2}.sum : 0
+    t2_score = current_row['tier-2'] ? current_row['tier-2'].map{|s|s**2}.sum : 0
+    t3_score = current_row['tier-3'] ? current_row['tier-3'].map{|s|s**2}.sum : 0
+    rank = t1_count * 5.4 + t2_count * 3 + t3_count
+  %>
+  <% current_row[:rank] = rank %>
+  <% current_row[:t1] = t1_count %>
+  <% current_row[:t2] = t2_count %>
+  <% current_row[:t3] = t3_count %>
+<% end %>
+
+<h1><%= (t1_total.to_f/rows.count).round(2) %> /
+    <%= (t2_total.to_f/rows.count).round(2) %> /
+    <%= (t3_total.to_f/rows.count).round(2) %></h1>
+<h2><%= rows.count %> cards</h2>
+
+<% rows.sort{|a,b|b[:rank]<=>a[:rank]}.each do |row| %>
+  <%
+    t1_score = (row[:t1]*100.0/rows.count).round(0)
+    t2_score = (row[:t2]*100.0/rows.count).round(0)
+    t3_score = (row[:t3]*100.0/rows.count).round(0)
+  %>
+  <p><span class='delete'><%= link_to 'x', deck_path(@deck, cards: @params_hash.merge(row[:id].to_s => @params_hash[row[:id].to_s].to_i - 1)) %></span>
+  <span class='badge <%= row[:color] %>'><%= row[:name] %></span>
+  <span class='rank tier-1'><%= t1_score %></span>
+  <span class='rank tier-2'><%= t2_score %></span>
+  <span class='rank tier-3'><%= t3_score %></span>
+  <span class='rank total'><%= t1_score+t2_score+t3_score %></span>
+  <% ['1','2','3','4','5'].each do |num| %>
+    <% if row["tier-#{num}"].present? %>
+      <% row["tier-#{num}"].sort{|a,b|b<=>a}.each do |score| %>
+        <span class='score <%= tier_class(score) %>'><%= score %></span>
+      <% end %>
+    <% end %>
+  <% end %></p>
+<% end %>
