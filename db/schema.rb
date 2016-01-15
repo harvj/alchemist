@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141024044838) do
+ActiveRecord::Schema.define(version: 20151201060248) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 20141024044838) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.float    "score"
+    t.float    "onyx_score"
+    t.integer  "partner_id"
   end
 
   add_index "combos", ["card_id"], name: "index_combos_on_card_id", using: :btree
@@ -45,6 +47,7 @@ ActiveRecord::Schema.define(version: 20141024044838) do
     t.integer "card_id"
     t.integer "level"
     t.boolean "fused"
+    t.string  "color"
   end
 
   create_table "decks", force: true do |t|

@@ -1,5 +1,5 @@
 <%
-  combo_cards = Card.combo.all.sort_by{|c| [-c.multiplier, -c.score]}
+  combo_cards = Card.combo.all.sort_by{|c| [-c.adjustment[:combo], -c.score]}
   param_string = @param_string ? @param_string+',' : ''
 %>
 

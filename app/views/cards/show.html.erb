@@ -1,0 +1,7 @@
+<h1><%= best_in_place @card, :display_name %></h1>
+
+<ul>
+<% Combo.where(final_id: @card.id).sort_by{|c| c.card.name}.each do |combo| %>
+  <li><%= combo.card.display_name %>, <%= combo.match.display_name %></li>
+<% end %>
+</ul>

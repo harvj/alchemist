@@ -6,15 +6,23 @@
 %>
 
 <% @cards.each do |card| %>
-  <% rows << { name: card.display_name, id: card.id, color: card.color } %>
+  <% onyx_card = @deck.deck_cards.select{|dc| dc.card_id == card.id}.try(:first).try(:color) == 'onyx' %>
+  <% rows << { name: card.display_name, id: card.id, color: card.color, onyx: onyx_card } %>
   <% current_row = rows.last %>
 
   <% @cards.map{|c|c.id.to_i}.sort.each do |match_id| %>
-    <% score = card.combos.where(match_id: match_id).pluck(:score).first.try(:round,1) %>
+    <% if onyx_card || @deck.deck_cards.select{|dc| dc.card_id == match_id}.try(:first).try(:color) == 'onyx' %>
+      <% score = card.combos.where(match_id: match_id).pluck(:onyx_score).first.try(:round,1) %>
+    <% else %>
+      <% score = card.combos.where(match_id: match_id).pluck(:score).first.try(:round,1) %>
+    <% end %>
+    <% combo_name = card.combos.joins('inner join cards as final on final.id = combos.final_id').where(match_id: match_id).pluck('final.name').first %>
+
     <% if score.present? %>
-      <% current_row[tier_class(score)].present? ? current_row[tier_class(score)] << score : current_row[tier_class(score)] = [score] %>
+      <% current_row[tier_class(score)].present? ? current_row[tier_class(score)] << {name: combo_name, score: score} : current_row[tier_class(score)] = [{name: combo_name, score: score}] %>
     <% end %>
   <% end %>
+
   <%
     t1_count = current_row['tier-1'].try(:count) || 0
     t2_count = current_row['tier-2'].try(:count) || 0
@@ -22,9 +30,9 @@
     t1_total += t1_count
     t2_total += t2_count
     t3_total += t3_count
-    t1_score = current_row['tier-1'] ? current_row['tier-1'].map{|s|s**2}.sum : 0
-    t2_score = current_row['tier-2'] ? current_row['tier-2'].map{|s|s**2}.sum : 0
-    t3_score = current_row['tier-3'] ? current_row['tier-3'].map{|s|s**2}.sum : 0
+    t1_score = current_row['tier-1'] ? current_row['tier-1'].map{|v|v[:score]**2}.sum : 0
+    t2_score = current_row['tier-2'] ? current_row['tier-2'].map{|v|v[:score]**2}.sum : 0
+    t3_score = current_row['tier-3'] ? current_row['tier-3'].map{|v|v[:score]**2}.sum : 0
     rank = t1_count * 5.4 + t2_count * 3 + t3_count
   %>
   <% current_row[:rank] = rank %>
@@ -45,15 +53,11 @@
     t3_score = (row[:t3]*100.0/rows.count).round(0)
   %>
   <p><span class='delete'><%= link_to 'x', deck_path(@deck, cards: @params_hash.merge(row[:id].to_s => @params_hash[row[:id].to_s].to_i - 1)) %></span>
-  <span class='badge <%= row[:color] %>'><%= row[:name] %></span>
-  <span class='rank tier-1'><%= t1_score %></span>
-  <span class='rank tier-2'><%= t2_score %></span>
-  <span class='rank tier-3'><%= t3_score %></span>
-  <span class='rank total'><%= t1_score+t2_score+t3_score %></span>
+  <span class='badge <%= row[:color] %>'><%= link_to row[:name], combos_path(card: row[:id], onyx: row[:onyx]) %></span>
   <% ['1','2','3','4','5'].each do |num| %>
     <% if row["tier-#{num}"].present? %>
-      <% row["tier-#{num}"].sort{|a,b|b<=>a}.each do |score| %>
-        <span class='score <%= tier_class(score) %>'><%= score %></span>
+      <% row["tier-#{num}"].sort{|a,b|b[:score]<=>a[:score]}.each do |v| %>
+        <span title='<%= v[:name] %>' class='score <%= tier_class(v[:score], onyx: true) %>'><%= v[:score] %></span>
       <% end %>
     <% end %>
   <% end %></p>

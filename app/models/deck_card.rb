@@ -3,14 +3,14 @@ class DeckCard < ActiveRecord::Base
   belongs_to :deck
   belongs_to :card
 
-  delegate :name, :base_offense, :base_defense, :color, :display_name, :multiplier, to: :card
+  delegate :name, :base_offense, :base_defense, :display_name, :adjustment, to: :card
 
   def offense
-    base_offense + (multiplier * (level - 1))
+    base_offense + (adjustment[:combo] * (level - 1))
   end
 
   def defense
-    base_offense + (multiplier * (level - 1))
+    base_offense + (adjustment[:combo] * (level - 1))
   end
 
   def badge_display
@@ -18,7 +18,13 @@ class DeckCard < ActiveRecord::Base
   end
 
   def badge_class
-    (fused? ? 'fused' : 'level-'+level.to_s).html_safe
+    if fused?
+      'fused'
+    elsif color == 'onyx'
+      'onyx'
+    else
+      'level-'+level.to_s
+    end.html_safe
   end
 
 end

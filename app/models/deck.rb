@@ -4,7 +4,7 @@ class Deck < ActiveRecord::Base
   has_many :cards, through: :deck_cards
 
   def has_available?(combo)
-    cards.where(id: combo.card.id).any? && cards.where(id: combo.match.id).any?
+    cards.where(id: combo.match.id).any?
   end
 
 end

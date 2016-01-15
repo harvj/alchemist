@@ -1,6 +1,6 @@
 class Card < ActiveRecord::Base
 
-  validates_uniqueness_of :name
+  validates_uniqueness_of :name, scope: :color
 
   has_many :combos
   has_many :deck_cards
@@ -19,16 +19,16 @@ class Card < ActiveRecord::Base
     classification == 'final'
   end
 
-  def multiplier
+  def adjustment
     case color
     when 'diamond'
-      4
+      {combo: 4, onyx: 20}
     when 'gold'
-      3
+      {combo: 3, onyx: 23}
     when 'silver'
-      2
+      {combo: 2, onyx: 25}
     when 'bronze'
-      1
+      {combo: 1, onyx: 27}
     end
   end
 

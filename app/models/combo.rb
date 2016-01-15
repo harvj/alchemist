@@ -1,8 +1,8 @@
 class Combo < ActiveRecord::Base
 
   TIERS = {
-    first: 57.0,
-    second: 45.0,
+    first: 70.5,
+    second: 58.9,
     third: 37.0,
     fourth: 27.0
   }
@@ -11,37 +11,50 @@ class Combo < ActiveRecord::Base
   belongs_to :match, class_name: 'Card'
   belongs_to :final, class_name: 'Card'
 
+  belongs_to :partner, class_name: 'Combo'
+
   validates_presence_of :card_id, :match_id, :final_id
 
-  def offense_for_level(level)
-    final.base_offense + (dominant_multiplier * (level - 1))
-  end
+  after_save :assign_partner
 
-  def defense_for_level(level)
-    final.base_defense + (dominant_multiplier * (level - 1))
+  def stat_for_level(type, level, options={})
+    if options[:onyx]
+      final.send("base_#{type}") + final.adjustment[:onyx]
+    else
+      final.send("base_#{type}") + (dominant_multiplier * (level - 1))
+    end
   end
 
   def dominant_multiplier
-    [card.multiplier, match.multiplier].max
+    [card.adjustment[:combo], match.adjustment[:combo]].max
   end
 
-  def offensive_adjustment
-    base = offense_for_level(5)
-    base > 24 ? (1.04 + ((base - 25) / 80.0)) : 1
+  def offensive_adjustment(options={})
+    base = stat_for_level(:offense, 6, options)
+    base > 28 ? (1.04 + ((base - 28) / 80.0)) : 1
   end
 
-  def defensive_adjustment
-    base = defense_for_level(5)
-    base > 24 ? (1.11 + ((base - 25) / 80.0)) : 1
+  def defensive_adjustment(options={})
+    base = stat_for_level(:defense, 6, options)
+    base > 25 ? (1.08 + ((base - 25) / 80.0)) : 1
   end
 
-  def calculate_score
-    (offense_for_level(5) * offensive_adjustment) * (defense_for_level(5) * defensive_adjustment) / 10
+  def calculate_score(options={})
+    (stat_for_level(:offense, 6, options) * offensive_adjustment(options)) * (stat_for_level(:defense, 6, options) * defensive_adjustment(options)) / 10
   end
 
   def calculate_score!
     self.score = calculate_score
+    self.onyx_score = calculate_score(onyx: true)
     save!
+  end
+
+  private
+
+  def assign_partner
+    return if self.partner.present?
+    partner = Combo.where(match_id: card_id, card_id: match_id).first || Combo.create!(match_id: card_id, card_id: match_id, final_id: final_id, partner: self)
+    self.update_attribute(:partner_id, partner.id)
   end
 
 end

@@ -11,9 +11,15 @@
 // about supported directives.
 //
 //= require jquery
+//= require best_in_place
 //= require underscore
 //= require backbone
 //= require marionette
 //= require bootstrap-sprockets
 //= require backbone/app
 //= require_tree ./backbone/apps
+
+
+$(document).ready(function() {
+  $(".best_in_place").best_in_place();
+})

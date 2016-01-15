@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.5'
 gem 'pg'
 
+gem 'best_in_place'
+
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '~> 4.0.3'
 

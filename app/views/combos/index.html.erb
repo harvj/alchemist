@@ -1,3 +1,4 @@
+<% @combos = @combos.sort_by(&:onyx_score).reverse if @onyx %>
 <ul class='cards-list list-group'><% @combos.each do |combo| %>
-  <%= card_as_combo_list_item(combo) %>
+  <%= card_as_combo_list_item(combo, onyx: @onyx) %>
 <% end %></ul>
