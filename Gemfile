@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '7.0.4'
-gem 'pg'
 
-gem "puma", "~> 5.0"
+gem 'pg'
+gem 'puma', '~> 5.0'
+gem 'sprockets-rails'
+gem 'sassc-rails'
 
 group :development, :test do
   gem 'pry'
@@ -11,5 +13,5 @@ group :development, :test do
 end
 
 group :development do
-  gem 'spring'
+  gem 'spring', '~> 4.1'
 end

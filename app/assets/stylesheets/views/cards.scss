@@ -1,0 +1,93 @@
+$card-radius: 5px;
+
+ul.cards-list {
+  max-width: 400px;
+}
+
+.list-group-item {
+  border: none;
+}
+
+li.card {
+  font-weight: 500;
+  border-radius: $card-radius;
+  margin-bottom: 2px;
+  padding: 3px 8px;
+  opacity: 0.4;
+  &.deck {
+    opacity: 1;
+    border-width: 1.5px;
+    padding: 5px 8px;
+  }
+  .badge {
+    border-radius: 2.5px;
+    font-size: 11px;
+  }
+  .badge.defense + .badge {
+    margin-right: 0;
+  }
+  &:first-child, &:last-child {
+    border-radius: $card-radius;
+  }
+  &.bronze {
+    background-color: $bronze-light;
+  }
+  &.silver {
+    background-color: darken($silver-light, 1);
+  }
+  &.gold {
+    background-color: $gold-light;
+  }
+  &.diamond {
+    background-color: $diamond-light;
+  }
+  span.badge {
+    opacity: 1;
+    &.defense {
+      color: #333;
+      background-color: #eee;
+    }
+    &.offense {
+      color: #eee;
+      background-color: #333;
+    }
+    &.final {
+      background-color: $final;
+    }
+    &.combo {
+      color: #333;
+      background-color: $combo;
+    }
+    &.bronze {
+      color: #fafafa;
+      background-color: $bronze-dark;
+    }
+    &.silver {
+      color: #666;
+      background-color: $silver-dark;
+    }
+    &.gold {
+      color: #333;
+      background-color: $gold-dark;
+    }
+    &.diamond {
+      background-color: $diamond-dark;
+    }
+    &.tier-1 {
+      background-color: limegreen;
+    }
+    &.tier-2 {
+      background-color: orangered;
+    }
+    &.tier-3 {
+      background-color: orange;
+    }
+    &.tier-4 {
+      background-color: lighten(goldenrod, 30);
+    }
+    &.tier-5 {
+      background-color: #efefef;
+    }
+  }
+}
+
