@@ -1,4 +1,4 @@
-class Combo < ActiveRecord::Base
+class Combo < ApplicationRecord
 
   TIERS = {
     first: 70.5,

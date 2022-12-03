@@ -1,4 +1,4 @@
-class Card < ActiveRecord::Base
+class Card < ApplicationRecord
 
   validates_uniqueness_of :name, scope: :color
 
