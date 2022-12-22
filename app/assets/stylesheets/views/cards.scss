@@ -4,45 +4,53 @@ ul.cards-list {
   max-width: 400px;
 }
 
-.list-group-item {
-  border: none;
-}
-
 li.card {
   font-weight: 500;
   border-radius: $card-radius;
   margin-bottom: 2px;
   padding: 3px 8px;
   opacity: 0.4;
+
   &.deck {
     opacity: 1;
     border-width: 1.5px;
     padding: 5px 8px;
   }
+
   .badge {
+    padding: 3px;
     border-radius: 2.5px;
     font-size: 11px;
   }
+
   .badge.defense + .badge {
     margin-right: 0;
   }
+
   &:first-child, &:last-child {
     border-radius: $card-radius;
   }
+
   &.bronze {
     background-color: $bronze-light;
   }
+
   &.silver {
     background-color: darken($silver-light, 1);
   }
+
   &.gold {
     background-color: $gold-light;
   }
+
   &.diamond {
     background-color: $diamond-light;
   }
+
   span.badge {
     opacity: 1;
+    float: right;
+
     &.defense {
       color: #333;
       background-color: #eee;

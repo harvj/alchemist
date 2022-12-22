@@ -4,8 +4,8 @@ gem 'rails', '7.0.4'
 
 gem 'pg'
 gem 'puma', '~> 5.0'
-gem 'sprockets-rails'
 gem 'sassc-rails'
+gem 'sprockets-rails'
 
 group :development, :test do
   gem 'pry'

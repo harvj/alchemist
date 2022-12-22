@@ -36,7 +36,7 @@ class Combo < ApplicationRecord
 
   def defensive_adjustment(options={})
     base = stat_for_level(:defense, 6, options)
-    base > 25 ? (1.08 + ((base - 25) / 80.0)) : 1
+    base > 26 ? (1.08 + ((base - 25) / 80.0)) : 1
   end
 
   def calculate_score(options={})
@@ -52,9 +52,9 @@ class Combo < ApplicationRecord
   private
 
   def assign_partner
-    return if self.partner.present?
+    return if partner.present?
     partner = Combo.where(match_id: card_id, card_id: match_id).first || Combo.create!(match_id: card_id, card_id: match_id, final_id: final_id, partner: self)
-    self.update_attribute(:partner_id, partner.id)
+    self.update(partner_id: partner.id)
   end
 
 end

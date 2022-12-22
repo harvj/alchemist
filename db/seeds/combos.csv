@@ -1,217 +1,911 @@
+affliction,affliction,pestilence
+affliction,anger,road rage
+affliction,apocalypse,zombie outbreak
+affliction,arcade,zombie outbreak
+affliction,bat,vampire
+affliction,bear,zombie bear
+affliction,beauty,sleeping princess
+affliction,bird,bird flu
+affliction,blob,mind slug
+affliction,bone,wight
+affliction,camouflage,possession
+affliction,cat,flea
+affliction,chinchilla,chinzombie
+affliction,death,undead
+affliction,demon,inner demons
+affliction,desert,desert pirate
+affliction,destruction,pestilence
+affliction,dog,flea
+affliction,dragon,plague dragon
+affliction,earth,stonescale
+affliction,extraterrestrial,space zombie
+affliction,fairy tale,cursed,
+affliction,fire,sun burn
+affliction,fish,tongue parasite
+affliction,food,cursed apple
+affliction,galaxy wars,insidious emperor
+affliction,giant,zombie giant
+affliction,golem,stonescale
+affliction,halloween,sugar demon
+affliction,hammer,cavities
+affliction,healing,doctor
+affliction,holidays,black friday
+affliction,holy water,divine healer
+affliction,horn,plague dragon
+affliction,horse,pestilence's horse
+affliction,human,inner demons
+affliction,hybrid,werebear
+affliction,ice,hypothermia
+affliction,immortality,dorian gray
+affliction,insect,black death
+affliction,invention,radiation sickness
+affliction,knight,undead knight
+affliction,knowledge,inner demons
+affliction,leader,pestilence
+affliction,life,virus
+affliction,love,green eyed monster
+affliction,madness,clown toxin
+affliction,magic,voodoo doll
+affliction,martial arts,kung fu zombie
+affliction,medieval,black death
+affliction,metal,corrosive rust
+affliction,mind control,possession
+affliction,miniature,virus
+affliction,monkey,monkey planet
+affliction,monster,plague monstrosity
+affliction,moon,werewolf
+affliction,multiples,zombie outbreak
+affliction,music,thrilling zombie
+affliction,mutation,siphoning belle
+affliction,myth,pandora's box
+affliction,parasite,zombie fungus
+affliction,plant,zombie fungus
+affliction,pocket pet,cobramon
+affliction,poison,radiation sickness
+affliction,precious ring lore,wraith dagger
+affliction,prehistoric,zombiesaur
+affliction,psychic,possession
+affliction,radiation,radiation sickness
+affliction,rainbow,clown toxin
+affliction,relic,voodoo doll
+affliction,reptile,plague dragon
+affliction,robot,corrosive rust
+affliction,rodent,black death
+affliction,royal game,stonescale
+affliction,sci-fi,computer bug
+affliction,science,computer bug
+affliction,sleep,sleeping princess
+affliction,snake,poison
+affliction,space,space zombie
+affliction,speed,zombie outbreak
+affliction,spirit,possession
+affliction,strength,zombie tank
+affliction,sun,sun burn
+affliction,superhero,sarcastic hero
+affliction,sweets,cavities
+affliction,sword,sarcastic hero
+affliction,time,paradox
+affliction,toy,voodoo doll
+affliction,tree,mistletoe
+affliction,trident,inner demons
+affliction,turkey day,turkey zombie
+affliction,undead,zombie outbreak
+affliction,underwater,tongue parasite
+affliction,vampire,bloodlust
+affliction,vehicle,road rage
+affliction,villain,clown toxin
+affliction,void,plague monstrosity
+affliction,war,radiation sickness
+affliction,water,hypothermia
+affliction,wealth,greed
+affliction,weapon,clown toxin
+affliction,wind,radiation sickness
+affliction,wings,bird flu
+affliction,wizard,witch doctor
+affliction,wizarding school,cursed will
+affliction,wolf,werewolf
+angel,angel,seraphim
+angel,anger,angel of wrath
+angel,apocalypse,angel of wrath
 angel,arcade,angel kid
+angel,bear,spirit bear
+angel,beauty,seraphim
 angel,bird,doves
+angel,blob,puff hero
+angel,blood,blood angel
+angel,camouflage,crying angel
+angel,cartoon,angel kid
+angel,cat,griffin
+angel,cursed,blood angel
 angel,death,dark angel
 angel,demon,dark angel
+angel,destruction,soul harvester
+angel,dog,heavenly dog
+angel,dragon,devil
+angel,energy,crying angel
+angel,extraterrestrial,crying angel
 angel,fairy,fairy godmother
+angel,fairy tale,fairy godmother
 angel,fish,holy mackerel
+angel,food,angel food cake
+angel,galaxy wars,space ghosts
 angel,halloween,scarecrow
+angel,hammer,paladin
+angel,healing,divine healer
 angel,holidays,snow angel
+angel,horn,gabriel's horn
 angel,horse,pegasus
 angel,human,guardian angel
+angel,hybrid,nephilim
 angel,ice,snow angel
 angel,insect,praying mantis
+angel,invention,angel food cake
 angel,knight,arch angel
 angel,knowledge,angel of wisdom
 angel,leader,angel of valor
 angel,life,guardian angel
 angel,love,cupid
+angel,martial arts,angel kid
 angel,medieval,seraphim
+angel,mind control,angelic mutant
+angel,miniature,conscience
+angel,monkey,flying monkey
 angel,monster,crying angel
 angel,moon,moon goddess
+angel,multiples,seraphim
 angel,music,angel trumpeter
+angel,mutation,angelic mutant
 angel,myth,cupid
+angel,parasite,crying angel
+angel,pocket pet,luckymon
+angel,precious ring lore,arch mage
+angel,prehistoric,ancient ark
+angel,psychic,angel of wrath
+angel,relic,ancient ark
+angel,reptile,devil
+angel,rodent,devil
 angel,sci-fi,crying angel
+angel,sidekick,crying angel
+angel,snake,devil
 angel,space,heavens
+angel,speed,crying angel
 angel,spirit,heavens
 angel,strength,valkyrie
 angel,superhero,arch angel
+angel,sweets,angel food cake
 angel,sword,arch angel
+angel,time,dark angel
 angel,toy,doll
 angel,trident,poseidon
+angel,turkey day,turkey
 angel,turtle,flying trooper
-angel,villian,devil
+angel,underground,devil
+angel,underwater,angelfish
+angel,villain,devil
 angel,void,dark angel
+angel,war,valkyrie
 angel,water,snow angel
 angel,wealth,angel of valor
 angel,weapon,valkyrie
 angel,wings,seraphim
+anger,apocalypse,family reunion
+anger,arcade,raging gamer
+anger,ash,war god,
+anger,bat,furies
+anger,bear,mama bear
+anger,beauty,angry bride
+anger,bird,raging bird,
+anger,blob,negative slime
+anger,blood,bloodlust
+anger,bone,gashadokuro
+anger,camouflage,shifting mutant
+anger,cartoon,disgruntled beavers
+anger,chinchilla,disgruntled beavers
+anger,cursed,the cursed chosen
+anger,death,furies
+anger,demon,demonic elf
+anger,desert,sekhmet
+anger,destruction,raging bird
+anger,dog,werewolf,
+anger,dragon,malevolent
+anger,earth,earthquake
+anger,elf,demonic elf
+anger,energy,insidious emperor
+anger,extraterrestrial,cyborg alien mutant
+anger,fairy,malevolent
+anger,fairy tale,queen of hearts
+anger,fire,fire lord
+anger,fish,naga queen
+anger,food,hangry
+anger,galaxy wars,insidious emperor
+anger,giant,gashadokuro
+anger,golem,grouchy monster
+anger,hammer,WMD
+anger,holidays,pinch
+anger,holy water,armageddon
+anger,horn,malevolent
+anger,human,angry mob
+anger,hybrid,cyborg alien mutant
+anger,ice,cold hearted
+anger,immortality,sekhmet
+anger,insect,wasp
+anger,invention,alphatron
+anger,knight,berserker
+anger,knowledge,insidious emperor
+anger,leader,insidious emperor
+anger,life,cold hearted
+anger,love,green eyed monster
+anger,madness,queen of hearts
+anger,magic,malevolent
+anger,martial arts,demonic fighter
+anger,medieval,angry mob
+anger,metal,alphatron
+anger,mind control,dark space lord
+anger,miniature,protozoan villain
+anger,monkey,monkey planet
+anger,monster,grouchy monster
+anger,moon,blood moon
+anger,multiples,furies
+anger,music,death metal
+anger,mutation,cyborg alien mutant
+anger,myth,furies
+anger,parasite,negative slime
+anger,plant,killer vegetables
+anger,pocket pet,psychic clone
+anger,poison,wasp
+anger,precious ring lore,fiery shadow demon
+anger,psychic,dark space lord
+anger,radiation,mutant man
+anger,relic,angel of wrath
+anger,reptile,turtle king
+anger,robot,alphatron
+anger,rodent,disgruntled beavers
+anger,royal game,lady revenant
+anger,royalty,queen of hearts
+anger,sci-fi,dark space lord
+anger,science,alphatron
+anger,sidekick,dark space lord
+anger,snake,furies
+anger,space,dark space lord
+anger,speed,road rage
+anger,spirit,negative slime
+anger,strength,berserker
+anger,superhero,mutant man
+anger,sword,angry bride
+anger,the chosen one,swarm queen
+anger,toy,raging gamer
+anger,tree,disgruntled beavers
+anger,trident,angry mob,
+anger,turkey day,hangry
+anger,turtle,turtle king
+anger,underground,furies
+anger,underwater,davy jones
+anger,vampire,dracula
+anger,vehicle,road rage
+anger,villain,dark space lord
+anger,void,demonic elf
+anger,war,war god
+anger,water,maelstrom
+anger,water serpent,naga queen
+anger,weapon,demonic elf
+anger,werewolf,bloodlust
+anger,wind,cyclone
+anger,wings,angel of wrath
+anger,wizard,insidious emperor
+anger,wizarding school,austrian spiketail
+anger,wolf,werewolf
+apocalypse,arcade,alien intruders
+apocalypse,ash,armageddon
+apocalypse,bat,vampire boogie man
+apocalypse,bear,adventure kid
+apocalypse,bird,boneyard
+apocalypse,blob,sewer mutants
+apocalypse,blood,blood angel
+apocalypse,bone,boneyard
+apocalypse,camouflage,death ray
+apocalypse,cartoon,polaris knuckles
+apocalypse,chinchilla,chinchilla raider
+apocalypse,cursed,pandora's box
+apocalypse,death,black death
+apocalypse,demon,commander of sin
+apocalypse,desert,desert pirate
+apocalypse,destruction,titan of destruction
+apocalypse,dog,vampire boogie man
+apocalypse,dragon,plague dragon
+apocalypse,earth,world eater
+apocalypse,energy,human battery
+apocalypse,extraterrestrial,alien sorceress
+apocalypse,fairy tale,wind princess
+apocalypse,fire,armageddon
+apocalypse,fish,mutated fish
+apocalypse,food,world eater
+apocalypse,galaxy wars,death ray
+apocalypse,giant,smog horror
+apocalypse,golem,crying angel
+apocalypse,halloween,zombie outbreak
+apocalypse,hammer,WMD
+apocalypse,holidays,family reunion
+apocalypse,holy water,apocalypse doctrine
+apocalypse,horn,horn of winter
+apocalypse,horse,apocalypse rider
+apocalypse,human,apocalypse doctrine
+apocalypse,hybrid,cybernetic humans
+apocalypse,ice,ice age
+apocalypse,immortality,decimation
+apocalypse,insect,wind princess
+apocalypse,invention,gray goo
+apocalypse,knight,gas mask soldier
+apocalypse,knowledge,apocalypse doctrine
+apocalypse,leader,battle prodigy
+apocalypse,love,family reunion
+apocalypse,madness,family reunion
+apocalypse,magic,pandora's box
+apocalypse,martial arts,polaris knuckles
+apocalypse,medieval,black death
+apocalypse,metal,alphatron
+apocalypse,mind control,titan of death
+apocalypse,miniature,gray goo
+apocalypse,monkey,monkey planet
+apocalypse,monster,vampire boogie man
+apocalypse,moon,doomsday omen
+apocalypse,multiples,zombie outbreak
+apocalypse,music,horn of winter
+apocalypse,mutation,decimation
+apocalypse,myth,pandora's box
+apocalypse,parasite,parasitic bioweapon
+apocalypse,plant,wind princess
+apocalypse,poison,poison cloud
+apocalypse,prehistoric,meteor
+apocalypse,radiation,bomb shelter
+apocalypse,relic,horn of winter
+apocalypse,reptile,doomsday omen
+apocalypse,robot,gray goo
+apocalypse,rodent,chinchilla raider
+apocalypse,royal game,horn of winter
+apocalypse,royalty,swarm queen
+apocalypse,sci-fi,battle prodigy
+apocalypse,science,gray goo
+apocalypse,sleep,cthulhu
+apocalypse,snake,doomsday omen
+apocalypse,space,meteor
+apocalypse,speed,desert pirate
+apocalypse,spirit,pandora's box
+apocalypse,strength,bahamut
+apocalypse,sun,polaris knuckles
+apocalypse,superhero,zombie hunter
+apocalypse,sweets,candy nation
+apocalypse,sword,apocalypse doctrine
+apocalypse,the chosen one,polaris knuckles
+apocalypse,time,d-3000
+apocalypse,tree,wind princess
+apocalypse,trident,alien prophet
+apocalypse,turkey day,family reunion
+apocalypse,turtle,doomsday omen
+apocalypse,undead,zombie outbreak
+apocalypse,underground,bomb shelter
+apocalypse,underwater,the mariner
+apocalypse,vampire,vampire boogie man
+apocalypse,vehicle,desert pirate
+apocalypse,villain,vampire boogie man
+apocalypse,void,world eater
+apocalypse,war,apocalypse doctrine
+apocalypse,water,the mariner
+apocalypse,water serpent,doomsday omen
+apocalypse,weapon,WMD
+apocalypse,werewolf,the lone wolf
+apocalypse,wind,wind princess
+apocalypse,wings,colossal demon
+apocalypse,wizard,alien sorceress
+apocalypse,wolf,the lone wolf
 arcade,ash,war god
 arcade,bat,demon queen
+arcade,beauty,crypt explorer
 arcade,bird,raging bird
+arcade,blob,puff hero
+arcade,blood,demon queen
+arcade,bone,parched skeleton
+arcade,camouflage,box special forces
+arcade,cartoon,jumping hero
 arcade,cat,meowmon
 arcade,chinchilla,pikamon
+arcade,cursed,ninja sorcerer
 arcade,demon,demon queen
+arcade,desert,parched skeleton
+arcade,dog,morphed beast
+arcade,dragon,dragonkin ninja
+arcade,earth,crypt explorer
 arcade,elf,legendary hero
 arcade,energy,static beast
+arcade,extraterrestrial,alien intruders
 arcade,fire,turtle king
 arcade,fish,magicod
 arcade,food,chomp dude
+arcade,giant,kongar
 arcade,golem,static beast
 arcade,hammer,broham
+arcade,healing,life shroom
 arcade,holidays,video game
+arcade,holy water,medic
+arcade,horn,horn of life
+arcade,human,raging gamer
+arcade,hybrid,demon queen
 arcade,ice,absolute zero
+arcade,immortality,ninja sorcerer
 arcade,insect,segmentipede
+arcade,invention,dr. eggdude
 arcade,knight,legendary hero
+arcade,knowledge,mama brain
 arcade,leader,legendary hero
 arcade,life,living algorithm
+arcade,madness,the bone king
 arcade,magic,magicod
+arcade,martial arts,demonic fighter
 arcade,metal,cannon boy
+arcade,mind control,lich blade
+arcade,miniature,pikamon
 arcade,monkey,barrel gorilla
 arcade,monster,turtle king
+arcade,moon,alien intruders
+arcade,multiples,segmentipede
+arcade,mutation,static beast
+arcade,parasite,parasite hunter
+arcade,plant,sunflower
+arcade,pocket pet,pikamon
 arcade,poison,specter
 arcade,prehistoric,dino companion
+arcade,psychic,master alchemist
 arcade,radiation,half-life
 arcade,rainbow,chomp dude spirits
+arcade,relic,quadforce
 arcade,reptile,turtle king
 arcade,robot,cannon boy
-arcade,science,cannon boy
+arcade,rodent,pikamon
+arcade,royalty,turtle king
 arcade,sci-fi,living algorithm
+arcade,science,cannon boy
+arcade,sidekick,barrel gorilla jr
+arcade,sleep,hypnotic singer
+arcade,snake,reptilian ninja
 arcade,space,alien intruders
+arcade,speed,swift the chin
 arcade,spirit,chomp dude spirits
 arcade,strength,turtle king
+arcade,sun,angel kid
 arcade,superhero,jumping hero
 arcade,sword,diamond sword
+arcade,the chosen one,legendary hero
 arcade,time,persian royalty
 arcade,toy,video game
 arcade,tree,killer plant
+arcade,turtle,turtle king
+arcade,undead,parched skeleton
+arcade,underground,bomb shelter
+arcade,underwater,flying fish
 arcade,vampire,demon queen
-arcade,villian,turtle king
+arcade,villain,turtle king
 arcade,void,dark hero
+arcade,war,medic
 arcade,water,absolute zero
 arcade,weapon,barrel gorilla
 arcade,werewolf,morphed beast
+arcade,wind,puff hero
 arcade,wings,angel kid
+arcade,wizard,ninja sorcerer
 arcade,wolf,morphed beast
 ash,bear,panda
+ash,beauty,goddess pele
 ash,bird,phoenix
+ash,blob,smog horror
+ash,blood,human
+ash,bone,tombstone
+ash,camouflage,smoke screen
+ash,cartoon,monster collector
 ash,cat,black cat
 ash,chinchilla,dust bath
+ash,cursed,the cursed chosen
+ash,desert,sand raider
+ash,destruction,sandstorm
+ash,dog,siberian husky
 ash,energy,fireworks
 ash,fairy,magic
+ash,fairy tale,cinderella
 ash,fire,phoenix
+ash,fish,holy mackerel
+ash,food,pixie sugar
+ash,galaxy wars,dark space lord
+ash,giant,smog horror
+ash,holidays,fireworks
 ash,holy water,human
+ash,horse,nightmare
 ash,human,war god
+ash,hybrid,sandman
 ash,ice,penguin
+ash,immortality,phoenix
+ash,insect,earthworm
+ash,invention,alchemist
 ash,knight,war god
 ash,knowledge,magic
 ash,leader,war god
 ash,life,phoenix
 ash,love,fireworks
+ash,madness,mad bomber
 ash,magic,phoenix
+ash,martial arts,smoke screen
 ash,medieval,phoenix
 ash,metal,bomb
+ash,monkey,monkey shaman
 ash,monster,sandman
+ash,moon,moon buggy
+ash,multiples,phoenix
+ash,mutation,firebird force
 ash,myth,phoenix
+ash,parasite,smog horror
+ash,pocket pet,monster collector
+ash,precious ring lore,wraith dagger
+ash,prehistoric,lava
+ash,psychic,firebird force
 ash,rainbow,fireworks
+ash,relic,ancient ark
+ash,reptile,chameleon
+ash,robot,moon buggy
+ash,rodent,dust bath
+ash,royal game,dragon fire
+ash,royalty,cinderella
+ash,sci-fi,smog horror
+ash,science,fireworks
+ash,sidekick,pikamon
+ash,sleep,mister sandman
+ash,space,space ghosts
+ash,speed,quicksand
 ash,strength,war god
 ash,superhero,war god
-ash,villian,war god
+ash,sweets,pixie sugar
+ash,sword,war god
+ash,the chosen one,monster collector
+ash,time,diamond ring
+ash,toy,monster collector
+ash,turtle,parched skeleton
+ash,underwater,lava
+ash,vehicle,moon buggy
+ash,villain,war god
+ash,war,war god
 ash,weapon,bomb
 ash,wind,sandstorm
 ash,wizard,geomancer
+ash,wizarding school,phoenix
+bat,beauty,demon queen
 bat,bird,nosferatu duck
+bat,blood,vampire
+bat,bone,skeletal vampire
+bat,camouflage,super bat
+bat,cartoon,super bat
 bat,cat,manticore
+bat,chinchilla,vampchilla
+bat,cursed,vampire
 bat,demon,imp
+bat,destruction,space moth
 bat,earth,gargoyle
+bat,extraterrestrial,space moth
+bat,fairy,imp
+bat,fairy tale,flying monkey
 bat,fish,stingray
 bat,food,vamp crunch
+bat,galaxy wars,laughing pet alien
+bat,giant,space moth
 bat,golem,gargoyle
 bat,halloween,vampire
+bat,healing,vampire
+bat,horn,vampiric gargoyle
 bat,human,vampire
+bat,hybrid,furies
 bat,ice,ice imp
 bat,insect,space moth
+bat,immortality,vampire
+bat,insect,space moth
+bat,invention,super bat
 bat,knight,super bat
 bat,knowledge,shapeshifter
 bat,leader,dracula
 bat,life,vampire
 bat,magic,vampire
+bat,martial arts,super bat
 bat,medieval,gargoyle
 bat,metal,baseball bat
+bat,mind control,vampire
+bat,miniature,bumblebee bat
 bat,monkey,flying monkey
 bat,monster,vampire
 bat,moon,vampire
+bat,multiples,vampire coven
 bat,myth,dracula
+bat,parasite,vampire
+bat,pocket pet,sonic bat
 bat,prehistoric,pterodactyl
+bat,psychic,lunara
+bat,relic,vampire killer
 bat,reptile,pterodactyl
-bat,science,super bat
+bat,rodent,flying squirrel
+bat,royalty,demon queen
 bat,sci-fi,vampire
+bat,science,super bat
+bat,sidekick,kid sidekick
+bat,sleep,demon queen
 bat,space,space moth
+bat,speed,chiroptercar
 bat,strength,super bat
 bat,superhero,super bat
+bat,sweets,vamp crunch
+bat,the chosen one,vampire assassin
 bat,toy,baseball bat
 bat,tree,baseball bat
+bat,turtle,flying trooper
 bat,undead,vampire
+bat,underground,super bat
+bat,underwater,stingray
+bat,vehicle,chiroptercar
+bat,villain,dracula
+bat,war,vampire knight
 bat,water,stingray
 bat,wealth,super bat
 bat,weapon,chiropterang
+bat,werewolf,werevamp
 bat,wizard,shapeshifter
+bat,wizarding school,magical soccer
+bat,wolf,gargoyle
+bear,bear,mama bear
+bear,beauty,monster & beauty
+bear,blob,gummy bear
+bear,camouflage,spirit bear
+bear,cartoon,bouncy bears
+bear,chinchilla,emok
+bear,cursed,werebear
+bear,death,zombie bear
 bear,demon,zombie bear
+bear,destruction,dire bear
+bear,dog,bear dog
+bear,earth,hibernation
+bear,elf,animal whisperer
+bear,extraterrestrial,emok
+bear,fairy,goldilocks and bears
+bear,fairy tale,goldilocks and bears
+bear,fish,fish bone
 bear,food,gummy bear
+bear,galaxy wars,emok
+bear,giant,dire bear
 bear,halloween,zombie bear
+bear,hammer,war bear
+bear,healing,bear magus
 bear,holidays,polar bear
+bear,holy water,bear magus
+bear,horn,yeti
 bear,human,adventure kid
+bear,hybrid,bear dog
 bear,ice,polar bear
+bear,immortality,spirit bear
+bear,invention,mecha bear
 bear,knight,emok
 bear,knowledge,bear magus
 bear,leader,adventure kid
 bear,love,stuffed plushie
+bear,madness,mama bear
 bear,magic,bear magus
+bear,martial arts,hungry panda hero
+bear,medieval,bouncy bears
 bear,metal,mecha bear
-bear,myth,werebear
+bear,mind control,animal whisperer
+bear,miniature,water bear
+bear,monster,zombie bear
 bear,moon,werebear
+bear,multiples,mama bear
+bear,mutation,dire bear
+bear,myth,werebear
+bear,parasite,flea
+bear,plant,pet plant
+bear,precious ring lore,shapeshifting chief
 bear,prehistoric,dire bear
+bear,psychic,animal whisperer
 bear,radiation,dire bear
 bear,rainbow,gummy bear
 bear,robot,mecha bear
-bear,science,mecha bear
+bear,rodent,disgruntled beavers
+bear,royal game,wight
 bear,sci-fi,emok
+bear,science,mecha bear
+bear,sidekick,emok
+bear,sleep,hibernation
+bear,space,emok
 bear,spirit,spirit bear
 bear,strength,dire bear
+bear,superhero,adventure kid
+bear,sweets,gummy bear
 bear,sword,adventure kid
+bear,the chosen one,hungry panda hero
+bear,time,spirit bear
 bear,toy,stuffed plushie
 bear,tree,koala
 bear,trident,emok
+bear,turkey day,hangry
 bear,undead,zombie bear
+bear,underground,hibernation
+bear,underwater,water bear
+bear,vampire,flea
+bear,villain,dire bear
+bear,void,hibernation
+bear,war,war bear
 bear,water,polar bear
 bear,weapon,claws
 bear,werewolf,werebear
 bear,wizard,shapeshifter
+bear,wizarding school,transmutation
+bear,wolf,werebear
+beauty,bird,dark swan
+beauty,blob,bumpy princess
+beauty,blood,blood bath
+beauty,bone,sugar skull
+beauty,camouflage,shifting mutant
+beauty,cartoon,bumpy princess
+beauty,cat,lion
+beauty,cursed,fair princess
+beauty,death,undead bride
+beauty,demon,demon queen
+beauty,desert,cleopatra
+beauty,dog,scylla
+beauty,dragon,dragon fairy
+beauty,earth,goddess pele
+beauty,elf,fair princess
+beauty,energy,aurora
+beauty,extraterrestrial,alien human hybrid
+beauty,fairy,nymph
+beauty,fairy tale,fair princess
+beauty,fire,goddess pele
+beauty,fish,siren
+beauty,food,butterfly
+beauty,galaxy wars,rebel space princess
+beauty,giant,gaia
+beauty,golem,ogre princess
+beauty,halloween,undead bride
+beauty,hammer,jester sidekick
+beauty,healing,youthful sorceress
+beauty,holidays,snowflake
+beauty,holy water,fountain of youth
+beauty,horn,alicorn
+beauty,horse,alicorn
+beauty,human,attractive brain
+beauty,hybrid,alien human hybrid
+beauty,ice,fair princess
+beauty,immortality,dorian gray
+beauty,insect,arachne
+beauty,invention,beguiling android
+beauty,knight,prince charming
+beauty,knowledge,attractive brain
+beauty,leader,cleopatra
+beauty,life,gaia
+beauty,love,aphrodite
+beauty,madness,bloody prom queen
+beauty,magic,evil queen
+beauty,martial arts,angry bride
+beauty,medieval,prince charming
+beauty,metal,beguiling android
+beauty,mind control,blue iron
+beauty,miniature,thumbelina
+beauty,monster,monster & beauty
+beauty,moon,moon goddess
+beauty,multiples,fair princess
+beauty,music,golden harp
+beauty,mutation,shifting mutant
+beauty,myth,aphrodite
+beauty,parasite,youthful sorceress
+beauty,plant,plant fatale
+beauty,pocket pet,margarfree
+beauty,poison,poison oak
+beauty,precious ring,elf king
+beauty,psychic,rebel space princess
+beauty,rainbow,double rainbow
+beauty,relic,fountain of youth
+beauty,robot,beguiling android
+beauty,royal game,dragon mother
+beauty,royalty,fair princess
+beauty,sci-fi,beguiling android
+beauty,science,beguiling android
+beauty,sidekick,jester sidekick
+beauty,sleep,sleeping princess
+beauty,snake,medusa
+beauty,space,bumpy princess
+beauty,speed,alicorn
+beauty,spirit,nymph
+beauty,strength,barbarian
+beauty,sun,sparkling vampire
+beauty,superhero,crypt explorer
+beauty,sweets,candy princess
+beauty,sword,diamond sword
+beauty,the chosen one,fair princess
+beauty,time,fountain of youth
+beauty,toy,princess
+beauty,tree,plant fatale
+beauty,trident,naga queen
+beauty,turkey day,harvest
+beauty,undead,undead bride
+beauty,underground,persephone
+beauty,underwater,mermaid princess
+beauty,vampire,sparkling vampire
+beauty,villain,evil queen
+beauty,void,dark elf
+beauty,war,amazon
+beauty,water,fountain of youth
+beauty,water serpent,naga queen
+beauty,wealth,prince charming
+beauty,weapon,crypt explorer
+beauty,werewolf,monster & beauty
+beauty,wind,aurora
+beauty,wings,alicorn
+beauty,wizard,evil queen
+beauty,wizarding school,nerdy wizard
+beauty,wolf,monster & beauty
 bird,bird,murder of crows
+bird,blob,raging bird
+bird,camouflage,dark swan
+bird,cartoon,uncle duck
 bird,cat,griffin
+bird,cursed,werechicken
 bird,death,dark swan
 bird,demon,harpy
+bird,desert,road sprinter
+bird,destruction,turkeyzilla
 bird,dragon,cockatrice
 bird,earth,gargoyle
+bird,elf,animal whisperer
 bird,energy,thunderbird
+bird,fairy tale,golden egg goose
 bird,fire,phoenix
 bird,food,turkey
+bird,galaxy wars,centennial eagle
+bird,giant,ziz
 bird,golem,gargoyle
 bird,halloween,murder of crows
+bird,healing,quack doctor
 bird,holidays,doves
 bird,holy water,doves
+bird,horn,stymphalian bird
 bird,human,dark swan
+bird,hybrid,turtle duck
 bird,ice,penguin
+bird,immortality,crow revenant
 bird,insect,plague doctor
+bird,invention,robot turkey
 bird,knight,eagle rider
 bird,knowledge,wise owl
 bird,leader,ziz
 bird,life,phoenix
 bird,love,doves
+bird,madness,dark swan
 bird,magic,phoenix
 bird,medieval,griffin
 bird,metal,stymphalian bird
+bird,miniature,microraptor
 bird,monster,cockatrice
+bird,moon,werechicken
+bird,multiples,murder of crows
+bird,mutation,firebird force
 bird,myth,phoenix
+bird,parasite,cuckoo
+bird,pocket pet,frostwing
 bird,poison,stymphalian bird
+bird,precious ring lore,eagle rider
 bird,prehistoric,terror bird
+bird,psychic,four eyed raven
 bird,radiation,turkeyzilla
 bird,rainbow,parrot
+bird,relic,carver of doom
 bird,reptile,cockatrice
 bird,robot,robot turkey
-bird,science,robot turkey
+bird,royal game,four eyed raven
 bird,sci-fi,turkeyzilla
+bird,science,robot turkey
+bird,sidekick,kid sidekick
+bird,sleep,night owl
 bird,snake,cockatrice
 bird,space,space explorer
+bird,speed,road sprinter
 bird,spirit,phoenix
 bird,strength,ziz
 bird,superhero,eagle hero
@@ -219,58 +913,104 @@ bird,sword,carver of doom
 bird,trident,carver of doom
 bird,turkey day,turkey
 bird,undead,turkey zombie
+bird,underwater,flying fish
 bird,vampire,nosferatu duck
+bird,vehicle,eagle rider
+bird,war,messenger bird
 bird,water,penguin
+bird,water serpent,dragon princess
 bird,wealth,golden egg goose
 bird,weapon,raging bird
 bird,werewolf,werechicken
 bird,wind,thunderbird
 bird,wizard,eagle rider
+bird,wizarding school,phoenix
 bird,wolf,werechicken
-blob,arcade,puff hero
-blob,ash,smog horror
-blob,bear,gummy bear
+blob,blob,shoggoth
+blob,blood,blood imp
+blob,bone,undead slime
+blob,camouflage,d-3000
+blob,cartoon,oozer
+blob,cat,fat cat
+blob,chinchilla,alien beastie
+blob,cursed,undead slime
 blob,death,undead slime
 blob,demon,undead slime
+blob,desert,alien mob boss
 blob,destruction,smog horror
+blob,dragon,dragon fire
 blob,earth,mudslide
 blob,energy,pb & jelly time
+blob,extraterrestrial,the ooze
+blob,fairy,bumpy princess
+blob,fire,dragon fire
 blob,fish,moon jellyfish
 blob,food,pb & jelly time
+blob,galaxy wars,alien mob boss
+blob,giant,smog horror
 blob,golem,slime warrior
 blob,halloween,undead slime
+blob,hammer,slime warrior
+blob,healing,evil symbiote
 blob,holidays,fruit cake
+blob,holy water,gelmancer
+blob,horn,snoring monster
 blob,horse,gummy duo
 blob,human,gummy duo
+blob,hybrid,evil symbiote
+blob,immortality,the ooze
 blob,insect,mind slug
+blob,invention,d-3000
 blob,knight,slime warrior
 blob,knowledge,mind slug
 blob,leader,bumpy princess
+blob,madness,evil symbiote
 blob,magic,gelmancer
+blob,martial arts,hungry panda hero
+blob,medieval,fat king
 blob,metal,d-3000
+blob,mind control,entropic magic
+blob,miniature,flapjack octopus
 blob,monster,smog horror
 blob,moon,moon jellyfish
+blob,multiples,shoggoth
+blob,music,hypnotic singer
+blob,mutation,cyborg alien mutant
 blob,myth,shoggoth
+blob,parasite,evil symbiote
+blob,pocket pet,hypnotic singer
 blob,poison,smog horror
 blob,prehistoric,fossil
+blob,psychic,mind slug
 blob,radiation,the ooze
 blob,rainbow,gelmancer
 blob,robot,d-3000
-blob,science,d-3000
+blob,royal game,fat king
+blob,royalty,bumpy princess
 blob,sci-fi,the ooze
+blob,science,d-3000
+blob,sidekick,oozer
+blob,sleep,snoring monster
 blob,snake,gummy worm
-blob,spirit,oozer
 blob,space,bumpy princess
+blob,speed,quicksand
 blob,spirit,oozer
 blob,strength,smog horror
+blob,sun,radioactive avenger
 blob,superhero,puff hero
+blob,sweets,fluff puff
+blob,the chosen one,hypnotic singer
 blob,time,pb & jelly time
 blob,toy,gummy duo
 blob,tree,fossil
 blob,trident,slime warrior
+blob,turkey day,greed
 blob,undead,undead slime
-blob,villian,evil symbiote
+blob,underground,quicksand
+blob,underwater,moon jellyfish
+blob,villain,evil symbiote
 blob,void,shoggoth
+blob,war,slime warrior
 blob,water,mudslide
 blob,water serpent,gummy worm
 blob,wealth,alien mob boss
@@ -278,150 +1018,724 @@ blob,weapon,slime warrior
 blob,wind,puff hero
 blob,wings,puff hero
 blob,wizard,gelmancer
+blob,wizarding school,mandrake
+blood,blood,blood bros
+blood,bone,skeletal vampire
+blood,cartoon,vampire queen
+blood,cat,sekhmet
+blood,chinchilla,vampchilla
+blood,cursed,dracula
+blood,demon,blood imp
+blood,desert,sekhmet
+blood,destruction,sekhmet
+blood,dragon,fireblood dragon
+blood,earth,dwarf
+blood,elf,mana elf
+blood,energy,bloodlust
+blood,fairy,blood imp
+blood,fairy tale,bluebeard
+blood,fire,fireblood dragon
+blood,fish,tongue parasite
+blood,food,bloody mary
+blood,galaxy wars,blue fizz refresher
+blood,halloween,bloody mary
+blood,healing,unicorn blood
+blood,holy water,sekhmet
+blood,horn,unicorn blood
+blood,horse,unicorn blood
+blood,human,blood bros
+blood,hybrid,half-blood professor
+blood,ice,cold hearted
+blood,immortality,blood bath
+blood,insect,mosquito
+blood,invention,nanobots
+blood,knight,vampire knight
+blood,knowledge,blood analyst
+blood,leader,vampire queen
+blood,life,blood bath
+blood,love,blood bros
+blood,madness,bloodlust
+blood,magic,blood mage
+blood,martial arts,sunwalker vampire
+blood,medieval,vampire knight
+blood,metal,vampire knight
+blood,mind control,bloodlust
+blood,miniature,blood imp
+blood,monkey,monkey planet
+blood,monster,bloody prom queen
+blood,moon,blood moon
+blood,multiples,vampire coven
+blood,music,vampire queen
+blood,myth,sekhmet
+blood,parasite,leech
+blood,plant,killer vegetables
+blood,poison,electric eel
+blood,prehistoric,mosquito
+blood,psychic,bloody prom queen
+blood,radiation,radiation sickness
+blood,rainbow,unicorn blood
+blood,relic,red violin
+blood,reptile,cold hearted
+blood,robot,d-3000
+blood,royal game,blue witch
+blood,royalty,vampire queen
+blood,sci-fi,bloody prom queen
+blood,science,blood analyst
+blood,sidekick,ball companion
+blood,sleep,bed bug
+blood,snake,cold hearted
+blood,space,blood moon
+blood,speed,bloodlust
+blood,spirit,bloody mary
+blood,strength,bloodlust
+blood,sun,sparkling vampire
+blood,superhero,sunwalker vampire
+blood,sweets,vamp crunch
+blood,sword,sunwalker vampire
+blood,the chosen one,bloody prom queen
+blood,turkey day,turkey
+blood,turtle,cold hearted
+blood,underwater,vampire squid
+blood,vampire,bloodlust
+blood,villain,dracula
+blood,void,bloody mary
+blood,war,bloodlust
+blood,water,tongue parasite
+blood,water serpent,cold hearted
+blood,wealth,dracula
+blood,weapon,sunwalker vampire
+blood,werewolf,werevamp
+blood,wings,blood angel
+blood,wizard,blood mage
+blood,wizarding school,unicorn blood
+blood,wolf,werevamp
+camouflage,cartoon,turtle warrior
+camouflage,chinchilla,ninchilla
+camouflage,cursed,dark swan
+camouflage,death,shadow people
+camouflage,demon,doll
+camouflage,desert,desert shrew
+camouflage,destruction,box special forces
+camouflage,dog,space dog
+camouflage,dragon,plant dragon
+camouflage,earth,swamp monster
+camouflage,energy,death ray
+camouflage,extraterrestrial,hunting alien
+camouflage,fairy,changeling
+camouflage,fairy tale,cheshire cat
+camouflage,fire,smoke screen
+camouflage,food,cursed apple
+camouflage,galaxy wars,bounty hunter clone
+camouflage,giant,mountain giant
+camouflage,golem,crying angel
+camouflage,halloween,trick or treater
+camouflage,hammer,trojan horse
+camouflage,healing,snake oil salesman
+camouflage,holidays,gingerbread warrior
+camouflage,holy water,holy grail
+camouflage,horn,rock dragon
+camouflage,horse,trojan horse
+camouflage,human,invisible dude
+camouflage,hybrid,mountain giant
+camouflage,ice,frost wolf
+camouflage,immortality,dorian gray
+camouflage,insect,leaf insect
+camouflage,invention,cybernetic humans
+camouflage,knight,sergeant arnold
+camouflage,knowledge,secret passage
+camouflage,life,holy grail
+camouflage,love,love potion
+camouflage,madness,cheshire cat
+camouflage,magic,shapeshifter
+camouflage,martial arts,smoke screen
+camouflage,medieval,holy grail
+camouflage,metal,d-3000
+camouflage,miniature,flapjack octopus
+camouflage,monkey,big foot
+camouflage,monster,dino hybrid
+camouflage,moon,death ray
+camouflage,multiples,many faced man
+camouflage,music,opera ghost
+camouflage,mutation,shifting mutant
+camouflage,parasite,arm parasite
+camouflage,plant,plant clones
+camouflage,pocket pet,plantasaur
+camouflage,poison,octopus
+camouflage,precious ring lore,lord of horses
+camouflage,prehistoric,dino hybrid
+camouflage,psychic,four eyed raven
+camouflage,radiation,stealth bomber
+camouflage,rainbow,chameleon
+camouflage,relic,death's gifts
+camouflage,reptile,chameleon
+camouflage,robot,transformobot
+camouflage,rodent,ninchilla
+camouflage,royal game,forestfolk
+camouflage,royalty,cinderella
+camouflage,sci-fi,invisible dude
+camouflage,science,dr. jekyll
+camouflage,sidekick,shifting mutant
+camouflage,sleep,cursed apple
+camouflage,snake,devil
+camouflage,space,alien reptile
+camouflage,speed,cheetah
+camouflage,spirit,opera ghost
+camouflage,strength,sergeant arnold
+camouflage,sun,death ray
+camouflage,superhero,sergeant arnold
+camouflage,sweets,pinata
+camouflage,sword,arm parasite
+camouflage,the chosen one,the ring courier
+camouflage,time,d-3000
+camouflage,toy,action figure
+camouflage,tree,treant
+camouflage,turtle,turtle warrior
+camouflage,undead,kung fu zombie
+camouflage,underground,secret passage
+camouflage,underwater,octopus
+camouflage,vampire,human
+camouflage,vehicle,transformobot
+camouflage,villain,shifting mutant
+camouflage,void,shadow people
+camouflage,war,box special forces
+camouflage,water,octopus
+camouflage,water serpent,octopus
+camouflage,wealth,precious ring
+camouflage,weapon,precious ring
+camouflage,werewolf,wolf in sheep duds
+camouflage,wind,stealth bomber
+camouflage,wings,stealth bomber
+camouflage,wizard,shapeshifter
+camouflage,wizarding school,death's gifts
+camouflage,wolf,wolf in sheep duds
+cartoon,cat,meowmon
+cartoon,chinchilla,pikamon
+cartoon,cursed,cursed aztec prince
+cartoon,death,mr. beetleson
+cartoon,demon,skeleton overlord
+cartoon,desert,desert shrew
+cartoon,destruction,titan of destruction
+cartoon,dog,jack the dog
+cartoon,dragon,ember
+cartoon,earth,planet commander
+cartoon,elf,blue folk
+cartoon,energy,pikamon
+cartoon,extraterrestrial,bumpy princess
+cartoon,fairy,fairy godmother
+cartoon,fairy tale,ogre princess
+cartoon,fire,ember
+cartoon,fish,magicod
+cartoon,food,food squad
+cartoon,galaxy wars,chin trooper
+cartoon,giant,snoring monster
+cartoon,golem,gargoyle
+cartoon,halloween,mr. beetleson
+cartoon,hammer,hammer time
+cartoon,healing,healthbot hero
+cartoon,holidays,rudolph
+cartoon,holy water,medic
+cartoon,horn,speed demon
+cartoon,horse,my mini horse
+cartoon,human,adventure kid
+cartoon,hybrid,fused martial artists
+cartoon,ice,bubbles,
+cartoon,immortality,mumbling kid
+cartoon,insect,mr. beetleson
+cartoon,invention,rex's lab
+cartoon,knight,sword prince
+cartoon,knowledge,rex's lab
+cartoon,leader,sensei rat
+cartoon,life,gummy duo
+cartoon,love,moon heroine
+cartoon,madness,ice king
+cartoon,magic,skeleton overlord
+cartoon,martial arts,samurai hero
+cartoon,medieval,bouncy bears
+cartoon,metal,transformobot
+cartoon,mind control,hypnoturtle
+cartoon,miniature,protozoan villain
+cartoon,monkey,momo x
+cartoon,monster,skeleton overlord
+cartoon,moon,moon heroine
+cartoon,multiples,villain groupies
+cartoon,music,gem
+cartoon,mutation,mutated rhino
+cartoon,parasite,mind slug
+cartoon,plant,killer vegetables
+cartoon,pocket pet,astro gang
+cartoon,poison,radioactive avenger
+cartoon,prehistoric,pup
+cartoon,psychic,professor y
+cartoon,radiation,radioactive avenger
+cartoon,rainbow,rainbow girl
+cartoon,relic,omni igniter
+cartoon,reptile,ember
+cartoon,robot,catron
+cartoon,rodent,genius and insane
+cartoon,royalty,master dueler
+cartoon,sci-fi,rex's lab
+cartoon,science,rex's lab
+cartoon,sidekick,pikamon
+cartoon,sleep,snoring monster
+cartoon,snake,general viper
+cartoon,space,bumpy princess
+cartoon,speed,speed demon
+cartoon,spirit,mr. beetleson
+cartoon,strength,healthy hero
+cartoon,superhero,planet commander
+cartoon,sweets,candy princess
+cartoon,sword,stormcat
+cartoon,the chosen one,master dueler
+cartoon,time,professor beagle
+cartoon,toy,my mini horse
+cartoon,turtle,turtle warrior
+cartoon,undead,mr. beetleson
+cartoon,underground,turtle warrior
+cartoon,underwater,robert sponge
+cartoon,vampire,nosferatu duck
+cartoon,vehicle,burgermobile
+cartoon,villain,the grater
+cartoon,void,brain warlord
+cartoon,war,winter assassin
+cartoon,water,robert sponge
+cartoon,wealth,uncle duck
+cartoon,weapon,sword prince
+cartoon,werewolf,nine tails ninja
+cartoon,wind,windmaster eng
+cartoon,wings,angel kid
+cartoon,wizard,skeleton overlord
+cartoon,wizarding school,death's gifts
+cartoon,wolf,hungry coyote
+cat,cat,catron
+cat,chinchilla,cat and mouse
+cat,cursed,black cat
+cat,death,sphinx
 cat,demon,black cat
+cat,desert,sphinx
+cat,destruction,catapult
+cat,dog,doomsday omen
 cat,dragon,manticore
 cat,earth,sphinx
+cat,elf,animal whisperer
 cat,energy,stormcat
+cat,extraterrestrial,stormcat
+cat,fairy,crazy cat person
+cat,fairy tale,cheshire cat
+cat,fire,nine tailed fox
 cat,fish,catfish
 cat,food,pastry cat
+cat,galaxy wars,aquatic alien
+cat,giant,catron
 cat,golem,sphinx
 cat,halloween,black cat
+cat,hammer,hammertron
+cat,healing,sekhmet
+cat,holy water,sekhmet
 cat,human,crazy cat person
+cat,hybrid,manticore
 cat,ice,sabertooth cat
 cat,insect,manticore
+cat,invention,panther hero
 cat,knight,stormcat
 cat,knowledge,meowmon
 cat,leader,lion
+cat,life,sekhmet
 cat,love,hey cat
+cat,madness,crazy cat person
 cat,magic,pastry cat
 cat,medieval,griffin
 cat,metal,catron
+cat,mind control,cute charm
 cat,monster,manticore
+cat,moon,black cat
+cat,multiples,catron
+cat,mutation,shade kitten
 cat,myth,manticore
+cat,parasite,flea
+cat,plant,pet plant
+cat,pocket pet,meowmon
 cat,poison,manticore
 cat,prehistoric,sabertooth cat
+cat,psychic,psychic clone
+cat,radiation,manticore
 cat,rainbow,pastry cat
 cat,robot,catron
+cat,rodent,cat and mouse
+cat,royal game,king killer
+cat,royalty,panther hero
 cat,sci-fi,catron
+cat,sidekick,meowmon
+cat,sleep,cat nap
 cat,space,pastry cat
+cat,speed,cheetah
 cat,strength,lion
+cat,sun,cat nap
 cat,superhero,stormcat
+cat,sweets,pastry cat
 cat,sword,stormcat
+cat,the chosen one,stormcat
 cat,time,sphinx
 cat,toy,hey cat
 cat,tree,catapult
-cat,villian,meowmon
+cat,trident,stormcat
+cat,underwater,catfish
+cat,vampire,flea
+cat,vehicle,catron
+cat,villain,meowmon
 cat,void,black cat
+cat,war,catapult
 cat,water,catfish
 cat,water serpent,catfish
 cat,wealth,fat cat
 cat,weapon,catapult
+cat,werewolf,sabertooth cat
 cat,wings,manticore
+cat,wizard,black cat
+cat,wizarding school,transmutation
+cat,wolf,sabertooth cat
+chinchilla,cursed,vampchilla
+chinchilla,death,chinzombie
+chinchilla,demon,gremlin
+chinchilla,desert,dust bath
+chinchilla,destruction,chinzilla
+chinchilla,earth,dust bath
 chinchilla,energy,pikamon
+chinchilla,extraterrestrial,alien beastie
+chinchilla,fairy,flying squirrel
+chinchilla,fairy tale,wiz's apprentice
 chinchilla,fish,shark rider
 chinchilla,food,gremlin
+chinchilla,galaxy wars,chin trooper
+chinchilla,giant,chinzilla
 chinchilla,halloween,chinzombie
+chinchilla,hammer,cat and mouse
+chinchilla,healing,care chilla
+chinchilla,holy water,chinchilla knight
+chinchilla,horn,chinchillalope
+chinchilla,hybrid,chinchillalope
+chinchilla,immortality,vampchilla
+chinchilla,invention,bionic chinchilla
 chinchilla,knight,chinchilla knight
 chinchilla,knowledge,wiz's apprentice
+chinchilla,leader,candy king chin
 chinchilla,life,care chilla
 chinchilla,love,care chilla
+chinchilla,madness,genius and insane
 chinchilla,magic,wiz's apprentice
+chinchilla,martial arts,ninchilla
 chinchilla,medieval,chinchilla knight
 chinchilla,metal,bionic chinchilla
+chinchilla,mind control,cute charm
+chinchilla,miniature,pikamon
+chinchilla,monkey,koala
 chinchilla,monster,chinzilla
 chinchilla,moon,ninchilla
+chinchilla,multiples,chin trooper
 chinchilla,music,mozart chin
+chinchilla,mutation,chinzilla
 chinchilla,myth,gremlin
+chinchilla,parasite,vampchilla
+chinchilla,plant,pet plant
+chinchilla,pocket pet,bone chin
+chinchilla,precious ring lore,forest chinchillas
 chinchilla,prehistoric,saberchilla
+chinchilla,psychic,animal whisperer
 chinchilla,radiation,chinzilla
 chinchilla,rainbow,care chilla
 chinchilla,reptile,gremlin
 chinchilla,robot,bionic chinchilla
-chinchilla,science,bionic chinchilla
+chinchilla,royalty,candy king chin
 chinchilla,sci-fi,chin trooper
+chinchilla,science,bionic chinchilla
+chinchilla,sidekick,wiz's apprentice
 chinchilla,space,aviator chin
+chinchilla,speed,swift the chin
+chinchilla,spirit,rat reaper
 chinchilla,strength,bionic chinchilla
 chinchilla,superhero,wonderful chin
+chinchilla,sweets,candy king chin
 chinchilla,sword,ninchilla
+chinchilla,the chosen one,wiz's apprentice
+chinchilla,time,chinzombie
 chinchilla,toy,stuffed plushie
+chinchilla,tree,flying squirrel
+chinchilla,trident,chinchillalope
 chinchilla,turkey day,pilgrim chin
+chinchilla,turtle,sensei rat
 chinchilla,undead,chinzombie
+chinchilla,underground,dust bath
+chinchilla,underwater,chin cousteau
 chinchilla,vampire,vampchilla
-chinchilla,villian,gremlin
+chinchilla,vehicle,shark rider
+chinchilla,villain,gremlin
 chinchilla,void,ninchilla
+chinchilla,war,chinchilla knight
 chinchilla,water,gremlin
+chinchilla,water serpent,beaver
 chinchilla,weapon,bionic chinchilla
 chinchilla,wind,aviator chin
 chinchilla,wings,aviator chin
 chinchilla,wizard,wiz's apprentice
+chinchilla,wizarding school,transmutation
+cursed,death,egyptian tomb
+cursed,demon,demon hero
+cursed,desert,egyptian tomb
+cursed,destruction,precious ring
+cursed,dog,scylla
+cursed,dragon,dragon princess
+cursed,earth,egyptian tomb
+cursed,elf,banshee empress
+cursed,energy,vengeful spirit
+cursed,extraterrestrial,great wereape
+cursed,fairy tale,cursed apple
+cursed,fire,the cursed chosen
+cursed,fish,cursed garden
+cursed,food,cursed apple
+cursed,galaxy wars,dark space lord
+cursed,giant,atlas
+cursed,golem,ogre princess
+cursed,halloween,headless rider
+cursed,hammer,WMD
+cursed,healing,unicorn blood
+cursed,holidays,nutcracker
+cursed,horn,demon hero
+cursed,horse,cursed aztec prince
+cursed,human,voodoo doll
+cursed,hybrid,demon hero
+cursed,ice,lich blade
+cursed,immortality,davy jones
+cursed,insect,arachne
+cursed,invention,belphegor
+cursed,knight,the cursed chosen
+cursed,knowledge,cursed apple
+cursed,leader,banshee empress
+cursed,life,pandora's box
+cursed,love,cold hearted
+cursed,madness,crazy eyed wizard
+cursed,magic,cursed monkey paw
+cursed,martial arts,ninja sorcerer
+cursed,medieval,ogre princess
+cursed,metal,lich blade
+cursed,mind control,cursed will
+cursed,miniature,precious ring
+cursed,monkey,cursed monkey paw
+cursed,monster,monster & beauty
+cursed,moon,werewolf
+cursed,multiples,vampire coven
+cursed,music,cursed flute
+cursed,mutation,frog prince
+cursed,myth,prometheus
+cursed,parasite,lich blade
+cursed,plant,cursed garden
+cursed,pocket pet,bone chin
+cursed,poison,cursed apple
+cursed,precious ring lore,precious ring
+cursed,psychic,lich blade,
+cursed,rainbow,unicorn blood
+cursed,relic,cursed monkey paw
+cursed,reptile,dragon princess
+cursed,robot,computer bug
+cursed,rodent,vampchilla
+cursed,royal game,ice zombie king
+cursed,royalty,frog prince
+cursed,sci-fi,dr. jekyll
+cursed,science,dr. jekyll
+cursed,sleep,sleeping princess
+cursed,snake,medusa
+cursed,space,great wereape
+cursed,speed,vengeful spirit
+cursed,spirit,vengeful spirit
+cursed,strength,demon hero
+cursed,sun,the cursed chosen
+cursed,superhero,demon hero
+cursed,sword,lich blade
+cursed,the chosen one,dragonkin ninja
+cursed,time,groundhog
+cursed,toy,voodoo doll
+cursed,tree,cursed flute
+cursed,turkey day,carver of doom
+cursed,turtle,kappa
+cursed,undead,banshee empress
+cursed,underground,egyptian tomb
+cursed,underwater,davy jones
+cursed,vampire,skeletal vampire
+cursed,vehicle,demonic bike
+cursed,villain,ninja sorcerer
+cursed,void,pandora's box
+cursed,war,ghost army
+cursed,water,frog prince
+cursed,water serpent,dragon princess
+cursed,wealth,pirate booty
+cursed,weapon,lich blade
+cursed,werewolf,young wolf
+cursed,wind,cursed flute
+cursed,wings,blood angel
+cursed,wizard,ninja sorcerer
+cursed,wizarding school,cursed will
+cursed,wolf,werewolf
+death,desert,vulture
+death,destruction,soul harvester
 death,dragon,skeletal dragon
 death,earth,tombstone
 death,energy,ghost
+death,fairy tale,bluebeard
 death,fire,demon
 death,fish,blowfish
 death,food,vulture
+death,galaxy wars,space ghosts
+death,giant,gashadokuro
 death,halloween,ghost
+death,healing,dr. frankenstein
 death,holidays,pumpkin prince
+death,horn,hades
 death,horse,death's horse
 death,human,ghost
+death,hybrid,anubis
+death,immortality,philosopher's stone
 death,insect,black widow
+death,invention,dr. frankenstein
 death,knight,undead knight
 death,knowledge,necromancer
 death,leader,necromancer
 death,life,undead
 death,love,black widow
+death,madness,puzzle master
 death,magic,undead
+death,martial arts,spectre ninja
+death,medieval,black death
 death,metal,death metal
+death,mind control,entropic magic
+death,monkey,monkey planet
 death,monster,wraith
+death,multiples,many faced man
 death,music,death metal
+death,mutation,mutant destroyer
 death,myth,hades
+death,parasite,wraith
+death,plant,zombie fungus
+death,pocket pet,bone chin
+death,poison,black mamba
+death,precious ring lore,wraith
 death,prehistoric,meteor
+death,psychic,shadow prophet
+death,radiation,radiation sickness
+death,relic,necrocomicon
 death,reptile,basilisk
-death,science,death ray
+death,rodent,rat reaper
+death,royal game,wight
+death,royalty,the bone king
 death,sci-fi,death ray
+death,science,death ray
+death,sidekick,igor
+death,sleep,nightmare stalker
+death,snake,medusa
 death,space,black hole
+death,speed,wraith
 death,spirit,soul harvester
 death,strength,undead knight
 death,sun,black hole
 death,superhero,the reaper
 death,sword,scythe
+death,the chosen one,zombie hunter
+death,toy,voodoo doll
+death,tree,mistletoe
 death,turkey day,turkey zombie
 death,turtle,parched skeleton
+death,underground,tombstone
+death,underwater,fish bone
+death,vehicle,demonic bike
+death,villain,soul harvester
+death,war,ghost army
 death,water,poison
 death,wealth,mummy
 death,weapon,scythe
+death,werewolf,silver bullet
 death,wind,poison
 death,wings,vulture
 death,wizard,necromancer
+death,wizarding school,death's gifts
+demon,desert,cactus demon
+demon,destruction,cthulhu
+demon,dog,cerberus
 demon,dragon,devil
+demon,earth,gargoyle
 demon,elf,goblin
 demon,fairy,imp
+demon,fairy tale,rumpelstiltskin
 demon,fire,devil
 demon,fish,naga queen
+demon,food,sugar demon
+demon,galaxy wars,dark apprentice
+demon,giant,colossal demon
+demon,golem,voidwalker
 demon,halloween,devil
+demon,healing,ravenica
 demon,holidays,pinch
+demon,holy water,fire,
+demon,horn,ravenica
+demon,horse,headless rider
+demon,human,inner demons
+demon,hybrid,nephilim
 demon,ice,ice imp
+demon,immortality,devil
 demon,insect,mosquito
+demon,invention,belphegor
+demon,knight,demonite
 demon,knowledge,devil
 demon,leader,devil
+demon,life,blood imp
 demon,love,green eyed monster
+demon,madness,inner demons
+demon,martial arts,dragonkin ninja
 demon,medieval,devil
 demon,metal,robot devil
+demon,mind control,possession
+demon,miniature,conscience
 demon,monkey,cymbal monkey
+demon,monster,colossal demon
 demon,moon,bogeyman
+demon,multiples,commander of sin
 demon,music,siren
+demon,mutation,teleporting acrobat
 demon,myth,cthulhu
+demon,parasite,soul stealer
+demon,plant,sinister gourdling
+demon,pocket pet,specter
+demon,poison,serpent cultist
+demon,precious ring lore,fiery shadow demon
+demon,prehistoric,cthulhu
+demon,psychic,belphegor
 demon,rainbow,clown
+demon,relic,necrocomicon
 demon,reptile,serpent cultist
 demon,robot,robot devil
+demon,rodent,zombie chipmunk
+demon,royal game,blue witch
+demon,royalty,demon queen
 demon,sci-fi,xenomorph
+demon,science,robot devil
+demon,sidekick,voidwalker
+demon,sleep,demon queen
+demon,snake,devil
+demon,space,xenomorph
+demon,speed,speed demon
 demon,spirit,soul stealer
 demon,strength,demonite
 demon,superhero,demonite
+demon,sweets,sugar demon
+demon,sword,claymore of doom
+demon,the chosen one,vampire assassin
 demon,toy,doll
 demon,trident,devil
-demon,villian,devil
+demon,turkey day,turkey zombie
+demon,turtle,kappa
+demon,underground,devil
+demon,underwater,cthulhu
+demon,vampire,demon queen
+demon,vehicle,clown car
+demon,villain,devil
 demon,void,void fiend
+demon,war,commander of sin
 demon,water,ice imp
 demon,water serpent,cthulhu
 demon,wealth,greed
@@ -429,731 +1743,2249 @@ demon,weapon,precious ring
 demon,wind,harpy
 demon,wings,devil
 demon,wizard,warlock
-destruction,ash,sandstorm
-destruction,bat,space moth
-destruction,bear,dire bear
-destruction,bird,turkeyzilla
-destruction,cat,catapult
-destruction,chinchilla,chinzilla
-destruction,death,soul harvester
-destruction,demon,cthulhu
+demon,wizarding school,pixies
+demon,wolf,nine tails ninja
+desert,desert,sandstorm
+desert,destruction,sandstorm
+desert,dog,anubis
+desert,dragon,amphisbaena
+desert,earth,egyptian tomb
+desert,elf,jama
+desert,extraterrestrial,jama
+desert,fairy tale,genie
+desert,fire,sun burn
+desert,galaxy wars,sand raider
+desert,giant,grabbers
+desert,golem,sandman
+desert,halloween,mummy
+desert,healing,sekhmet
+desert,holy water,sekhmet
+desert,horn,cactus demon
+desert,horse,camel
+desert,human,sand warrior
+desert,hybrid,cactus demon
+desert,ice,water
+desert,insect,scorpion lord
+desert,invention,dark space lord
+desert,knight,sand warrior
+desert,knowledge,geomancer
+desert,leader,scorpion lord
+desert,life,sandman
+desert,madness,desert pirate
+desert,magic,genie,
+desert,metal,jama
+desert,mind control,evil vizier
+desert,miniature,pygmy jerboa
+desert,monster,sandman
+desert,multiples,amphisbaena
+desert,music,rattlesnake
+desert,mutation,sandman
+desert,myth,amphisbaena
+desert,plant,cactus demon
+desert,pocket pet,desert shrew
+desert,poison,rattlesnake
+desert,prehistoric,fossil
+desert,radiation,desert pirate
+desert,rainbow,oasis
+desert,reptile,rattlesnake
+desert,robot,jama
+desert,rodent,desert shrew
+desert,royal game,poisonous prince
+desert,royalty,persian royalty
+desert,sci-fi,grabbers
+desert,sidekick,genie
+desert,sleep,mister sandman
+desert,snake,rattlesnake
+desert,space,sand raider
+desert,speed,magic carpet
+desert,spirit,genie
+desert,strength,sandman
+desert,sun,sun burn
+desert,superhero,persian royalty
+desert,sword,sand warrior
+desert,the chosen one,dark space lord
+desert,time,persian royalty
+desert,tree,oasis
+desert,trident,sand raider
+desert,turtle,parched skeleton
+desert,undead,mummy
+desert,underground,egyptian tomb
+desert,vehicle,magic carpet
+desert,villain,evil vizier
+desert,void,quicksand
+desert,war,sekhmet
+desert,water,oasis
+desert,wealth,golden scarab
+desert,weapon,gunslinger
+desert,werewolf,hungry coyote
+desert,wind,sandstorm
+desert,wings,amphisbaena
+desert,wizard,evil vizier
+desert,wolf,hungry coyote
 destruction,destruction,armageddon
 destruction,dragon,bahamut
 destruction,earth,earthquake
+destruction,elf,demonic elf
 destruction,energy,laser
+destruction,extraterrestrial,cyborg alien mutant
 destruction,fairy,chaos sprite
+destruction,fairy tale,big bad wolf
 destruction,fire,wildfire
 destruction,fish,sharkstorm
 destruction,food,fluff puff
+destruction,galaxy wars,death ray
+destruction,giant,titan of destruction
 destruction,golem,titan of destruction
 destruction,halloween,headless rider
 destruction,hammer,unstoppable force
+destruction,healing,philosopher's stone
 destruction,holidays,pinch
 destruction,holy water,armageddon
+destruction,horn,colossal demon
 destruction,horse,apocalypse rider
 destruction,human,war god
+destruction,hybrid,sharkstorm
 destruction,ice,avalanche
+destruction,immortality,bolo
 destruction,insect,space moth
+destruction,invention,dragon fire
 destruction,knight,chaos champion
 destruction,knowledge,book burner
 destruction,leader,world eater
 destruction,life,virus
 destruction,love,green eyed monster
+destruction,madness,mad bomber
 destruction,magic,crimson witch
 destruction,medieval,black death
 destruction,metal,unstoppable force
+destruction,mind control,entropic magic
+destruction,miniature,pixies
 destruction,monkey,kongar
 destruction,monster,bahamut
+destruction,moon,moonflare
+destruction,multiples,zombie outbreak
 destruction,music,conch shell of doom
+destruction,mutation,cyborg alien mutant
 destruction,myth,philosopher's stone
+destruction,parasite,world eater
+destruction,plant,cursed apple
+destruction,pocket pet,astro gang
 destruction,poison,poison cloud
+destruction,precious ring lore,ring lord
 destruction,prehistoric,meteor
+destruction,psychic,bloody prom queen
 destruction,radiation,bomb
 destruction,rainbow,laser
+destruction,relic,ancient ark
 destruction,reptile,gorezilla
 destruction,robot,alphatron
-destruction,science,death ray
+destruction,rodent,black death
+destruction,royal game,dragon fire
+destruction,royalty,ice queen
 destruction,sci-fi,the ooze
+destruction,science,death ray
+destruction,sidekick,jester sidekick
+destruction,sleep,nightmare stalker
 destruction,snake,grabbers
 destruction,space,world eater
+destruction,speed,armageddon
 destruction,spirit,ancient ark
 destruction,strength,titan of destruction
 destruction,sun,death ray
 destruction,superhero,crimson witch
+destruction,sweets,cavities
 destruction,sword,claymore of doom
+destruction,the chosen one,dragon incarnate
 destruction,time,paradox
+destruction,toy,voodoo doll
 destruction,tree,catapult
 destruction,trident,devil
 destruction,turkey day,turkeyzilla
+destruction,turtle,primeval turtle
 destruction,undead,zombie outbreak
-destruction,villian,alphatron
+destruction,underground,earthquake
+destruction,underwater,cthulhu
+destruction,vehicle,death ray
+destruction,villain,alphatron
 destruction,void,black hole
+destruction,war,maelstrom
 destruction,water,maelstrom
 destruction,water serpent,kraken
 destruction,wealth,precious ring
 destruction,weapon,unstoppable force
+destruction,werewolf,claws
 destruction,wind,cyclone
 destruction,wings,space moth
 destruction,wizard,crimson witch
+destruction,wizarding school,pixies
 destruction,wolf,werewolf
-dog,angel,heavenly dog
-dog,arcade,morphed beast
-dog,ash,siberian husky
-dog,death,anubis
-dog,demon,cerberus
 dog,dog,puppy love
+dog,elf,animal whisperer
+dog,energy,morphed beast
+dog,extraterrestrial,space dog
+dog,fairy,puppy love
+dog,fairy tale,big bad wolf
 dog,fire,hot dog
 dog,fish,scylla
 dog,food,hot dog
+dog,giant,cerberus
 dog,golem,anubis
 dog,halloween,werewolf
 dog,holy water,heavenly dog
+dog,horn,wolf warrior
 dog,human,anubis
+dog,hybrid,bear dog
 dog,ice,siberian husky
+dog,immortality,anubis
+dog,insect,flea
+dog,invention,professor beagle
+dog,knight,jack the dog
 dog,knowledge,professor beagle
 dog,leader,alpha
 dog,love,puppy love
+dog,madness,insanity wolf
 dog,magic,jack the dog
 dog,metal,k-9000
+dog,mind control,cute charm
+dog,miniature,puppy love
 dog,monster,scylla
+dog,moon,night children
+dog,multiples,cerberus
 dog,music,night children
+dog,mutation,dr. savage
 dog,myth,cerberus
+dog,parasite,flea
+dog,plant,pet plant
+dog,pocket pet,ninja doge
+dog,precious ring lore,shapeshifting chief
 dog,prehistoric,pup
+dog,psychic,stockbroker wolf
 dog,radiation,hot dog
 dog,rainbow,puppy love
+dog,relic,anubis
 dog,robot,k-9000
-dog,science,professor beagle
+dog,royal game,cranky knight
+dog,royalty,northern king
 dog,sci-fi,space dog
+dog,science,professor beagle
+dog,sidekick,jack the dog
 dog,space,space dog
+dog,speed,k-9000
 dog,spirit,spirit wolf
 dog,strength,amazing dog
 dog,sun,hot dog
 dog,superhero,amazing dog
 dog,sword,jack the dog
+dog,the chosen one,nine tails ninja
 dog,time,professor beagle
 dog,toy,k-9000
 dog,trident,scylla
 dog,undead,anubis
+dog,underground,cerberus
+dog,underwater,seal
+dog,vampire,flea
+dog,villain,scylla
 dog,void,space dog
+dog,war,wolf battering ram
 dog,water,sea dog
 dog,water serpent,scylla
 dog,wealth,stockbroker wolf
 dog,weapon,space dog
+dog,werewolf,siberian husky
 dog,wind,spirit wolf
 dog,wings,heavenly dog
 dog,wizard,jack the dog
+dog,wizarding school,transmutation
 dog,wolf,siberian husky
 dragon,dragon,hydra
 dragon,fairy,dragon fairy
+dragon,fairy tale,dragon princess
 dragon,fish,cthulhu
+dragon,food,fire candy
+dragon,galaxy wars,aquatic alien
+dragon,giant,bahamut
 dragon,golem,gargoyle
+dragon,healing,dragon fairy
+dragon,horn,plague dragon
 dragon,human,ash
+dragon,hybrid,dragon turtle
 dragon,ice,frost dragon
+dragon,immortality,eternal dragon
 dragon,insect,dragonfly
+dragon,invention,dragon fire
 dragon,knight,dragon rider
 dragon,knowledge,devil
 dragon,leader,devil
+dragon,madness,the deranged king
 dragon,magic,puff
+dragon,martial arts,dragonkin ninja
 dragon,medieval,dragon rider
 dragon,metal,armored dragon
+dragon,mind control,alpha dragon
+dragon,miniature,ember
 dragon,monster,gorezilla
 dragon,moon,night dragon
+dragon,multiples,hydra
 dragon,music,puff
 dragon,myth,wyvern
+dragon,plant,plant dragon
+dragon,pocket pet,emberzard
 dragon,poison,poison dragon
+dragon,precious ring lore,smug
+dragon,prehistoric,gorezilla
+dragon,psychic,alpha dragon
 dragon,radiation,gorezilla
 dragon,rainbow,puff
+dragon,relic,fire sigil
 dragon,reptile,dragonkin
 dragon,robot,hydrabot
+dragon,royal game,dragon mother
+dragon,royalty,dragon princess
+dragon,sci-fi,gorezilla
 dragon,science,hydrabot
-dragon,sci-fi,hydrabot
+dragon,sleep,smug
 dragon,snake,wyvern
+dragon,space,night dragon
+dragon,speed,night dragon
 dragon,spirit,spectral dragon
 dragon,strength,gorezilla
+dragon,sun,emberzard
+dragon,superhero,eternal dragon
+dragon,sweets,fire candy
+dragon,the chosen one,dragon incarnate
 dragon,time,ancient dragon
 dragon,turtle,dragon turtle
 dragon,undead,skeletal dragon
-dragon,villian,smug
+dragon,underground,smug
+dragon,underwater,hydra
+dragon,vehicle,dragon rider
+dragon,villain,smug
 dragon,void,night dragon
+dragon,war,armored dragon
 dragon,water,water serpent
 dragon,water serpent,hydra
 dragon,wealth,smug
 dragon,weapon,dragon cannon
 dragon,wind,puff
 dragon,wizard,pyromancer
+dragon,wizarding school,austrian spiketail
 earth,earth,earthquake
+earth,elf,gnome
 earth,energy,earthquake
+earth,extraterrestrial,world eater
 earth,fairy,gnome
+earth,fairy tale,castle
 earth,fire,lava
+earth,food,candy nation
+earth,galaxy wars,carnivorous pit
+earth,giant,atlas
+earth,golem,rock slide
 earth,halloween,tombstone
+earth,hammer,miner
+earth,healing,mandrake
 earth,holidays,dreidel
+earth,horn,rock dragon
 earth,human,dwarf
 earth,ice,avalanche
+earth,immortality,thunder god
 earth,insect,earthworm
+earth,invention,alchemist
+earth,knight,planet commander
 earth,knowledge,geomancer
 earth,leader,gaia
 earth,life,golem
 earth,love,diamond ring
+earth,madness,the brown druid
 earth,magic,golem
+earth,martial arts,thunder god
 earth,medieval,castle
+earth,metal,metal golem
+earth,mind control,mind jewel
+earth,miniature,asteroid prince
 earth,monkey,monkey king
 earth,monster,swamp monster
+earth,moon,moon golem
+earth,multiples,multiverse
 earth,music,pan
+earth,mutation,diamond queen
 earth,myth,gaia
+earth,parasite,world eater
+earth,plant,mandrake
+earth,pocket pet,geode
+earth,precious ring lore,the brown druid
 earth,prehistoric,triceratops
+earth,psychic,psychic elementalist
+earth,rainbow,cave monkeys
+earth,relic,worship stones
 earth,reptile,world turtle
-earth,science,great wall
-earth,snake,grabbers
+earth,rodent,groundhog
+earth,royal game,lady revenant
+earth,royalty,asteroid prince
 earth,sci-fi,swamp monster
+earth,science,great wall
+earth,sidekick,moon
+earth,sleep,mister sandman
+earth,snake,grabbers
 earth,space,planet
+earth,speed,quicksand
 earth,spirit,tombstone
 earth,strength,sandstorm
 earth,superhero,rock slide
+earth,sweets,candy nation
 earth,sword,hammer
+earth,the chosen one,battle prodigy
 earth,time,fossil
 earth,toy,building blocks
+earth,trident,farmer
 earth,turkey day,plymouth rock
-earth,villian,grabbers
+earth,turtle,world turtle
+earth,undead,mummy
+earth,underground,quicksand
+earth,underwater,atlantis
+earth,vampire,killer plant
+earth,vehicle,stonemobile
+earth,villain,grabbers
+earth,void,burrowling
+earth,war,terracotta army
 earth,water,tree
 earth,wealth,diamond ring
 earth,weapon,spider mine
 earth,wind,sandstorm
 earth,wizard,geomancer
+earth,wizarding school,mandrake
 earth,wolf,gargoyle
+elf,energy,elven power elixir
+elf,extraterrestrial,space elf
+elf,fairy,blue folk
+elf,fairy tale,rumpelstiltskin
+elf,fire,mana elf
 elf,fish,naga queen
 elf,food,elf baker
+elf,galaxy wars,master y
 elf,halloween,leprechaun
+elf,healing,elf wizard
 elf,holidays,santa's helper
+elf,horn,demonic elf
+elf,horse,animal whisperer
+elf,hybrid,half-fairy
 elf,ice,santa's helper
+elf,immortality,eternal child
+elf,insect,stinger
+elf,invention,santa's helper
 elf,knight,legendary hero
 elf,knowledge,elf wizard
 elf,leader,elf king
 elf,life,elf wizard
+elf,love,cupid
+elf,madness,precious ring bearer
 elf,magic,elf wizard
+elf,martial arts,dark elf
 elf,medieval,elf warrior
+elf,metal,precious ring bearer
+elf,mind control,banshee empress
+elf,miniature,blue folk
+elf,monkey,animal whisperer
 elf,monster,goblin
+elf,moon,dark elf
+elf,multiples,fair princess
 elf,music,pied piper
+elf,mutation,flying goblin
 elf,myth,santa's helper
+elf,parasite,mana drainer
+elf,plant,forest elf
+elf,precious ring lore,elf king
+elf,prehistoric,forestfolk
+elf,relic,stinger
 elf,reptile,lizard rider
+elf,rodent,pied piper
+elf,royal game,forestfolk
+elf,royalty,elf king
 elf,sci-fi,space elf
+elf,science,space elf
+elf,sidekick,space elf
+elf,sleep,fair princess
 elf,space,space elf
+elf,spirit,vial of stars
 elf,strength,elf warrior
 elf,superhero,legendary hero
+elf,sweets,elf baker
 elf,sword,legendary hero
+elf,the chosen one,legendary hero
 elf,time,legendary hero
 elf,toy,santa's helper
-elf,villian,dark elf
+elf,tree,forestfolk
+elf,trident,naga queen
+elf,turkey day,pilgrim
+elf,turtle,lizard rider
+elf,underground,precious ring bearer
+elf,underwater,naga queen
+elf,vehicle,lizard rider
+elf,villain,dark elf
 elf,void,dark hero
+elf,war,elf warrior
+elf,water,naga queen
 elf,water serpent,naga queen
 elf,wealth,rumpelstiltskin
 elf,weapon,legendary hero
+elf,wind,banshee empress
 elf,wizard,elf wizard
+elf,wizarding school,elf servant
+energy,extraterrestrial,master y
 energy,fire,fireworks
 energy,fish,electric eel
 energy,food,blue bull
+energy,galaxy wars,nanopower
+energy,giant,talos
+energy,golem,static beast
+energy,halloween,sugar demon
 energy,hammer,thor's hammer
+energy,healing,acupuncturist
 energy,holidays,holiday lights
+energy,holy water,armageddon
+energy,horn,energy generator
 energy,horse,car
+energy,human,human battery
+energy,hybrid,fused martial artists
+energy,immortality,zeus
 energy,insect,firefly
+energy,invention,thomas edison
 energy,knight,space guardian
 energy,knowledge,ai
 energy,leader,zeus
 energy,life,ai
 energy,love,fireworks
+energy,madness,bloodlust
+energy,martial arts,thunder god
 energy,metal,transformobot
+energy,mind control,human battery
+energy,miniature,nanopower
 energy,monkey,great wereape
+energy,monster,blue bull
 energy,moon,moonflare
+energy,mutation,optic mutant
 energy,myth,zeus
+energy,parasite,parasitic bioweapon
+energy,pocket pet,pikamon
 energy,poison,radiation
+energy,precious ring lore,elven power elixir
+energy,prehistoric,fossil
+energy,psychic,ghost communicator
+energy,radiation,x-ray
 energy,rainbow,laser
+energy,relic,omni igniter
 energy,robot,transformobot
+energy,rodent,pikamon
+energy,royal game,dragon fire
+energy,royalty,zeus
 energy,sci-fi,crying angel
+energy,sidekick,pikamon
+energy,sleep,night owl
 energy,snake,electric eel
 energy,space,super nova
+energy,speed,surfer dude
 energy,spirit,chomp dude spirits
 energy,strength,laser
+energy,sun,sun burn
 energy,superhero,space guardian
+energy,sweets,blue bull
 energy,sword,plasma sword
+energy,the chosen one,immortal one
+energy,time,immortal one
 energy,toy,video game
+energy,turkey day,black friday
 energy,turtle,racing tortoise
 energy,undead,frankenstein
+energy,underground,earthquake
+energy,underwater,electric eel
+energy,vampire,crying angel
+energy,vehicle,transformobot
+energy,villain,insidious emperor
 energy,void,dark matter
+energy,war,bloodlust
 energy,water,maelstrom
 energy,water serpent,electric eel
 energy,weapon,plasma sword
+energy,werewolf,morphed beast
 energy,wind,windmill of doom
 energy,wings,blue bull
+energy,wizard,insidious emperor
+energy,wizarding school,pixies
+energy,wolf,nine tails ninja
+extraterrestrial,fairy,changeling
+extraterrestrial,fairy tale,asteroid prince
+extraterrestrial,fire,meteor
+extraterrestrial,fish,space admiral
+extraterrestrial,food,pastry cat
+extraterrestrial,galaxy wars,alien mob boss
+extraterrestrial,giant,space moth
+extraterrestrial,golem,moon golem
+extraterrestrial,hammer,thor's hammer
+extraterrestrial,healing,doc lobster
+extraterrestrial,holidays,squeeze toy alien
+extraterrestrial,holy water,alien prophet
+extraterrestrial,horn,alien band
+extraterrestrial,horse,tawn tawn
+extraterrestrial,human,alien human hybrid
+extraterrestrial,hybrid,alien human hybrid
+extraterrestrial,ice,tawn tawn
+extraterrestrial,immortality,bolo
+extraterrestrial,insect,space moth
+extraterrestrial,invention,cybernetic humans
+extraterrestrial,knight,hunting alien
+extraterrestrial,knowledge,master y
+extraterrestrial,leader,swarm queen
+extraterrestrial,life,hugging alien
+extraterrestrial,love,hugging alien
+extraterrestrial,madness,titan of death
+extraterrestrial,magic,alien sorceress
+extraterrestrial,martial arts,super martial artist
+extraterrestrial,metal,transformobot
+extraterrestrial,mind control,hypnoturtle
+extraterrestrial,miniature,nanopower
+extraterrestrial,monkey,great wereape
+extraterrestrial,monster,cthulhu
+extraterrestrial,moon,moon golem
+extraterrestrial,multiples,cyborg
+extraterrestrial,music,alien band
+extraterrestrial,mutation,cyborg alien mutant
+extraterrestrial,myth,cthulhu
+extraterrestrial,parasite,arm parasite
+extraterrestrial,plant,plant clones
+extraterrestrial,poison,the ooze
+extraterrestrial,prehistoric,alien dino
+extraterrestrial,psychic,alien prophet
+extraterrestrial,radiation,parasitic bioweapon
+extraterrestrial,relic,omni igniter
+extraterrestrial,reptile,alien reptile
+extraterrestrial,robot,transformobot
+extraterrestrial,rodent,alien beastie
+extraterrestrial,royalty,swarm queen
+extraterrestrial,sci-fi,alien
+extraterrestrial,science,alien human hybrid
+extraterrestrial,sidekick,hairy smuggler
+extraterrestrial,sleep,cthulhu
+extraterrestrial,snake,xenomorph
+extraterrestrial,space,alien
+extraterrestrial,speed,surfer dude
+extraterrestrial,strength,macho alien
+extraterrestrial,sun,ultra dude
+extraterrestrial,superhero,raccoon guardian
+extraterrestrial,sweets,pastry cat
+extraterrestrial,sword,plasma sword
+extraterrestrial,the chosen one,super martial artist
+extraterrestrial,time,dr. what
+extraterrestrial,toy,squeeze toy alien
+extraterrestrial,tree,ali-ent
+extraterrestrial,trident,alien prophet
+extraterrestrial,turkey day,turkeyzilla
+extraterrestrial,undead,space zombie
+extraterrestrial,underwater,octopus
+extraterrestrial,vehicle,spaceship
+extraterrestrial,villain,titan of death
+extraterrestrial,void,shadow prelate
+extraterrestrial,war,macho alien
+extraterrestrial,water,space admiral
+extraterrestrial,water serpent,xenomorph
+extraterrestrial,wealth,alien mob boss
+extraterrestrial,weapon,parasitic bioweapon
+extraterrestrial,wings,crying angel
+extraterrestrial,wizard,alien sorceress
+fairy,fairy,changeling
+fairy,fairy tale,malevolent
 fairy,fire,fire sprite
 fairy,fish,water sprite
+fairy,food,pixie sugar
+fairy,golem,gnome
+fairy,healing,dragon fairy
+fairy,holidays,snow angel
+fairy,horn,void fiend
+fairy,horse,pegasus
 fairy,human,elf
+fairy,hybrid,half-fairy
+fairy,ice,snow angel
+fairy,immortality,oberon
+fairy,insect,firefly
 fairy,knowledge,muse
 fairy,leader,oberon
+fairy,love,cupid
+fairy,magic,pixie sugar
 fairy,medieval,morgana
+fairy,mind control,changeling
+fairy,miniature,gnome gadgeteer
 fairy,monkey,flying monkey
 fairy,monster,imp
 fairy,moon,tooth fairy
+fairy,multiples,changeling
+fairy,mutation,changeling
 fairy,myth,oberon
+fairy,parasite,changeling
+fairy,plant,dryad
+fairy,pocket pet,time fairy
+fairy,precious ring lore,elf
+fairy,prehistoric,dragon fairy
+fairy,psychic,mr. clown
 fairy,rainbow,leprechaun
+fairy,relic,quadforce
 fairy,reptile,dragon fairy
+fairy,rodent,fairy godmouse
+fairy,royal game,forestfolk
+fairy,royalty,oberon
+fairy,sidekick,flight deck fairy
+fairy,sleep,tooth fairy
 fairy,snake,dragon fairy
 fairy,spirit,wisp
+fairy,sun,wisp
+fairy,sweets,pixie sugar
+fairy,time,time fairy
 fairy,toy,princess
 fairy,tree,dryad
-fairy,villian,malevolent
+fairy,trident,tooth fairy
+fairy,turkey day,fast food
+fairy,turtle,flying trooper
+fairy,underground,gnome
+fairy,underwater,water sprite
+fairy,vehicle,pumpkin carriage
+fairy,villain,malevolent
 fairy,void,void horror
 fairy,water,water sprite
+fairy,wealth,tooth fairy
 fairy,wind,air sprite
+fairy,wizard,fairy godmother
+fairy,wizarding school,pixies
+fairy tale,fire,candy witch
+fairy tale,fish,sea witch
+fairy tale,food,cursed apple
+fairy tale,giant,beanstalk giant
+fairy tale,golem,beanstalk giant
+fairy tale,halloween,witch's brew
+fairy tale,hammer,pinocchio
+fairy tale,healing,true love's kiss
+fairy tale,holidays,gingerbread warrior
+fairy tale,holy water,excaliber
+fairy tale,horn,monster & beauty
+fairy tale,horse,unicorn
+fairy tale,human,princess
+fairy tale,hybrid,sea witch
+fairy tale,ice,ice queen
+fairy tale,immortality,eternal child
+fairy tale,insect,the talking cricket
+fairy tale,invention,pinocchio
+fairy tale,knight,prince charming
+fairy tale,knowledge,the talking cricket
+fairy tale,leader,king
+fairy tale,life,pinocchio
+fairy tale,love,true love's kiss
+fairy tale,madness,mad hatter
+fairy tale,magic,happily ever after
+fairy tale,martial arts,ogre princess
+fairy tale,medieval,king
+fairy tale,metal,tin man
+fairy tale,mind control,pied piper
+fairy tale,miniature,thumbelina
+fairy tale,monster,monster & beauty
+fairy tale,multiples,goldilocks and bears
+fairy tale,music,pied piper
+fairy tale,monkey,flying monkey
+fairy tale,myth,excaliber
+fairy tale,parasite,goldilocks and bears
+fairy tale,plant,jack and beanstalk
+fairy tale,poison,cursed apple
+fairy tale,prehistoric,dragon
+fairy tale,psychic,fortune teller
+fairy tale,radiation,beanstalk giant
+fairy tale,rainbow,happily ever after
+fairy tale,relic,the magic dresser
+fairy tale,reptile,hungry crocodile
+fairy tale,robot,tin man
+fairy tale,rodent,fairy godmouse
+fairy tale,royal game,ice zombie king
+fairy tale,royalty,evil queen
+fairy tale,sidekick,flight deck fairy
+fairy tale,sleep,sleeping princess
+fairy tale,snake,dragon
+fairy tale,space,asteroid prince
+fairy tale,speed,white rabbit
+fairy tale,strength,beanstalk giant
+fairy tale,sun,rapunzel
+fairy tale,superhero,prince charming
+fairy tale,sweets,candy witch
+fairy tale,sword,the huntsman
+fairy tale,the chosen one,fair princess
+fairy tale,time,white rabbit
+fairy tale,toy,pinocchio
+fairy tale,tree,jack and beanstalk
+fairy tale,trident,mermaid king
+fairy tale,turtle,racing tortoise
+fairy tale,undead,undead bride
+fairy tale,underground,white rabbit
+fairy tale,underwater,mermaid princess
+fairy tale,vehicle,pumpkin carriage
+fairy tale,villain,malevolent
+fairy tale,void,cursed apple
+fairy tale,war,the huntsman
+fairy tale,water,frog prince
+fairy tale,water serpent,dragon princess
+fairy tale,wealth,golden harp
+fairy tale,weapon,cursed apple
+fairy tale,werewolf,big bad wolf
+fairy tale,wind,genie
+fairy tale,wings,fairy
+fairy tale,wizard,witch
+fairy tale,wizarding school,death's gifts
+fairy tale,wolf,big bad wolf
 fire,fire,wildfire
 fire,food,hot pepper
+fire,galaxy wars,death ray
+fire,giant,wildfire
 fire,golem,fire golem
 fire,halloween,jack-o'-lantern
 fire,hammer,blacksmith
 fire,holidays,menorah
+fire,horn,fireblood dragon
 fire,horse,war's horse
 fire,human,ash
+fire,hybrid,dragon incarnate
 fire,ice,water
+fire,immortality,prometheus
 fire,insect,firefly
 fire,knight,red knight
 fire,knowledge,pyromancer
 fire,leader,prometheus
 fire,life,fire golem
+fire,love,fireworks
+fire,madness,firebird force
 fire,magic,fireball
+fire,martial arts,spectre ninja
+fire,medieval,dragon
 fire,metal,sword
+fire,miniature,ember
 fire,monster,ifrit
+fire,moon,moonflare
+fire,multiples,commander of sin
+fire,mutation,firebird force
+fire,myth,prometheus
+fire,plant,hot pepper
+fire,pocket pet,emberzard
+fire,precious ring lore,fiery shadow demon
 fire,prehistoric,gorezilla
+fire,psychic,psychic elementalist
+fire,rainbow,fireworks
+fire,relic,fire sigil
 fire,reptile,ember
 fire,robot,robot devil
+fire,royal game,tale of hot & cold
+fire,royalty,fire lord
+fire,sci-fi,death ray
 fire,science,fireworks
+fire,sidekick,ember
+fire,sleep,nightmare stalker
 fire,snake,dragon
 fire,space,meteor
+fire,speed,wildfire
+fire,spirit,spectre ninja
 fire,strength,ifrit
+fire,sun,sun burn
 fire,superhero,the incinerator
+fire,sweets,fire candy
 fire,sword,flame sword
+fire,the chosen one,dragon incarnate
 fire,time,ash
 fire,toy,ez cake oven
 fire,tree,ash
+fire,trident,devil
+fire,turkey day,fast food
+fire,turtle,turtle king
 fire,undead,death
+fire,underground,lava
+fire,underwater,lava
 fire,vampire,death
-fire,villian,fire lord
+fire,vehicle,demonic bike
+fire,villain,fire lord
+fire,void,black hole
+fire,war,dragon cannon
 fire,water,steam
 fire,weapon,flame sword
 fire,wind,wildfire
 fire,wings,phoenix
 fire,wizard,pyromancer
+fire,wizarding school,austrian spiketail
 fire,wolf,firefox
 fish,food,blowfish
+fish,galaxy wars,space admiral
+fish,giant,megalodon
 fish,hammer,hammerhead shark
+fish,healing,doc lobster
 fish,holy water,holy mackerel
+fish,horn,mutated fish
 fish,horse,seahorse
 fish,human,mermaid
+fish,hybrid,mermaid princess
+fish,immortality,davy jones
 fish,insect,mantis shrimp
 fish,knight,swordfish
 fish,knowledge,space admiral
 fish,leader,ocean defender
 fish,magic,magicod
 fish,metal,swordfish
+fish,mind control,siren
+fish,miniature,sea monkey
 fish,monkey,sea monkey
 fish,monster,lochness
+fish,moon,moon jellyfish
+fish,multiples,mutated fish
+fish,music,siren
+fish,mutation,mutated fish
 fish,myth,kraken
+fish,parasite,tongue parasite
+fish,plant,seahorse
+fish,pocket pet,magicod
 fish,poison,blowfish
 fish,prehistoric,megalodon
+fish,psychic,siren
 fish,radiation,mutated fish
 fish,rainbow,mantis shrimp
+fish,relic,fossil
 fish,reptile,naga queen
 fish,robot,laser shark
-fish,science,laser shark
+fish,rodent,laser shark
+fish,royal game,lady revenant
+fish,royalty,mermaid king
 fish,sci-fi,space admiral
+fish,science,laser shark
+fish,sidekick,magicod
+fish,sleep,cthulhu
 fish,snake,electric eel
 fish,space,space admiral
+fish,speed,swordfish
 fish,strength,mantis shrimp
+fish,sun,fish bone
 fish,superhero,ocean defender
 fish,sword,swordfish
+fish,the chosen one,magicod
 fish,time,fossil
 fish,trident,poseidon
-fish,villian,sea witch
+fish,underground,kraken
+fish,underwater,anglerfish
+fish,vehicle,shark rider
+fish,villain,sea witch
 fish,void,space admiral
+fish,war,space admiral
 fish,water,sharkstorm
 fish,water serpent,naga queen
 fish,weapon,swordfish
+fish,werewolf,fish bone
 fish,wind,sharkstorm
 fish,wings,stingray
+fish,wizarding school,transmutation
+fish,wolf,fish bone
+food,galaxy wars,blue fizz refresher
+food,giant,fluff puff
 food,golem,fluff puff
 food,halloween,vamp crunch
+food,hammer,fruit cake
+food,healing,luckymon
 food,holidays,fruit cake
+food,holy water,angel food cake
+food,horn,cookie beast
+food,horse,pinata
 food,human,farmer
+food,hybrid,hangry meal
 food,ice,sno-cone
+food,immortality,hesperide's tree
 food,insect,butterfly
+food,invention,soy yum green
+food,knight,gingerbread warrior
 food,knowledge,cursed apple
 food,leader,healthy hero
 food,life,punchy
 food,love,candy hearts
+food,madness,confectioner will
+food,magic,pastry cat
 food,medieval,farmer
+food,mind control,sugar demon
+food,miniature,flapjack octopus
+food,monster,cookie beast
 food,moon,lunar pie
+food,multiples,harvest
+food,music,singing raisins
+food,mutation,candy princess
 food,myth,hesperide's tree
+food,parasite,moocher
+food,plant,farmer
 food,poison,cursed apple
+food,precious ring lore,elven power elixir
+food,prehistoric,cursed apple
 food,radiation,fluff puff
 food,rainbow,rainbow candy
+food,relic,sugar skull
 food,reptile,cursed apple
 food,robot,robot turkey
+food,rodent,rat chef
+food,royal game,farmer
+food,royalty,candy princess
 food,sci-fi,soy yum green
+food,science,killer vegetables
+food,sidekick,musical workers
+food,sleep,turkey
+food,snake,gummy worm
 food,space,pastry cat
+food,speed,fast food
 food,spirit,fluff puff
 food,strength,healthy hero
+food,sun,sunflower
 food,superhero,healthy hero
+food,sweets,fruit cake
+food,sword,carver of doom
+food,the chosen one,luckymon
+food,time,pb & jelly time
 food,toy,ez cake oven
 food,tree,cursed apple
 food,trident,spork of doom
 food,turkey day,harvest
 food,undead,human
+food,underwater,food chain
 food,vampire,vamp crunch
-food,villian,burgerlar
+food,vehicle,burgermobile
+food,villain,burgerlar
+food,void,hangry
+food,war,gingerbread warrior
 food,water,punchy
+food,water serpent,gummy worm
 food,wealth,hesperide's tree
 food,weapon,fruit cake
+food,werewolf,hungry coyote
 food,wings,blue bull
+food,wizard,candy witch
+food,wizarding school,chocolate lizards
+food,wolf,hungry coyote
+galaxy wars,giant,aquatic alien
+galaxy wars,golem,cryo smuggler
+galaxy wars,halloween,dark apprentice
+galaxy wars,healing,dark sage master
+galaxy wars,holy water,nanopower
+galaxy wars,horn,tawn tawn
+galaxy wars,horse,tawn tawn
+galaxy wars,human,rebel space princess
+galaxy wars,hybrid,laughing pet alien
+galaxy wars,ice,ice carrier
+galaxy wars,immortality,dark sage master
+galaxy wars,invention,astro droid
+galaxy wars,knight,space guardian
+galaxy wars,knowledge,dark sage master
+galaxy wars,leader,master y
+galaxy wars,life,nanopower
+galaxy wars,madness,dark space lord
+galaxy wars,magic,nanopower
+galaxy wars,martial arts,dark apprentice
+galaxy wars,medieval,space guardian
+galaxy wars,metal,jama
+galaxy wars,mind control,space guardian
+galaxy wars,miniature,nanopower
+galaxy wars,monkey,laughing pet alien
+galaxy wars,monster,carnivorous pit
+galaxy wars,moon,death ray
+galaxy wars,multiples,bounty hunter clone
+galaxy wars,music,alien band
+galaxy wars,myth,space ghosts
+galaxy wars,parasite,laughing pet alien
+galaxy wars,prehistoric,lizard bounty hunter
+galaxy wars,psychic,master y
+galaxy wars,rainbow,droid commander
+galaxy wars,reptile,lizard bounty hunter
+galaxy wars,robot,astro droid
+galaxy wars,rodent,chin trooper
+galaxy wars,royalty,rebel space princess
+galaxy wars,sci-fi,nanopower
+galaxy wars,science,death ray
+galaxy wars,sidekick,hairy smuggler
+galaxy wars,sleep,cryo smuggler
+galaxy wars,snake,carnivorous pit
+galaxy wars,space,w space fighter
+galaxy wars,speed,centennial eagle
+galaxy wars,spirit,space ghosts
+galaxy wars,strength,aquatic alien
+galaxy wars,sun,death ray
+galaxy wars,superhero,cryo smuggler
+galaxy wars,sword,laser sword
+galaxy wars,the chosen one,dark space lord
+galaxy wars,toy,laser sword
+galaxy wars,tree,emok
+galaxy wars,trident,sand raider
+galaxy wars,undead,space ghosts
+galaxy wars,underground,carnivorous pit
+galaxy wars,underwater,aquatic alien
+galaxy wars,vehicle,centennial eagle
+galaxy wars,villain,dark space lord
+galaxy wars,void,insidious emperor
+galaxy wars,war,insidious emperor
+galaxy wars,water,aquatic alien
+galaxy wars,water serpent,aquatic alien
+galaxy wars,wealth,alien mob boss
+galaxy wars,weapon,death ray
+galaxy wars,werewolf,hairy smuggler
+galaxy wars,wind,w space fighter
+galaxy wars,wings,w space fighter
+galaxy wars,wizard,dark sage master
+giant,golem,mountain giant
+giant,hammer,skull smasher
+giant,horn,the good giant
+giant,horse,trojan horse
+giant,human,doomed giant
+giant,hybrid,mountain giant
+giant,ice,frost giant
+giant,insect,insect man
+giant,invention,insect man
+giant,knight,skull smasher
+giant,knowledge,mama brain
+giant,life,the world tree
+giant,magic,wizard giant
+giant,martial arts,fighting champion
+giant,medieval,doomed giant
+giant,metal,talos
+giant,mind control,alpha dragon
+giant,miniature,the good giant
+giant,monkey,kongar
+giant,monster,colossal demon
+giant,multiples,gashadokuro
+giant,mutation,mutant destroyer
+giant,myth,talos
+giant,parasite,world eater
+giant,plant,fungal growth
+giant,pocket pet,snoring monster
+giant,poison,fungal growth
+giant,precious ring lore,treant
+giant,prehistoric,megalodon
+giant,psychic,alpha dragon
+giant,radiation,gorezilla
+giant,relic,the world tree
+giant,reptile,tarrasque
+giant,robot,jaeger
+giant,rodent,chinzilla
+giant,royal game,doomed giant
+giant,sci-fi,gorezilla
+giant,science,insect man
+giant,sleep,the good giant
+giant,snake,anaconda
+giant,space,atlas
+giant,speed,wind giant
+giant,spirit,fluff puff
+giant,strength,skull smasher
+giant,sun,talos
+giant,superhero,insect man
+giant,sweets,fluff puff
+giant,sword,giant sword
+giant,the chosen one,doomed giant
+giant,tree,the world tree
+giant,turkey day,turkeyzilla
+giant,turtle,primeval turtle
+giant,undead,zombie giant
+giant,underground,tarrasque
+giant,underwater,sea giant
+giant,vehicle,monster truck
+giant,villain,world eater
+giant,void,fungal growth
+giant,war,armageddon
+giant,water,high tide
+giant,water serpent,cthulhu
+giant,wealth,beanstalk giant
+giant,weapon,death ray
+giant,wind,wind giant
+giant,wings,talos
+giant,wizard,wizard giant
+giant,wizarding school,wizard giant
+giant,wolf,dire wolf
 golem,halloween,scarecrow
+golem,healing,healthbot hero
 golem,holidays,snowman
+golem,horn,vampiric gargoyle
+golem,hybrid,enchanted snowman
 golem,ice,ice golem
+golem,insect,rhinocerous beetle
+golem,invention,mechanical knight
+golem,knight,metal golem
 golem,knowledge,arcane golem
+golem,leader,precious ring bearer
 golem,life,dwarf
+golem,madness,precious ring bearer
 golem,magic,arcane golem
+golem,martial arts,static beast
 golem,medieval,gargoyle
 golem,metal,metal golem
+golem,mind control,precious ring bearer
+golem,miniature,gnome
 golem,monkey,big foot
 golem,monster,troll
 golem,moon,moon golem
+golem,multiples,fighting champion
 golem,music,war drummer
+golem,mutation,rock slide
 golem,myth,cyclops
+golem,parasite,crying angel
+golem,plant,wooden golem
+golem,pocket pet,geode
+golem,poison,the ooze
+golem,precious ring lore,precious ring bearer
+golem,prehistoric,ubaid lizardman
+golem,psychic,fortune teller
+golem,radiation,the ooze
+golem,relic,golden construct
 golem,robot,metal golem
-golem,science,frankenstein
+golem,royal game,stonescale
+golem,royalty,ogre princess
 golem,sci-fi,crying angel
+golem,science,frankenstein
+golem,sidekick,voidwalker
+golem,sleep,gargoyle
+golem,space,moon golem
+golem,speed,crying angel
 golem,spirit,fluff puff
 golem,strength,rock slide
 golem,superhero,rock slide
+golem,sweets,cookie beast
+golem,sword,metal golem
+golem,the chosen one,precious ring bearer
 golem,tree,wooden golem
+golem,turtle,turtle golem
+golem,undead,zombie tank
+golem,underground,golden construct
+golem,underwater,sea giant
+golem,vampire,vampiric gargoyle
+golem,villain,titan of destruction
 golem,void,voidwalker
+golem,war,war drummer
 golem,water,ice golem
 golem,wealth,golden construct
+golem,weapon,precious ring
 golem,wind,air elemental
 golem,wings,gargoyle
+golem,wizard,arcane golem
+golem,wizarding school,wizard giant
 golem,wolf,gargoyle
+halloween,hammer,cavities
+halloween,healing,plague doctor
 halloween,holidays,pumpkin prince
+halloween,holy water,angel
+halloween,horn,pumpkin prince
 halloween,horse,headless rider
 halloween,human,trick or treater
+halloween,hybrid,headless rider
 halloween,ice,pumpkin prince
+halloween,immortality,masked killer
 halloween,insect,black widow
+halloween,invention,dr. frankenstein
+halloween,knight,haunted armor
+halloween,knowledge,pumpkin prince
 halloween,leader,pumpkin prince
 halloween,life,sinister gourdling
+halloween,madness,mr. beetleson
 halloween,magic,witch
+halloween,martial arts,kung fu zombie
 halloween,medieval,undead knight
 halloween,metal,scythe
+halloween,mind control,possession
+halloween,miniature,cavities
 halloween,monkey,flying monkey
 halloween,monster,frankenstein
+halloween,moon,headless rider
+halloween,multiples,murder of crows
 halloween,music,thrilling zombie
+halloween,mutation,flying goblin
 halloween,myth,headless rider
+halloween,parasite,vampire
+halloween,plant,sinister gourdling
+halloween,pocket pet,specter
 halloween,poison,witch's brew
+halloween,precious ring lore,wraith
 halloween,prehistoric,zombiesaur
+halloween,psychic,ghost communicator
 halloween,radiation,sinister gourdling
 halloween,rainbow,clown
+halloween,relic,mask of mischief
 halloween,robot,robot devil
+halloween,rodent,chinzombie
+halloween,royal game,ice zombie king
+halloween,royalty,pumpkin prince
 halloween,sci-fi,robot devil
+halloween,science,frankenstein
+halloween,sidekick,igor
+halloween,sleep,nightmare stalker
+halloween,speed,broomstick
 halloween,spirit,headless rider
 halloween,strength,frankenstein
 halloween,superhero,vampire hunter
+halloween,sweets,trick or treater
 halloween,sword,scythe
+halloween,the chosen one,vampire assassin
 halloween,time,young wolf
 halloween,tree,spooky tree
 halloween,trident,devil
 halloween,undead,mummy
-halloween,villian,headless rider
+halloween,underground,tombstone
+halloween,vehicle,broomstick
+halloween,villain,headless rider
 halloween,void,void horror
 halloween,water,witch's brew
+halloween,weapon,scythe
+halloween,werewolf,young wolf
 halloween,wind,cursed flute
 halloween,wings,murder of crows
 halloween,wizard,necromancer
+halloween,wizarding school,nearly limbless larry
 halloween,wolf,werewolf
+hammer,healing,paladin
 hammer,holidays,fruit cake
+hammer,holy water,paladin
+hammer,horn,ram hammer
 hammer,human,blacksmith
+hammer,hybrid,hammer sword
+hammer,immortality,god hammer
+hammer,insect,mantis shrimp
+hammer,invention,hephaestus
 hammer,knight,paladin
+hammer,knowledge,hephaestus
 hammer,leader,thor
+hammer,life,paladin
+hammer,madness,jester sidekick
 hammer,magic,thor's hammer
 hammer,medieval,paladin
 hammer,metal,sledgehammer
+hammer,miniature,cavities
 hammer,monkey,cymbal monkey
+hammer,monster,skull smasher
+hammer,multiples,broham
 hammer,music,hammer time
+hammer,mutation,mutant man
 hammer,myth,hephaestus
+hammer,parasite,cavities
+hammer,precious ring lore,dwarf
 hammer,prehistoric,club
+hammer,relic,thor's hammer
 hammer,reptile,broham
 hammer,robot,hammertron
-hammer,science,blacksmith
+hammer,rodent,cat and mouse
+hammer,royal game,fat king
+hammer,royalty,thor
 hammer,sci-fi,unstoppable force
+hammer,science,blacksmith
+hammer,sidekick,jester sidekick
+hammer,space,god hammer
+hammer,speed,thor's hammer
 hammer,strength,unstoppable force
 hammer,superhero,thor
+hammer,sweets,cavities
 hammer,sword,morning star
+hammer,the chosen one,thor
 hammer,time,hammer time
+hammer,toy,jester sidekick
+hammer,tree,club
+hammer,turkey day,fruit cake
+hammer,turtle,broham
+hammer,underground,dwarf
+hammer,underwater,hammerhead shark
+hammer,villain,jester sidekick
+hammer,war,blacksmith
+hammer,water,trident
+hammer,wealth,miner
 hammer,weapon,unstoppable force
+hammer,wind,hermes
+hammer,wings,flying trooper
+hammer,wizard,paladin
+hammer,wizarding school,magical soccer
+healing,holidays,family reunion
+healing,holy water,holy grail
+healing,horn,horn of life
+healing,horse,unicorn blood
+healing,human,doctor
+healing,hybrid,dragon fairy
+healing,ice,ice lotus
+healing,immortality,sarcastic hero
+healing,insect,leech
+healing,invention,healthbot hero
+healing,knight,paladin
+healing,knowledge,healthbot hero
+healing,life,fountain of youth
+healing,madness,quack doctor
+healing,magic,cleric
+healing,martial arts,monk
+healing,medieval,plague doctor
+healing,metal,nanobots
+healing,mind control,tinfoil hat
+healing,miniature,nanobots
+healing,monkey,monkey shaman
+healing,monster,dr. frankenstein
+healing,moon,moon heroine
+healing,multiples,nanobots
+healing,music,bard
+healing,mutation,sarcastic hero
+healing,myth,hesperide's tree
+healing,parasite,leech
+healing,plant,life shroom
+healing,pocket pet,luckymon
+healing,poison,witch doctor
+healing,precious ring lore,vial of stars
+healing,psychic,luckymon
+healing,rainbow,unicorn blood
+healing,relic,holy grail
+healing,reptile,snake oil salesman
+healing,robot,healthbot hero
+healing,rodent,care chilla
+healing,royal game,blue witch
+healing,royalty,rapunzel
+healing,sci-fi,nanobots
+healing,science,nanobots
+healing,sidekick,luckymon
+healing,sleep,cryosleep
+healing,snake,snake oil salesman
+healing,space,doc lobster
+healing,speed,healthbot hero
+healing,spirit,divine healer
+healing,strength,healthbot hero
+healing,sun,ultra dude
+healing,superhero,ravenica
+healing,sword,paladin
+healing,the chosen one,luckymon
+healing,time,fountain of youth
+healing,tree,hesperide's tree
+healing,turkey day,cat nap
+healing,undead,dr. frankenstein
+healing,underground,mandrake
+healing,vampire,blood
+healing,vehicle,healthbot hero
+healing,villain,youthful sorceress
+healing,void,nightshade
+healing,war,medic
+healing,water,fountain of youth
+healing,water serpent,siren
+healing,wealth,snake oil salesman
+healing,weapon,monk
+healing,werewolf,moon
+healing,wind,healthbot hero
+healing,wings,divine healer
+healing,wizard,cleric
+healing,wizarding school,unicorn blood
+healing,wolf,werewolf
+holidays,holy water,snow angel
+holidays,horn,rudolph
 holidays,horse,rudolph
+holidays,human,snowman
+holidays,hybrid,pumpkin prince
 holidays,ice,snowflake
+holidays,immortality,santa claus
+holidays,invention,santa claus
 holidays,knight,nutcracker
 holidays,knowledge,santa claus
 holidays,leader,santa claus
 holidays,life,snowman
 holidays,love,santa claus
+holidays,madness,black friday
 holidays,magic,santa claus
+holidays,metal,menorah
+holidays,mind control,black friday
+holidays,miniature,baby new year
 holidays,monster,pinch
+holidays,moon,space shoes
+holidays,multiples,menorah
+holidays,music,angel trumpeter
+holidays,mutation,fruit cake
+holidays,myth,santa claus
+holidays,parasite,mistletoe
+holidays,plant,christmas tree
 holidays,poison,fruit cake
+holidays,prehistoric,menorah
+holidays,radiation,turkeyzilla
 holidays,rainbow,holiday lights
+holidays,relic,menorah
+holidays,royal game,snowflake
+holidays,royalty,pumpkin prince
+holidays,sidekick,santa's helper
+holidays,sleep,turkey
+holidays,snake,snakes in a can
+holidays,speed,sleigh
+holidays,spirit,santa claus
+holidays,strength,gingerbread warrior
+holidays,sun,holiday lights
 holidays,superhero,santa claus
+holidays,sweets,fruit cake
+holidays,sword,carver of doom
+holidays,the chosen one,rudolph
 holidays,time,baby new year
 holidays,toy,nutcracker
 holidays,tree,christmas tree
+holidays,trident,carver of doom
 holidays,undead,pumpkin prince
-holidays,villian,pinch
+holidays,vampire,black friday
+holidays,vehicle,sleigh
+holidays,villain,pinch
 holidays,void,black friday
+holidays,war,gingerbread warrior
 holidays,water,snowflake
 holidays,weapon,fruit cake
+holidays,werewolf,lunar pie
 holidays,wind,rudolph
 holidays,wings,angel
 holidays,wizard,santa claus
+holidays,wizarding school,honey beer
+holidays,wolf,lunar pie
+holy water,horse,pegasus
 holy water,human,cleric
+holy water,hybrid,crusader
+holy water,ice,ice lotus
+holy water,immortality,holy grail
 holy water,insect,praying mantis
 holy water,knight,paladin
 holy water,knowledge,cleric
 holy water,life,fountain of youth
+holy water,love,love potion
+holy water,magic,holy grail
+holy water,madness,alien prophet
+holy water,martial arts,samurai hero
 holy water,medieval,holy grail
 holy water,metal,holy grail
+holy water,miniature,conscience
+holy water,monkey,monkey shaman
+holy water,moon,lunar priest
 holy water,myth,holy grail
+holy water,plant,ice lotus
+holy water,pocket pet,luckymon
 holy water,poison,water
-holy water,strength,paladin
+holy water,precious ring lore,vial of stars
+holy water,prehistoric,holy grail
+holy water,psychic,ghost communicator
+holy water,relic,holy grail
+holy water,royal game,crusader
+holy water,sidekick,heavenly dog
+holy water,sleep,mister sandman
+holy water,snake,lochness
+holy water,spirit,divine healer
+holy water,strength,doves
+holy water,sweets,angel food cake
 holy water,sword,excaliber
+holy water,the chosen one,vampire assassin
 holy water,time,fountain of youth
 holy water,toy,squirt gun
+holy water,turkey day,turkey zombie
 holy water,undead,fire
+holy water,underwater,holy mackerel
 holy water,vampire,fire
+holy water,vehicle,trapper-1
 holy water,void,poison
+holy water,war,armageddon
 holy water,wealth,holy grail
 holy water,weapon,excaliber
+holy water,wind,windmaster eng
+holy water,wings,angel
 holy water,wizard,cleric
+holy water,wizarding school,unicorn blood
+horn,horse,unicorn
+horn,human,horn of man
+horn,hybrid,rhinocerous beetle
+horn,ice,frost dragon
+horn,immortality,eternal dragon
+horn,insect,rhinocerous beetle
+horn,invention,belphegor
+horn,knight,horn of man
+horn,knowledge,gabriel's horn
+horn,leader,ziz
+horn,life,horn of life
+horn,madness,sugar demon
+horn,magic,horned serpent
+horn,martial arts,the grater
+horn,medieval,ram hammer
+horn,metal,bionic unicorn
+horn,mind control,horned serpent
+horn,miniature,rhinocerous beetle
+horn,monster,bahamut
+horn,moon,galactic wizard
+horn,multiples,hydra
+horn,myth,cyclops
+horn,plant,plant dragon
+horn,pocket pet,snoring monster
+horn,poison,poison dragon
+horn,precious ring lore,horn of man
+horn,prehistoric,triceratops
+horn,psychic,alpha dragon
+horn,rainbow,unicorn
+horn,relic,horn of man
+horn,reptile,amphisbaena
+horn,robot,robot devil
+horn,rodent,pied piper
+horn,royal game,crazy pirate king
+horn,royalty,dragon princess
+horn,sci-fi,tawn tawn
+horn,science,gabriel's horn
+horn,sleep,tranquilizer dart
+horn,snake,snake charmer
+horn,space,galactic wizard
+horn,speed,ceryneian hind
+horn,spirit,spectral dragon
+horn,strength,tarrasque
+horn,sun,galactic wizard
+horn,superhero,demonite
+horn,sweets,fire candy
+horn,sword,horn dagger
+horn,the chosen one,horn of man
+horn,time,ancient dragon
+horn,tree,plant dragon
+horn,trident,triceratops
+horn,turkey day,harvest
+horn,turtle,dragon turtle
+horn,undead,skeleton overlord
+horn,underground,ifrit
+horn,underwater,narwhal
+horn,vampire,vampiric gargoyle
+horn,vehicle,dragon rider
+horn,villain,commander of sin
+horn,void,void beast
+horn,war,ram hammer
+horn,water,narwhal
+horn,water serpent,narwhal
+horn,wealth,smug
+horn,weapon,horn dagger
+horn,werewolf,wolf warrior
+horn,wind,energy generator
+horn,wings,rock dragon
+horn,wizard,galactic wizard
+horn,wizarding school,horned serpent
+horn,wolf,wolf warrior
 horse,human,centaur
+horse,hybrid,centaur
 horse,ice,rudolph
+horse,immortality,pegasus
+horse,invention,trojan horse
 horse,knight,cavalry
 horse,knowledge,mr. ted
 horse,leader,rudolph
 horse,life,unicorn
 horse,love,my mini horse
+horse,madness,unicorn blood
 horse,magic,unicorn
 horse,medieval,unicorn
 horse,metal,car
+horse,miniature,my mini horse
+horse,monkey,monkey planet
 horse,monster,headless rider
 horse,moon,nightmare
+horse,multiples,sleipnir
 horse,music,pan
 horse,myth,pegasus
+horse,precious ring lore,lord of horses
+horse,prehistoric,cursed aztec prince
+horse,psychic,animal whisperer
 horse,radiation,pestilence's horse
 horse,rainbow,unicorn
+horse,relic,gilded horse
 horse,robot,bionic unicorn
+horse,royal game,fat king
+horse,royalty,pony princess
 horse,sci-fi,mr. ted
+horse,science,bionic unicorn
+horse,sidekick,pegasus
+horse,sleep,nightmare
 horse,space,unicorn
+horse,speed,ceryneian hind
 horse,spirit,spectral rider
 horse,strength,car
+horse,sweets,pinata
+horse,sword,unicorn
+horse,the chosen one,pony princess
 horse,toy,my mini horse
+horse,turkey day,mayflower
+horse,turtle,racing tortoise
 horse,undead,headless rider
-horse,villian,headless rider
+horse,underground,death's horse
+horse,underwater,seahorse
+horse,vehicle,pumpkin carriage
+horse,villain,headless rider
 horse,void,nightmare
+horse,war,war's horse
 horse,water,seahorse
 horse,wealth,gilded horse
+horse,weapon,war's horse
 horse,wind,pegasus
 horse,wings,pegasus
+horse,wizard,pony princess
+horse,wizarding school,unicorn
 human,human,human
+human,hybrid,alien human hybrid
 human,ice,snowman
+human,immortality,mumbling kid
 human,insect,grasshopper
+human,invention,thomas edison
 human,knowledge,scholar
 human,leader,king
 human,life,immortal
 human,love,human
+human,madness,crazy cat person
 human,magic,wizard
+human,martial arts,grasshopper
 human,medieval,king
 human,metal,knight
+human,mind control,human battery
+human,miniature,mini clone
 human,monkey,big foot
 human,monster,dr. jekyll
 human,moon,astronaut
+human,multiples,angry mob
 human,music,bard
+human,mutation,superhero
 human,myth,big foot
+human,parasite,human battery
+human,plant,mandrake
+human,pocket pet,monster collector
 human,poison,assassin
+human,precious ring lore,the ranger
 human,prehistoric,caveman
+human,psychic,bloody prom queen
 human,radiation,superhero
 human,rainbow,clown
+human,relic,ubaid lizardman
 human,reptile,dragonkin
 human,robot,cyborg
-human,science,cyborg
+human,rodent,pied piper
+human,royal game,dragon mother
+human,royalty,king
 human,sci-fi,invisible dude
+human,science,cyborg
+human,sidekick,watson
+human,sleep,sleepwalker
 human,snake,medusa
 human,space,astronaut
+human,speed,the dash
 human,spirit,ghost
 human,strength,barbarian
+human,sun,sun burn
+human,superhero,super bat
+human,sweets,confectioner will
 human,sword,knight
+human,the chosen one,monster collector
 human,time,death
 human,toy,doll
 human,tree,vampire hunter
 human,trident,farmer
 human,turkey day,pilgrim
+human,turtle,kappa
 human,undead,undead
+human,underground,miner
+human,underwater,mermaid
 human,vampire,vampire
+human,vehicle,car
+human,war,knight
 human,water,mermaid
+human,water serpent,ghost pirate
 human,wealth,king midas
 human,weapon,barbarian
 human,werewolf,werewolf
+human,wind,poison cloud
 human,wings,angel
+human,wizarding school,nerdy wizard
 human,wolf,werewolf
+hybrid,ice,enchanted snowman
+hybrid,immortality,firemaster rooku
+hybrid,insect,arachne
+hybrid,invention,laser shark
+hybrid,knight,crusader
+hybrid,knowledge,cyborg
+hybrid,leader,swarm queen
+hybrid,life,half-life
+hybrid,love,mermaid princess
+hybrid,madness,dr. jekyll
+hybrid,magic,half-blood professor
+hybrid,martial arts,fused martial artists
+hybrid,medieval,crusader
+hybrid,metal,cyborg
+hybrid,mind control,siren
+hybrid,miniature,bumblebee bat
+hybrid,monkey,great wereape
+hybrid,monster,morphed beast
+hybrid,moon,blood moon
+hybrid,multiples,cybernetic humans
+hybrid,music,pan
+hybrid,mutation,dr. savage
+hybrid,myth,minotaur
+hybrid,parasite,evil symbiote
+hybrid,plant,plant dragon
+hybrid,pocket pet,plantasaur
+hybrid,poison,plant fatale
+hybrid,precious ring lore,goblin hybrid
+hybrid,prehistoric,dino hybrid
+hybrid,psychic,mr. clown
+hybrid,radiation,arachnid dude
+hybrid,rainbow,pastry cat
+hybrid,relic,ubaid lizardman
+hybrid,reptile,cockatrice
+hybrid,robot,cybernetic humans
+hybrid,rodent,chinchillalope
+hybrid,royal game,northern king
+hybrid,royalty,half-blood professor
+hybrid,sci-fi,cyborg
+hybrid,science,alien human hybrid
+hybrid,sidekick,enchanted snowman
+hybrid,sleep,sandman
+hybrid,snake,medusa
+hybrid,space,alien dino
+hybrid,speed,fused martial artists
+hybrid,spirit,firemaster rooku
+hybrid,strength,fused martial artists
+hybrid,sun,blood moon
+hybrid,superhero,arachnid dude
+hybrid,sweets,pastry cat
+hybrid,sword,hammer sword
+hybrid,the chosen one,swarm queen
+hybrid,time,pb & jelly time
+hybrid,toy,hangry meal
+hybrid,tree,plant dragon
+hybrid,trident,spork of doom
+hybrid,turkey day,robot turkey
+hybrid,turtle,dragon turtle
+hybrid,undead,werevamp
+hybrid,underground,minotaur
+hybrid,underwater,catfish
+hybrid,vampire,sunwalker vampire
+hybrid,vehicle,air ship
+hybrid,villain,evil symbiote
+hybrid,void,swarm queen
+hybrid,war,goblin hybrid
+hybrid,water,bear dog
+hybrid,water serpent,scylla
+hybrid,wealth,dragon turtle
+hybrid,weapon,hammer sword
+hybrid,werewolf,werevamp
+hybrid,wind,sharkstorm
+hybrid,wings,ziz
+hybrid,wizard,half-blood professor
+hybrid,wizarding school,half-blood professor
+hybrid,wolf,nine tails ninja
 ice,ice,avalanche
+ice,immortality,ice king
+ice,invention,ed handytool
 ice,knight,blue knight
 ice,knowledge,frost mage
 ice,leader,ice king
 ice,life,snowman
 ice,love,cold hearted
+ice,madness,ice king
 ice,magic,frost mage
+ice,martial arts,absolute zero
+ice,mind control,ice king
+ice,miniature,snowflake
 ice,monster,yeti
+ice,mutation,ice dude
 ice,myth,yeti
+ice,plant,ice lotus
+ice,pocket pet,frostwing
 ice,prehistoric,ice age
+ice,psychic,groundhog
+ice,radiation,aurora
 ice,rainbow,sno-cone
+ice,relic,lich blade
 ice,reptile,bubbles
+ice,royal game,tale of hot & cold
+ice,royalty,ice queen
 ice,sci-fi,ice carrier
+ice,science,cryosleep
+ice,sidekick,santa's helper
+ice,sleep,hibernation
+ice,speed,avalanche
 ice,strength,yeti
 ice,sun,water
 ice,superhero,ice dude
+ice,sweets,sno-cone
+ice,sword,lich blade
+ice,the chosen one,watermaster cora
 ice,time,ice age
-ice,villian,ice king
+ice,tree,christmas tree
+ice,turtle,bubbles
+ice,underground,hibernation
+ice,vehicle,ice carrier
+ice,villain,ice king
+ice,war,winter assassin
 ice,water,ice
+ice,water serpent,frost dragon
 ice,werewolf,frost wolf
 ice,wind,snowflake
 ice,wings,penguin
 ice,wizard,frost mage
 ice,wolf,frost wolf
+immortality,invention,dark soul vessels
+immortality,knight,immortal
+immortality,knowledge,dr. radiation
+immortality,leader,eternal child
+immortality,life,fountain of youth
+immortality,love,aphrodite
+immortality,madness,mumbling kid
+immortality,magic,merlin
+immortality,martial arts,sarcastic hero
+immortality,medieval,holy grail
+immortality,metal,cybernetic humans
+immortality,mind control,ice king
+immortality,miniature,water bear
+immortality,monkey,monkey king
+immortality,monster,frankenstein
+immortality,moon,moon goddess
+immortality,multiples,cybernetic humans
+immortality,music,vampire queen
+immortality,mutation,decimation
+immortality,myth,zeus
+immortality,parasite,youthful sorceress
+immortality,plant,hesperide's tree
+immortality,poison,specter
+immortality,precious ring lore,elf king
+immortality,prehistoric,hesperide's tree
+immortality,radiation,dr. radiation
+immortality,relic,dark soul vessels
+immortality,reptile,ouroboros
+immortality,robot,cybernetic humans
+immortality,rodent,mumbling kid
+immortality,royalty,elf king
+immortality,sci-fi,cybernetic humans
+immortality,science,dr. radiation
+immortality,sidekick,mumbling kid
+immortality,sleep,nightmare stalker
+immortality,snake,ouroboros
+immortality,space,titan of death
+immortality,speed,hermes
+immortality,spirit,ring lord
+immortality,strength,bolo
+immortality,sun,apollo
+immortality,superhero,sarcastic hero
+immortality,sweets,candy princess
+immortality,sword,immortal one
+immortality,the chosen one,immortal one
+immortality,time,dr. what
+immortality,tree,hesperide's tree
+immortality,trident,poseidon
+immortality,turkey day,turkey zombie
+immortality,turtle,world turtle
+immortality,undead,masked killer
+immortality,underground,hades
+immortality,underwater,davy jones
+immortality,vampire,dracula
+immortality,vehicle,pegasus
+immortality,villain,ring lord
+immortality,void,ring lord
+immortality,war,ares
+immortality,water,davy jones
+immortality,water serpent,cthulhu
+immortality,wealth,dorian gray
+immortality,weapon,god hammer
+immortality,werewolf,lycan king
+immortality,wind,genie
+immortality,wings,crow revenant
+immortality,wizard,merlin
+immortality,wizarding school,dark soul vessels
+immortality,wolf,lycan king
+insect,invention,insect man
 insect,knight,army ant
 insect,knowledge,bookworm
 insect,love,love bug
+insect,madness,mr. beetleson
+insect,martial arts,grasshopper
 insect,medieval,black death
 insect,metal,computer bug
+insect,mind control,swarm queen
+insect,miniature,insect man
 insect,monster,space moth
+insect,moon,moon buggy
+insect,multiples,arachne
 insect,music,grasshopper
+insect,mutation,arachnid dude
 insect,myth,arachne
+insect,parasite,mosquito
+insect,plant,leaf insect
+insect,pocket pet,margarfree
 insect,poison,wasp
 insect,prehistoric,dragonfly
 insect,radiation,space moth
 insect,rainbow,butterfly
+insect,relic,golden scarab
 insect,robot,spider mine
-insect,science,computer bug
+insect,rodent,black death
+insect,royalty,queen bee
 insect,sci-fi,space moth
+insect,science,computer bug
+insect,sidekick,the talking cricket
+insect,sleep,bed bug
 insect,snake,earthworm
 insect,space,wormhole
+insect,speed,dragonfly
+insect,spirit,mr. beetleson
 insect,strength,army ant
 insect,sun,firefly
 insect,superhero,arachnid dude
+insect,sweets,gummy worm
 insect,sword,wasp
+insect,the chosen one,swarm queen
 insect,time,wormhole
+insect,toy,bumblebee bat
+insect,tree,leaf insect
 insect,trident,sea monkey
+insect,turkey day,moocher
+insect,underground,earthworm
+insect,underwater,mantis shrimp
 insect,vampire,mosquito
-insect,villian,space moth
+insect,vehicle,moon buggy
+insect,villain,space moth
 insect,void,wormhole
+insect,war,army ant
+insect,water,tongue parasite
+insect,water serpent,sea monkey
 insect,wealth,golden scarab
 insect,weapon,spider mine
+insect,werewolf,flea
 insect,wind,butterfly
 insect,wings,butterfly
+insect,wolf,flea
+invention,knight,mechanical knight
+invention,knowledge,macgryber
+invention,leader,macgryber
+invention,life,philosopher's stone
+invention,love,hug-o-tron
+invention,madness,flux inventor
+invention,magic,dark soul vessels
+invention,martial arts,turtle warrior
+invention,medieval,mechanical knight
+invention,metal,d-3000
+invention,mind control,mind control device
+invention,miniature,bonsai
+invention,monkey,momo x
+invention,monster,frankenstein
+invention,multiples,superpowered girls
+invention,mutation,dr. savage
+invention,myth,talos
+invention,parasite,parasitic bioweapon
+invention,plant,killer vegetables
+invention,pocket pet,psychic clone
+invention,poison,clown toxin
+invention,precious ring lore,precious ring
+invention,prehistoric,caveman inventor
+invention,psychic,psychic clone
+invention,radiation,x-ray
+invention,rainbow,laser
+invention,relic,dark soul vessels
+invention,reptile,general viper
+invention,robot,dr. eggdude
+invention,rodent,genius and insane
+invention,royal game,dragon fire
+invention,sci-fi,time machine
+invention,science,thomas edison
+invention,sidekick,astro droid
+invention,sleep,cryosleep
+invention,snake,general viper
+invention,space,death ray
+invention,speed,superpowered girls
+invention,spirit,ghost trapper
+invention,strength,superpowered girls
+invention,sun,death ray
+invention,superhero,steel hero
+invention,sweets,confectioner will
+invention,sword,ed handytool
+invention,the chosen one,dark space lord
+invention,time,flux inventor
+invention,toy,pinocchio
+invention,tree,wolf battering ram
+invention,trident,ed handytool
+invention,turkey day,robot turkey
+invention,turtle,turtle warrior
+invention,undead,frankenstein
+invention,underground,gnome gadgeteer
+invention,vampire,parasitic bioweapon
+invention,vehicle,time machine
+invention,villain,flying goblin
+invention,void,mind control device
+invention,war,ultimate soldier
+invention,water,alchemist
+invention,water serpent,hydrabot
+invention,wealth,belphegor
+invention,weapon,death ray
+invention,werewolf,dr. savage
+invention,wind,da vinci flyer
+invention,wings,da vinci flyer
+invention,wizard,dark soul vessels
+invention,wizarding school,dark soul vessels
+invention,wolf,hungry coyote
 knight,knowledge,king
 knight,leader,king
 knight,life,paladin
 knight,love,prince charming
 knight,magic,battle mage
+knight,martial arts,super martial artist
 knight,medieval,sir lancelot
+knight,mind control,winter assassin
+knight,miniature,action figure
 knight,monkey,monkey king
 knight,monster,jaeger
 knight,moon,super bat
+knight,multiples,cavalry
 knight,music,war drummer
 knight,myth,sir lancelot
+knight,parasite,vampire knight
+knight,plant,plant fatale
 knight,poison,green knight
+knight,precious ring lore,the ranger
 knight,prehistoric,caveman
+knight,psychic,space guardian
+knight,radiation,radioactive avenger
+knight,rainbow,rainbow girl
+knight,relic,haunted armor
 knight,reptile,dragon rider
 knight,robot,ultimate soldier
-knight,science,ultimate soldier
+knight,rodent,chinchilla knight
+knight,royal game,king killer
+knight,royalty,king arthur
 knight,sci-fi,ultimate soldier
+knight,science,ultimate soldier
+knight,sidekick,sir lancelot
+knight,sleep,hacker hero
 knight,space,space guardian
+knight,speed,vampire knight
 knight,spirit,haunted armor
 knight,strength,gladiator
 knight,superhero,sir lancelot
+knight,sweets,gingerbread warrior
+knight,sword,excaliber
+knight,the chosen one,king arthur
 knight,toy,action figure
 knight,tree,green knight
 knight,trident,gladiator
+knight,turkey day,pilgrim
 knight,turtle,turtle warrior
 knight,undead,undead knight
-knight,villian,undead knight
+knight,underground,super bat
+knight,underwater,ocean defender
+knight,vampire,sunwalker vampire
+knight,vehicle,horse
+knight,villain,undead knight
 knight,void,shadow prelate
+knight,war,ultimate soldier
 knight,water,blue knight
+knight,water serpent,ocean defender
 knight,wealth,king
+knight,weapon,war god
 knight,wings,arch angel
 knight,wizard,battle mage
+knight,wizarding school,courageous founder
 knowledge,leader,professor y
 knowledge,life,human
+knowledge,love,aphrodite
+knowledge,madness,attractive brain
 knowledge,magic,wizard
+knowledge,martial arts,kung fu master
 knowledge,medieval,scholar
 knowledge,metal,blacksmith
+knowledge,mind control,hypnotist
+knowledge,miniature,usb of 999 truths
 knowledge,monkey,momo x
 knowledge,moon,astronaut
+knowledge,multiples,muse
 knowledge,music,muse
+knowledge,mutation,professor y
 knowledge,myth,philosopher's stone
+knowledge,parasite,mind slug
+knowledge,plant,poison oak
+knowledge,pocket pet,professor pine
 knowledge,poison,witch doctor
+knowledge,precious ring lore,treacherous wizard
 knowledge,prehistoric,fire
+knowledge,psychic,four eyed raven
 knowledge,radiation,bomb
 knowledge,rainbow,learning rainbow
+knowledge,relic,quadforce
 knowledge,reptile,the snake lord
 knowledge,robot,ai
-knowledge,science,einstein
+knowledge,rodent,genius and insane
+knowledge,royal game,head scholar
+knowledge,royalty,king
 knowledge,sci-fi,ai
+knowledge,science,einstein
+knowledge,sidekick,watson
+knowledge,sleep,mister sandman
 knowledge,snake,the snake lord
 knowledge,space,dr. what
 knowledge,spirit,ghost trapper
 knowledge,strength,battle mage
 knowledge,superhero,professor y
+knowledge,sweets,confectioner will
 knowledge,sword,usb of 999 truths
+knowledge,the chosen one,immortal one
 knowledge,time,dr. what
 knowledge,toy,chemistry set
 knowledge,tree,cursed apple
 knowledge,trident,farmer
+knowledge,turkey day,plymouth rock
+knowledge,turtle,kung fu master
 knowledge,undead,necromancer
+knowledge,underground,hades
+knowledge,underwater,hydromancer
 knowledge,vampire,dracula
-knowledge,villian,mama brain
+knowledge,vehicle,auto champion
+knowledge,villain,mama brain
 knowledge,void,void shaman
+knowledge,war,ares
 knowledge,water,hydromancer
+knowledge,water serpent,shapeshifter
 knowledge,wealth,king
 knowledge,weapon,mind control device
 knowledge,wind,aeromancer
+knowledge,wings,angel of wisdom
 knowledge,wizard,arch mage
+knowledge,wizarding school,nerdy wizard
 knowledge,wolf,shapeshifter
 leader,life,decimation
 leader,love,prince charming
+leader,madness,the deranged king
 leader,magic,wizard headmaster
+leader,martial arts,sensei rat
 leader,medieval,king arthur
 leader,metal,steel hero
+leader,mind control,alpha dragon
 leader,monkey,monkey king
+leader,moon,moon heroine
+leader,multiples,hero league
 leader,music,gem
+leader,mutation,professor y
 leader,myth,zeus
+leader,parasite,dracula
+leader,plant,poison oak
+leader,pocket pet,monster collector
+leader,precious ring lore,the ranger
 leader,prehistoric,indiana ford
+leader,psychic,professor y
+leader,radiation,sensei rat
 leader,rainbow,rainbow girl
+leader,relic,thor's hammer
 leader,reptile,general viper
 leader,robot,transformobot
-leader,science,einstein
+leader,rodent,sensei rat
+leader,royal game,ice zombie king
+leader,royalty,zeus
 leader,sci-fi,dr. what
+leader,science,einstein
+leader,sidekick,dark space lord
+leader,sleep,the awakener
 leader,snake,the snake lord
 leader,space,dr. what
+leader,speed,hermes
 leader,spirit,hades
 leader,strength,zeus
+leader,sun,apollo
 leader,superhero,jack anger
+leader,sweets,candy princess
 leader,sword,king
+leader,the chosen one,swarm queen
 leader,time,persian royalty
+leader,toy,action figure
 leader,tree,the world tree
 leader,trident,poseidon
+leader,turkey day,pilgrim
+leader,turtle,turtle king
 leader,undead,lich
+leader,underground,hades
+leader,underwater,mermaid king
 leader,vampire,dracula
-leader,villian,magnet dude
+leader,vehicle,transformobot
+leader,villain,magnet dude
 leader,void,shadow prelate
+leader,war,ares
 leader,water,poseidon
 leader,water serpent,naga queen
 leader,wealth,king midas
@@ -1162,144 +3994,384 @@ leader,werewolf,alpha
 leader,wind,windmaster eng
 leader,wings,ziz
 leader,wizard,wizard headmaster
+leader,wizarding school,courageous founder
 leader,wolf,alpha
+life,madness,unicorn blood
 life,magic,fairy
+life,martial arts,sarcastic hero
 life,medieval,holy grail
 life,metal,transformobot
+life,mind control,human battery
+life,miniature,nanopower
 life,monkey,sea monkey
+life,monster,frankenstein
 life,moon,moon golem
+life,multiples,phoenix
 life,music,golden harp
+life,mutation,decimation
 life,myth,fountain of youth
+life,parasite,youthful sorceress
+life,plant,treant
+life,pocket pet,luckymon
 life,poison,virus
+life,precious ring lore,elven power elixir
+life,psychic,fortune teller
 life,rainbow,unicorn
+life,relic,philosopher's stone
 life,reptile,world turtle
 life,robot,transformobot
+life,rodent,ratatoskr
+life,royal game,blue witch
+life,royalty,rapunzel
 life,science,doctor
+life,sleep,cryosleep
+life,snake,ouroboros
 life,space,alien
 life,spirit,oozer
 life,sun,alien
+life,superhero,jumping hero
+life,sweets,candy princess
+life,sword,plant fatale
+life,the chosen one,immortal one
 life,time,death
 life,toy,doll
 life,tree,treant
+life,trident,poseidon
+life,turkey day,turkey zombie
 life,turtle,world turtle
 life,undead,lich
-life,villian,decimation
+life,underground,underground city
+life,underwater,food chain
+life,vampire,blood
+life,vehicle,meteor
+life,villain,decimation
 life,void,soul stealer
+life,war,immortal
 life,water,ice golem
 life,wealth,golden egg goose
 life,weapon,virus
+life,werewolf,night children
 life,wind,air elemental
 life,wings,phoenix
 life,wizard,cleric
+life,wizarding school,death's gifts
 life,wolf,nine tailed fox
+love,madness,love potion
 love,magic,love potion
 love,medieval,prince charming
 love,metal,hug-o-tron
+love,mind control,love potion
+love,miniature,thumbelina
 love,monster,green eyed monster
+love,moon,moon heroine
+love,multiples,blood bros
 love,myth,cupid
+love,parasite,moocher
+love,plant,mistletoe
+love,pocket pet,luckymon
 love,poison,green eyed monster
+love,precious ring lore,the ranger
 love,prehistoric,friendly dino
+love,psychic,fortune teller
+love,radiation,undead bride
 love,rainbow,rainbow girl
+love,relic,elemental stones
 love,robot,hug-o-tron
-love,science,hug-o-tron
+love,rodent,care chilla
+love,royal game,lady revenant
+love,royalty,prince charming
 love,sci-fi,love potion
+love,science,hug-o-tron
+love,sleep,sleeping princess
 love,space,heavens
+love,speed,love potion
 love,strength,hug-o-tron
 love,sun,sparkling vampire
 love,superhero,cupid
+love,sweets,candy hearts
+love,the chosen one,moon heroine
 love,time,diamond ring
 love,toy,stuffed plushie
 love,tree,cupid's bow
+love,trident,cupid
+love,turkey day,turkey
 love,undead,zombie romeo
+love,underground,orpheus
 love,vampire,sparkling vampire
-love,villian,green eyed monster
+love,villain,green eyed monster
 love,void,cold hearted
+love,war,flower power
 love,water,love potion
+love,water serpent,siren
 love,wealth,diamond ring
 love,weapon,cupid's bow
+love,werewolf,monster & beauty
 love,wind,cupid
 love,wings,cupid
 love,wizard,cupid
+love,wizarding school,love potion
+love,wolf,monster & beauty
+madness,magic,the brown druid
+madness,martial arts,sarcastic hero
+madness,medieval,hamlet
+madness,metal,desert pirate
+madness,mind control,dull jack
+madness,monkey,momo x
+madness,monster,dr. jekyll
+madness,moon,blood moon
+madness,multiples,dr. jekyll
+madness,music,opera ghost
+madness,mutation,sarcastic hero
+madness,myth,mask of mischief
+madness,parasite,zombie fungus
+madness,plant,zombie fungus
+madness,poison,clown toxin
+madness,precious ring lore,precious ring bearer
+madness,psychic,delusional psychic
+madness,radiation,desert pirate
+madness,rainbow,psychotic clown
+madness,relic,ancient scrolls
+madness,reptile,general viper
+madness,robot,AL 9001
+madness,rodent,genius and insane
+madness,royal game,the deranged king
+madness,royalty,hamlet
+madness,sci-fi,invisible dude
+madness,science,flying goblin
+madness,sidekick,jester sidekick
+madness,sleep,clown toxin
+madness,snake,general viper
+madness,space,AL 9001
+madness,speed,mask of mischief
+madness,superhero,sarcastic hero
+madness,sweets,confectioner will
+madness,sword,lich blade
+madness,the chosen one,zombie hunter
+madness,time,flux inventor
+madness,toy,puzzle master
+madness,tree,the brown druid
+madness,trident,inner demons
+madness,turkey day,black friday
+madness,undead,dr. frankenstein
+madness,underground,rabbit hole
+madness,vampire,bloodlust
+madness,vehicle,clown car
+madness,villain,psychotic clown
+madness,void,rabbit hole
+madness,war,bloodlust
+madness,water,pirate captain
+madness,wealth,dorian gray
+madness,weapon,lich blade
+madness,werewolf,insanity wolf
+madness,wind,flying goblin
+madness,wizard,crazy eyed wizard
+madness,wizarding school,crazy eyed wizard
+madness,wolf,insanity wolf
 magic,medieval,merlin
 magic,metal,magicianbot
+magic,mind control,entropic magic
+magic,miniature,leprechaun
 magic,monkey,monkey king
 magic,moon,lunar priest
+magic,multiples,illusionist
 magic,music,cursed flute
+magic,mutation,crimson witch
+magic,myth,philosopher's stone
+magic,parasite,mana drainer
+magic,plant,druid
+magic,pocket pet,magicod
+magic,poison,witch doctor
+magic,precious ring lore,treacherous wizard
 magic,prehistoric,puff
+magic,psychic,prophecy wizard
 magic,rainbow,rainbow girl
+magic,relic,stinger
 magic,reptile,dragon fairy
 magic,robot,magicianbot
-magic,science,sci-fi
+magic,rodent,wiz's apprentice
+magic,royal game,forestfolk
+magic,royalty,ice queen
 magic,sci-fi,philosopher's stone
+magic,science,sci-fi
+magic,sidekick,jack the dog
+magic,sleep,mister sandman
+magic,snake,serpent cultist
 magic,space,pastry cat
 magic,spirit,necromancer
+magic,strength,arcane golem
 magic,superhero,the magician
+magic,sweets,candy witch
 magic,sword,excaliber
+magic,the chosen one,the boy wizard
 magic,toy,my mini horse
 magic,tree,treant
+magic,trident,wizard staff
+magic,turkey day,honey beer
 magic,turtle,turtle sorcerer
 magic,undead,skeletal mage
+magic,underground,geomancer
+magic,underwater,sea witch
 magic,vampire,dracula
-magic,villian,the snake lord
+magic,vehicle,broomstick
+magic,villain,the snake lord
 magic,void,void shaman
+magic,war,battle mage
 magic,water,holy water
 magic,water serpent,lochness
 magic,wealth,king midas
 magic,weapon,wizard staff
+magic,werewolf,transmutation
 magic,wind,genie
 magic,wings,fairy
 magic,wizard,arch mage
+magic,wizarding school,elf servant
+magic,wolf,werewolf
+martial arts,metal,robo ninja
+martial arts,mind control,blue iron
+martial arts,miniature,grasshopper
+martial arts,monkey,monkey king
+martial arts,monster,static beast
+martial arts,multiples,fighting champion
+martial arts,mutation,psychic assassin
+martial arts,myth,monkey king
+martial arts,pocket pet,ninja doge
+martial arts,poison,reptilian ninja
+martial arts,psychic,gunfu cleric
+martial arts,radiation,reptilian ninja
+martial arts,reptile,reptilian ninja
+martial arts,robot,robo ninja
+martial arts,rodent,sensei rat
+martial arts,royal game,poisonous prince
+martial arts,royalty,samurai hero
+martial arts,sci-fi,hacker hero
+martial arts,science,sarcastic hero
+martial arts,sleep,the awakener
+martial arts,snake,reptilian ninja
+martial arts,space,super martial artist
+martial arts,speed,samurai hero
+martial arts,spirit,spectre ninja
+martial arts,strength,super martial artist
+martial arts,sun,sunwalker vampire
+martial arts,superhero,windmaster eng
+martial arts,sweets,gingerbread warrior
+martial arts,sword,samurai hero
+martial arts,the chosen one,super martial artist
+martial arts,time,samurai hero
+martial arts,trident,sai
+martial arts,turtle,turtle warrior
+martial arts,undead,kung fu zombie
+martial arts,underground,turtle warrior
+martial arts,vampire,sunwalker vampire
+martial arts,vehicle,chiroptercar
+martial arts,villain,the grater
+martial arts,void,psychic assassin
+martial arts,water,absolute zero
+martial arts,water serpent,reptilian ninja
+martial arts,wealth,super bat
+martial arts,weapon,sai
+martial arts,werewolf,nine tails ninja
+martial arts,wind,windmaster eng
+martial arts,wings,chiropterang
+martial arts,wizard,windmaster eng
+martial arts,wolf,nine tails ninja
 medieval,metal,knight
+medieval,mind control,pied piper
+medieval,miniature,merry john
 medieval,monster,vampire knight
+medieval,multiples,angry mob
 medieval,music,bard
+medieval,mutation,ogre princess
 medieval,myth,excaliber
+medieval,parasite,black death
 medieval,poison,basilisk
+medieval,precious ring lore,the ranger
+medieval,psychic,four eyed raven
 medieval,radiation,basilisk
 medieval,rainbow,court jester
+medieval,relic,holy grail
 medieval,reptile,basilisk
 medieval,robot,mechanical knight
+medieval,rodent,chinchilla knight
+medieval,royal game,cranky knight
+medieval,royalty,king arthur
 medieval,science,plague doctor
+medieval,sidekick,sir lancelot
+medieval,sleep,sleeping princess
 medieval,snake,basilisk
 medieval,space,space guardian
+medieval,speed,vampire knight
 medieval,spirit,haunted armor
 medieval,strength,king
 medieval,superhero,robin hood
+medieval,sweets,bouncy bears
 medieval,sword,excaliber
+medieval,the chosen one,king arthur
 medieval,tree,catapult
 medieval,trident,devil
+medieval,turkey day,bird flu
 medieval,undead,undead knight
+medieval,underwater,lady of the lake
 medieval,vampire,vampire knight
-medieval,villian,morgana
+medieval,vehicle,dragon rider
+medieval,villain,morgana
 medieval,void,black death
+medieval,war,cavalry
 medieval,water,lady of the lake
 medieval,wealth,king
 medieval,weapon,excaliber
+medieval,werewolf,gargoyle
 medieval,wind,griffin
 medieval,wings,seraphim
 medieval,wizard,merlin
+medieval,wizarding school,courageous founder
 medieval,wolf,gargoyle
+metal,medieval,knight
+metal,mind control,tinfoil hat
+metal,miniature,nanobots
 metal,monkey,mecha monkey
 metal,monster,jaeger
 metal,moon,moon buggy
+metal,multiples,hydrabot
 metal,music,death metal
+metal,mutation,magnet dude
 metal,myth,hephaestus
+metal,parasite,human battery
+metal,pocket pet,dinaggro
+metal,poison,poison dagger
+metal,precious ring lore,shattered sword
 metal,prehistoric,armored dragon
+metal,psychic,lich blade
 metal,radiation,bomb
+metal,relic,fire sigil
 metal,reptile,general viper
 metal,robot,d-3000
+metal,rodent,bionic chinchilla
+metal,royal game,king killer
+metal,royalty,robot king
 metal,sci-fi,jaeger
+metal,science,d-3000
+metal,sidekick,astro droid
 metal,space,spaceship
+metal,speed,spaceship
 metal,spirit,haunted armor
 metal,strength,immovable object
 metal,superhero,steel hero
+metal,sweets,ez cake oven
 metal,sword,giant sword
+metal,the chosen one,transformobot
 metal,time,d-3000
 metal,toy,robotic toy
 metal,tree,catapult
 metal,trident,robot devil
 metal,turkey day,carver of doom
 metal,turtle,snapping turtle
-metal,villian,magnet dude
+metal,underground,miner
+metal,underwater,laser shark
+metal,vampire,vampiric gargoyle
+metal,vehicle,tank
+metal,villain,magnet dude
+metal,void,spaceship
+metal,war,tank
 metal,water,submarine
 metal,wealth,golden construct
 metal,weapon,unstoppable force
@@ -1307,116 +4379,338 @@ metal,werewolf,death
 metal,wind,jet fighter
 metal,wings,jet fighter
 metal,wizard,magicianbot
+metal,wizarding school,goblin banker
+mind control,miniature,conscience
+mind control,monkey,momo x
+mind control,monster,dr. jekyll
+mind control,moon,werewolf
+mind control,multiples,viral agent
+mind control,music,pied piper
+mind control,mutation,decimation
+mind control,myth,siren
+mind control,parasite,mind slug
+mind control,plant,poison oak
+mind control,pocket pet,psychic clone
+mind control,poison,entropic magic
+mind control,precious ring lore,precious ring
+mind control,psychic,four eyed raven
+mind control,relic,mind jewel
+mind control,reptile,hypnotic python
+mind control,robot,computer bug
+mind control,rodent,pied piper
+mind control,royal game,four eyed raven
+mind control,royalty,the bone king
+mind control,sci-fi,viral agent
+mind control,science,computer bug
+mind control,sidekick,winter assassin
+mind control,sleep,hypnotist
+mind control,snake,hypnotic python
+mind control,space,dark space lord
+mind control,spirit,dull jack
+mind control,strength,alpha dragon
+mind control,superhero,evil symbiote
+mind control,sweets,sugar demon
+mind control,sword,lich blade
+mind control,the chosen one,the ring courier
+mind control,time,hypnotist
+mind control,toy,other caroline
+mind control,tree,cursed flute
+mind control,trident,mind jewel
+mind control,turkey day,black friday
+mind control,turtle,hypnoturtle
+mind control,undead,wight
+mind control,underground,precious ring bearer
+mind control,underwater,siren
+mind control,vampire,bloodlust
+mind control,villain,dark space lord
+mind control,void,other caroline
+mind control,war,winter assassin
+mind control,water,love potion
+mind control,water serpent,siren
+mind control,wealth,precious ring
+mind control,weapon,mind control device
+mind control,wind,cursed flute
+mind control,wings,angelic mutant
+mind control,wizard,cursed will
+mind control,wizarding school,cursed will
+mind control,wolf,werewolf
+miniature,monkey,sea monkey
+miniature,monster,ember
+miniature,moon,white dwarf
+miniature,multiples,villain groupies
+miniature,music,merry john
+miniature,myth,time fairy
+miniature,parasite,flea
+miniature,plant,thumbelina
+miniature,pocket pet,ember
+miniature,poison,virus
+miniature,precious ring lore,white dwarf
+miniature,prehistoric,microraptor
+miniature,psychic,fickle eight ball
+miniature,rainbow,clown car
+miniature,relic,stinger
+miniature,reptile,microraptor
+miniature,robot,nanobots
+miniature,rodent,pygmy jerboa
+miniature,royal game,forestfolk
+miniature,royalty,asteroid prince
+miniature,sci-fi,nanobots
+miniature,science,mini clone
+miniature,sidekick,villain groupies
+miniature,sleep,power nap
+miniature,snake,cobramon
+miniature,space,white dwarf
+miniature,speed,spider mite
+miniature,strength,power nap
+miniature,sun,white dwarf
+miniature,superhero,insect man
+miniature,sweets,musical workers
+miniature,sword,usb of 999 truths
+miniature,time,power nap
+miniature,toy,my mini horse
+miniature,tree,bonsai
+miniature,trident,sea monkey
+miniature,turtle,bubbles
+miniature,underground,spider mite
+miniature,underwater,flapjack octopus
+miniature,vampire,bumblebee bat
+miniature,vehicle,clown car
+miniature,villain,mini clone
+miniature,void,dark matter
+miniature,war,army ant
+miniature,water,water bear
+miniature,water serpent,sea monkey
+miniature,wealth,merry john
+miniature,weapon,virus
+miniature,werewolf,night children
+miniature,wind,puff hero
+miniature,wings,bumblebee bat
+miniature,wolf,night children
 monkey,monster,kongar
 monkey,music,cymbal monkey
+monkey,moon,great wereape
+monkey,multiples,three wise monkeys
+monkey,music,cymbal monkey
+monkey,mutation,teleporting acrobat
 monkey,myth,monkey king
+monkey,parasite,flea
+monkey,plant,pet plant
 monkey,prehistoric,big foot
+monkey,psychic,animal whisperer
 monkey,radiation,kongar
+monkey,rainbow,cave monkeys
+monkey,relic,cursed monkey paw
 monkey,robot,mecha monkey
-monkey,science,momo x
+monkey,rodent,ratatoskr
+monkey,royalty,monkey king
 monkey,sci-fi,monkey planet
+monkey,science,momo x
+monkey,sidekick,barrel gorilla jr
+monkey,sleep,tranquilizer dart
 monkey,space,great wereape
+monkey,speed,great wereape
 monkey,strength,great wereape
+monkey,sun,great wereape
 monkey,superhero,barrel gorilla
+monkey,sword,sea monkey
+monkey,the chosen one,super martial artist
 monkey,time,monkey king
 monkey,toy,cymbal monkey
+monkey,tree,ratatoskr
 monkey,trident,sea monkey
-monkey,villian,momo x
+monkey,undead,cymbal monkey
+monkey,underground,cave monkeys
+monkey,underwater,sea monkey
+monkey,vampire,flea
+monkey,vehicle,tree
+monkey,villain,momo x
+monkey,void,monkey planet
+monkey,war,monkey planet
 monkey,water,sea monkey
 monkey,water serpent,sea monkey
+monkey,wealth,monkey king
 monkey,weapon,monkey king
 monkey,werewolf,great wereape
 monkey,wind,flying monkey
 monkey,wings,flying monkey
 monkey,wizard,monkey shaman
+monkey,wolf,great wereape
 monster,moon,bogeyman
+monster,multiples,dr. jekyll
 monster,music,siren
+monster,mutation,sewer mutants
 monster,myth,cyclops
+monster,parasite,xenomorph
+monster,plant,swamp monster
+monster,pocket pet,snoring monster
+monster,poison,smog horror
+monster,precious ring lore,tentacled beast
 monster,prehistoric,megalodon
+monster,psychic,vengeful spirit
+monster,radiation,gorezilla
 monster,rainbow,clown
+monster,relic,mummy
 monster,reptile,basilisk
 monster,robot,jaeger
-monster,science,frankenstein
+monster,rodent,chinzilla
+monster,royal game,wight
+monster,royalty,monster & beauty
 monster,sci-fi,xenomorph
+monster,science,frankenstein
+monster,sidekick,igor
+monster,sleep,snoring monster
 monster,snake,medusa
 monster,space,xenomorph
+monster,speed,wraith
 monster,spirit,wraith
+monster,strength,troll
 monster,superhero,demonite
+monster,sweets,cookie beast
 monster,sword,monster slayer
+monster,the chosen one,monster collector
 monster,tree,killer plant
 monster,turkey day,turkeyzilla
 monster,turtle,primeval turtle
 monster,undead,mummy
+monster,underground,tarrasque
+monster,underwater,charybdis
+monster,vehicle,monster truck
 monster,void,voidwalker
+monster,war,commander of sin
 monster,water,yeti
 monster,water serpent,lochness
 monster,wealth,greed
+monster,weapon,monster slayer
+monster,werewolf,insanity wolf
+monster,wind,wraith
 monster,wings,ziz
+monster,wizarding school,wraith
 monster,wolf,werewolf
-moon,angel,moon goddess
-moon,arcade,alien intruders
-moon,bat,vampire
-moon,bear,werebear
-moon,bird,werechicken
-moon,cat,black cat
-moon,chinchilla,ninchilla
-moon,demon,bogeyman
-moon,destruction,moonflare
-moon,dog,night children
-moon,dragon,night dragon
-moon,earth,moon golem
-moon,elf,dark elf
-moon,energy,moonflare
-moon,fairy,tooth fairy
-moon,fire,moonflare
-moon,fish,moon jellyfish
-moon,food,lunar pie
-moon,golem,moon golem
-moon,halloween,headless rider
-moon,horse,nightmare
-moon,human,astronaut
-moon,insect,moon buggy
-moon,knight,super bat
-moon,knowledge,astronaut
-moon,leader,moon heroine
-moon,life,moon golem
-moon,love,moon heroine
-moon,magic,lunar priest
-moon,metal,moon buggy
-moon,monkey,great wereape
-moon,monster,bogeyman
+moon,multiples,moon jellyfish
 moon,music,night children
 moon,myth,moon goddess
+moon,parasite,bed bug
+moon,plant,nightshade
+moon,pocket pet,bone chin
 moon,poison,nightshade
+moon,precious ring lore,celestial trees
+moon,psychic,lunara
 moon,radiation,moonflare
+moon,relic,celestial trees
 moon,robot,moon buggy
+moon,rodent,ninchilla
+moon,royal game,ice zombie king
+moon,royalty,moon heroine
 moon,science,moon buggy
+moon,sidekick,meteor
 moon,spirit,bogeyman
 moon,strength,great wereape
 moon,sun,blood moon
 moon,superhero,moon heroine
 moon,sword,space guardian
+moon,the chosen one,moon heroine
 moon,toy,space shoes
 moon,tree,spooky tree
+moon,trident,high tide
+moon,turkey day,lunar pie
 moon,undead,space zombie
-moon,villian,bogeyman
+moon,underground,moon golem
+moon,underwater,moon jellyfish
+moon,vehicle,moon buggy
+moon,villain,bogeyman
 moon,water,high tide
+moon,water serpent,moon jellyfish
 moon,weapon,moonflare
 moon,werewolf,night children
 moon,wings,night dragon
 moon,wizard,lunar priest
+moon,wizarding school,professor werewolf
 moon,wolf,werewolf
+multiples,music,night children
+multiples,mutation,hero league
+multiples,myth,scylla
+multiples,parasite,bed bug
+multiples,plant,plant clones
+multiples,pocket pet,psychic clone
+multiples,poison,black widow
+multiples,precious ring lore,wraith
+multiples,prehistoric,dino hybrid
+multiples,psychic,illusionist
+multiples,radiation,mutated fish
+multiples,rainbow,double rainbow
+multiples,relic,worship stones
+multiples,reptile,medusa
+multiples,robot,droid commander
+multiples,rodent,genius and insane
+multiples,royal game,many faced man
+multiples,royalty,asteroid prince
+multiples,sci-fi,droid commander
+multiples,science,hydrabot
+multiples,sidekick,villain groupies
+multiples,sleep,multi dream
+multiples,snake,medusa
+multiples,space,multiverse
+multiples,speed,sleipnir
+multiples,spirit,spirit wolf
+multiples,strength,fighting champion
+multiples,superhero,hero league
+multiples,sweets,cavities
+multiples,sword,droid commander
+multiples,the chosen one,hacker hero
+multiples,time,multiverse
+multiples,trident,angry mob
+multiples,turkey day,harvest
+multiples,turtle,turtle warrior
+multiples,undead,zombie outbreak
+multiples,underground,turtle warrior
+multiples,underwater,hydra
+multiples,vampire,vampire coven
+multiples,vehicle,catron
+multiples,villain,villain groupies
+multiples,void,shoggoth
+multiples,war,terracotta army
+multiples,water,octopus
+multiples,water serpent,hydra
+multiples,weapon,gunslinger
+multiples,werewolf,wolfpack
+multiples,wings,seraphim
+multiples,wizard,illusionist
+multiples,wizarding school,dark soul vessels
+multiples,wolf,wolfpack
 music,myth,siren
+music,plant,singing raisins
+music,pocket pet,hypnotic singer
+music,precious ring lore,war drummer
 music,prehistoric,friendly dino
+music,psychic,pan
+music,radiation,bone xylophone
+music,rainbow,court jester
+music,relic,red violin
 music,reptile,snake charmer
+music,rodent,mozart chin
+music,royal game,tale of hot & cold
+music,royalty,the musical symbol
+music,sidekick,musical workers
+music,sleep,hypnotic singer
 music,snake,snake charmer
+music,speed,death metal
+music,spirit,opera ghost
 music,strength,war drummer
+music,sun,singing raisins
 music,superhero,gem
+music,sweets,pb & jelly time
+music,the chosen one,time adventurers
 music,time,hammer time
 music,toy,cymbal monkey
 music,tree,cursed flute
+music,trident,bastion
+music,turtle,turtle drummer
 music,undead,thrilling zombie
+music,underground,orpheus
+music,underwater,bastion
+music,vampire,vampire queen
 music,void,pied piper
+music,war,war drummer
 music,water,conch shell of doom
 music,water serpent,siren
 music,wealth,golden harp
@@ -1426,23 +4720,88 @@ music,wind,cursed flute
 music,wings,siren
 music,wizard,pied piper
 music,wolf,night children
+mutation,mutation,hero league
+mutation,myth,firebird force
+mutation,parasite,siphoning belle
+mutation,plant,poison oak
+mutation,pocket pet,psychic clone
+mutation,poison,radioactive avenger
+mutation,precious ring lore,goblin hybrid
+mutation,prehistoric,dino hybrid
+mutation,psychic,firebird force
+mutation,radiation,mutant man
+mutation,reptile,turtle warrior
+mutation,robot,mutant destroyer
+mutation,rodent,sensei rat
+mutation,royal game,stonescale
+mutation,royalty,frog prince
+mutation,sci-fi,cyborg alien mutant
+mutation,science,dr. savage
+mutation,sidekick,shifting mutant
+mutation,space,titan of death
+mutation,speed,the dash
+mutation,spirit,shade kitten
+mutation,strength,steamroller
+mutation,sun,optic mutant
+mutation,superhero,hero league
+mutation,sweets,candy princess
+mutation,sword,psychic assassin
+mutation,the chosen one,swarm queen
+mutation,tree,poison oak
+mutation,trident,mutated rhino
+mutation,turkey day,turkeyzilla
+mutation,turtle,turtle warrior
+mutation,undead,zombie outbreak
+mutation,underground,sewer mutants
+mutation,underwater,mutated fish
+mutation,vehicle,cyborg alien mutant
+mutation,villain,magnet dude
+mutation,void,teleporting acrobat
+mutation,war,mutant destroyer
+mutation,water,ice dude
+mutation,wealth,diamond queen
+mutation,weapon,mutant destroyer
+mutation,werewolf,dr. savage
+mutation,wind,tempest
+mutation,wings,angelic mutant
+mutation,wizard,crimson witch
+mutation,wizarding school,transmutation
+mutation,wolf,dr. savage
+myth,parasite,dracula
+myth,plant,hesperide's tree
+myth,pocket pet,time fairy
 myth,poison,arachne
+myth,precious ring lore,precious ring
+myth,prehistoric,nephilim
+myth,psychic,time fairy
 myth,rainbow,leprechaun
+myth,relic,pandora's box
 myth,reptile,medusa
+myth,rodent,ratatoskr
+myth,royal game,wight
+myth,royalty,zeus
+myth,sidekick,pegasus
+myth,sleep,the awakener
 myth,snake,medusa
 myth,space,alien
+myth,speed,hermes
 myth,spirit,hades
 myth,strength,hercules
 myth,sun,apollo
 myth,superhero,hercules
+myth,sweets,candy nation
 myth,sword,excaliber
+myth,the chosen one,king arthur
 myth,time,fountain of youth
 myth,toy,santa claus
 myth,tree,hesperide's tree
 myth,trident,poseidon
+myth,turtle,world turtle
 myth,undead,headless rider
+myth,underground,hades
+myth,underwater,atlantis
 myth,vampire,dracula
-myth,villian,war god
+myth,villain,war god
 myth,void,pandora's box
 myth,water,poseidon
 myth,water serpent,kraken
@@ -1452,81 +4811,58 @@ myth,werewolf,cerberus
 myth,wind,harpy
 myth,wings,pegasus
 myth,wizard,merlin
+myth,wizarding school,death's gifts
 myth,wolf,cerberus
-poison,reptile,basilisk
-poison,robot,robo ninja
-poison,sci-fi,the ooze
-poison,snake,cobra
-poison,space,the ooze
-poison,spirit,specter
-poison,strength,nightshade
-poison,sun,radiation
-poison,sword,poison dagger
-poison,time,death
-poison,tree,killer plant
-poison,villian,poison oak
-poison,void,nightshade
-poison,wealth,greed
-poison,weapon,poison dagger
-poison,wind,radiation
-poison,wings,wasp
-poison,wizard,witch doctor
-prehistoric,arcade,dino companion
-prehistoric,radiation,gorezilla
-prehistoric,rainbow,friendly dino
-prehistoric,reptile,gorezilla
-prehistoric,robot,raptorbot
-prehistoric,science,indiana ford
-prehistoric,sci-fi,dino park
-prehistoric,snake,anaconda
-prehistoric,space,meteor
-prehistoric,strength,megalodon
-prehistoric,time,fossil
-prehistoric,tree,brontosaurus
-prehistoric,trident,triceratops
-prehistoric,undead,zombiesaur
-prehistoric,water,megalodon
-prehistoric,weapon,club
-prehistoric,wind,pterodactyl
-prehistoric,wings,pterodactyl
-prehistoric,wolf,dire wolf
-plant,arcade,sunflower
-plant,bear,pet plant
-plant,cat,pet plant
-plant,chinchilla,pet plant
-plant,death,zombie fungus
-plant,demon,sinister gourdling
-plant,destruction,cursed apple
-plant,dog,pet plant
-plant,dragon,plant dragon
-plant,earth,mandrake
-plant,elf,forest elf
-plant,fairy,dryad
-plant,fire,hot pepper
-plant,fish,seahorse
-plant,food,farmer
-plant,golem,wooden golem
-plant,halloween,sinister gourdling
-plant,holidays,christmas tree
-plant,holy water,ice lotus
-plant,human,mandrake
-plant,ice,ice lotus
-plant,insect,leaf insect
-plant,knight,plant fatale
-plant,knowledge,poison oak
-plant,leader,poison oak
-plant,life,treant
-plant,magic,druid
-plant,monkey,pet plant
-plant,monster,swamp monster
-plant,moon,nightshade
-plant,music,singing raisins
-plant,myth,hesperide's tree
+parasite,plant,plant clones
+parasite,pocket pet,sonic bat
+parasite,poison,wasp
+parasite,precious ring lore,precious ring
+parasite,prehistoric,mosquito
+parasite,radiation,parasitic bioweapon
+parasite,robot,human battery
+parasite,sidekick,arm parasite
+parasite,sleep,bed bug
+parasite,snake,leech
+parasite,space,space zombie
+parasite,speed,crying angel
+parasite,spirit,wraith
+parasite,strength,arm parasite
+parasite,sun,sparkling vampire
+parasite,superhero,parasite hunter
+parasite,sweets,cavities
+parasite,sword,arm parasite
+parasite,the chosen one,parasite hunter
+parasite,time,moocher
+parasite,tree,mistletoe
+parasite,trident,cavities
+parasite,turkey day,moocher
+parasite,undead,zombie fungus
+parasite,underwater,tongue parasite
+parasite,vehicle,mosquito
+parasite,villain,evil symbiote
+parasite,void,soul stealer
+parasite,water,tongue parasite
+parasite,water serpent,xenomorph
+parasite,wealth,moocher
+parasite,weapon,parasitic bioweapon
+parasite,werewolf,werevamp
+parasite,wind,wraith
+parasite,wings,cuckoo
+parasite,wizard,youthful sorceress
+parasite,wizarding school,wraith
+parasite,wolf,werevamp
+plant,pocket pet,plantasaur
 plant,poison,nightshade
+plant,precious ring lore,the brown druid
+plant,psychic,koo koo nuts
 plant,radiation,killer vegetables
+plant,relic,spooky tree
 plant,reptile,plant dragon
-plant,science,killer vegetables
+plant,royal game,forestfolk
 plant,sci-fi,plant clones
+plant,science,killer vegetables
+plant,sidekick,ali-ent
+plant,sleep,cursed apple
 plant,snake,cursed apple
 plant,space,plant clones
 plant,spirit,spooky tree
@@ -1540,64 +4876,347 @@ plant,tree,the world tree
 plant,turkey day,harvest
 plant,turtle,world turtle
 plant,undead,zombie fungus
-plant,villian,poison oak
+plant,underground,persephone
+plant,underwater,cursed garden
+plant,vampire,nosferatu duck
+plant,vehicle,pumpkin carriage
+plant,villain,poison oak
 plant,void,nightshade
+plant,war,flower power
 plant,water,ice lotus
 plant,water serpent,plant dragon
 plant,wealth,hesperide's tree
 plant,weapon,plant fatale
 plant,wings,plant dragon
 plant,wizard,druid
+plant,wizarding school,mandrake
+pocket pet,pocket pet,monster collector
+pocket pet,poison,cobramon
+pocket pet,prehistoric,dinaggro
+pocket pet,psychic,koo koo nuts
+pocket pet,radiation,gorezilla
+pocket pet,rainbow,margarfree
+pocket pet,reptile,ember
+pocket pet,rodent,pikamon
+pocket pet,royal game,ember
+pocket pet,sci-fi,psychic clone
+pocket pet,science,professor pine
+pocket pet,sidekick,pikamon
+pocket pet,sleep,snoring monster
+pocket pet,snake,cobramon
+pocket pet,space,psychic clone
+pocket pet,spirit,specter
+pocket pet,strength,geode
+pocket pet,sun,emberzard
+pocket pet,superhero,monster collector
+pocket pet,sword,ninja doge
+pocket pet,the chosen one,monster collector
+pocket pet,time,time fairy
+pocket pet,tree,plantasaur
+pocket pet,trident,geode
+pocket pet,turtle,bubbles
+pocket pet,undead,specter
+pocket pet,underground,geode
+pocket pet,underwater,water dragon
+pocket pet,vampire,sonic bat
+pocket pet,villain,astro gang
+pocket pet,void,ninja doge
+pocket pet,war,astro gang
+pocket pet,water,bubbles
+pocket pet,water serpent,water dragon
+pocket pet,wealth,meowmon
+pocket pet,weapon,bone chin
+pocket pet,werewolf,ninja doge
+pocket pet,wind,frostwing
+pocket pet,wings,frostwing
+pocket pet,wizard,magicod
+pocket pet,wolf,ninja doge
+poison,precious ring lore,wraith dagger
+poison,prehistoric,nightshade
+poison,psychic,delusional psychic
+poison,radiation,radiation sickness
+poison,relic,silver bullet
+poison,reptile,basilisk
+poison,robot,robo ninja
+poison,rodent,poisonous porcupine
+poison,royal game,dragon fire
+poison,royalty,evil queen
+poison,sci-fi,the ooze
+poison,sidekick,specter
+poison,sleep,tranquilizer dart
+poison,snake,cobra
+poison,space,the ooze
+poison,speed,black mamba
+poison,spirit,specter
+poison,strength,nightshade
+poison,sun,radiation
+poison,superhero,radioactive avenger
+poison,sweets,sugar demon
+poison,sword,poison dagger
+poison,the chosen one,specter
+poison,time,death
+poison,tree,killer plant
+poison,turkey day,fruit cake
+poison,turtle,hypnoturtle
+poison,underground,bomb shelter
+poison,underwater,blowfish
+poison,vampire,holy water
+poison,villain,poison oak
+poison,void,nightshade
+poison,war,gas mask soldier
+poison,water,blowfish
+poison,wealth,greed
+poison,weapon,poison dagger
+poison,wind,radiation
+poison,wings,wasp
+poison,wizard,witch doctor
+poison,wizarding school,basilisk
+precious ring lore,prehistoric,celestial trees
+precious ring lore,relic,stinger
+precious ring lore,reptile,smug
+precious ring lore,rodent,forest chinchillas
+precious ring lore,royal game,ancient dragon
+precious ring lore,royalty,the ranger
+precious ring lore,science,goblin hybrid
+precious ring lore,sidekick,lord of horses
+precious ring lore,sleep,fiery shadow demon
+precious ring lore,snake,ring lord
+precious ring lore,space,vial of stars
+precious ring lore,speed,lord of horses
+precious ring lore,spirit,ghost army
+precious ring lore,strength,shapeshifting chief
+precious ring lore,sun,celestial trees
+precious ring lore,superhero,arch mage
+precious ring lore,sweets,elven power elixir
+precious ring lore,sword,shattered sword
+precious ring lore,the chosen one,the ring courier
+precious ring lore,tree,celestial trees
+precious ring lore,trident,wraith dagger
+precious ring lore,undead,ghost army
+precious ring lore,underground,goblin hybrid
+precious ring lore,underwater,tentacled beast
+precious ring lore,vampire,ring lord
+precious ring lore,vehicle,forest chinchillas
+precious ring lore,villain,ring lord
+precious ring lore,void,fiery shadow demon
+precious ring lore,war,goblin hybrid
+precious ring lore,water,vial of stars
+precious ring lore,water serpent,tentacled beast
+precious ring lore,wealth,smug
+precious ring lore,weapon,wraith dagger
+precious ring lore,werewolf,ring lord
+precious ring lore,wind,lord of horses
+precious ring lore,wings,eagle rider
+precious ring lore,wizard,treacherous wizard
+precious ring lore,wolf,wolf battering ram
+prehistoric,psychic,dragon turtle
+prehistoric,radiation,gorezilla
+prehistoric,rainbow,friendly dino
+prehistoric,relic,fossil
+prehistoric,reptile,gorezilla
+prehistoric,robot,raptorbot
+prehistoric,rodent,saberchilla
+prehistoric,royal game,forestfolk
+prehistoric,sci-fi,dino park
+prehistoric,science,indiana ford
+prehistoric,sidekick,dino companion
+prehistoric,snake,anaconda
+prehistoric,space,meteor
+prehistoric,speed,terror bird
+prehistoric,strength,megalodon
+prehistoric,sun,super nova
+prehistoric,superhero,arch angel
+prehistoric,sword,claws
+prehistoric,time,fossil
+prehistoric,toy,club
+prehistoric,tree,brontosaurus
+prehistoric,trident,triceratops
+prehistoric,turkey day,pterodactyl
+prehistoric,turtle,primeval turtle
+prehistoric,undead,zombiesaur
+prehistoric,underground,fossil
+prehistoric,underwater,megalodon
+prehistoric,vampire,mosquito
+prehistoric,vehicle,stonemobile
+prehistoric,villain,dino hybrid
+prehistoric,void,black hole
+prehistoric,water,megalodon
+prehistoric,water serpent,lochness
+prehistoric,weapon,club
+prehistoric,werewolf,dire wolf
+prehistoric,wind,pterodactyl
+prehistoric,wings,pterodactyl
+prehistoric,wizard,arch mage
+prehistoric,wizarding school,austrian spiketail
+prehistoric,wolf,dire wolf
+psychic,psychic,psychic clone
+psychic,radiation,delusional psychic
+psychic,rainbow,mr. clown
+psychic,relic,ancient scrolls
+psychic,reptile,dragon turtle
+psychic,robot,magicianbot
+psychic,rodent,groundhog
+psychic,royal game,four eyed raven
+psychic,royalty,rebel space princess
+psychic,sci-fi,master y
+psychic,science,gunfu cleric
+psychic,sidekick,dark space lord
+psychic,sleep,hypnotist
+psychic,snake,animal whisperer
+psychic,space,swarm queen
+psychic,speed,gunfu cleric
+psychic,spirit,ghost communicator
+psychic,strength,alpha dragon
+psychic,superhero,firebird force
+psychic,sword,lich blade
+psychic,the chosen one,dark space lord
+psychic,time,four eyed raven
+psychic,toy,fickle eight ball
+psychic,tree,koo koo nuts
+psychic,turtle,dragon turtle
+psychic,undead,vengeful spirit
+psychic,underground,groundhog
+psychic,underwater,siren
+psychic,vampire,lunara
+psychic,villain,insidious emperor
+psychic,void,specter
+psychic,war,swarm queen
+psychic,water,psychic elementalist
+psychic,water serpent,siren
+psychic,wealth,stockbroker wolf
+psychic,weapon,psychic assassin
+psychic,werewolf,stockbroker wolf
+psychic,wind,psychic elementalist
+psychic,wings,swarm queen
+psychic,wizard,prophecy wizard
+psychic,wizarding school,prophecy wizard
+psychic,wolf,stockbroker wolf
 radiation,reptile,gorezilla
-radiation,science,bomb
+radiation,robot,alphatron
+radiation,rodent,sensei rat
+radiation,royal game,dragon fire
 radiation,sci-fi,the ooze
+radiation,science,bomb
 radiation,snake,anaconda
 radiation,space,the ooze
 radiation,spirit,oozer
 radiation,strength,mutant man
 radiation,superhero,mutant man
+radiation,sweets,fluff puff
 radiation,sword,the badger
 radiation,time,half-life
 radiation,toy,ez cake oven
 radiation,tree,killer plant
 radiation,turkey day,turkeyzilla
 radiation,turtle,primeval turtle
+radiation,underground,bomb shelter
+radiation,underwater,mutated fish
+radiation,vampire,parasitic bioweapon
+radiation,vehicle,monster truck
+radiation,villain,the ooze
+radiation,war,bomb shelter
 radiation,water serpent,kraken
 radiation,weapon,bomb
+radiation,wind,radiation sickness
 radiation,wolf,dire wolf
 rainbow,rainbow,double rainbow
 rainbow,reptile,chameleon
 rainbow,robot,bionic unicorn
-rainbow,science,laser
+rainbow,rodent,care chilla
+rainbow,royalty,pony princess
 rainbow,sci-fi,laser sword
+rainbow,science,laser
+rainbow,sidekick,jester sidekick
+rainbow,sleep,clown toxin
 rainbow,space,pastry cat
+rainbow,speed,lightspeed
 rainbow,spirit,chomp dude spirits
 rainbow,strength,laser
+rainbow,sun,lightspeed
+rainbow,superhero,rainbow girl
+rainbow,sweets,rainbow candy
 rainbow,sword,laser sword
+rainbow,the chosen one,pony princess
 rainbow,toy,rainbow girl
-rainbow,villian,clown
+rainbow,turkey day,harvest
+rainbow,turtle,cloud rider
+rainbow,underground,cave monkeys
+rainbow,underwater,mantis shrimp
+rainbow,vehicle,clown car
+rainbow,villain,clown
+rainbow,war,flower power
 rainbow,water,sno-cone
 rainbow,wealth,leprechaun
 rainbow,weapon,laser sword
+rainbow,wind,clown toxin
 rainbow,wings,butterfly
 rainbow,wizard,rainbow girl
+rainbow,wizarding school,unicorn blood
+relic,reptile,ubaid lizardman
+relic,robot,omni igniter
+relic,sci-fi,elemental stones
+relic,science,great wall
+relic,snake,ouroboros
+relic,space,omni igniter
+relic,speed,mask of mischief
+relic,spirit,ancient ark
+relic,strength,quadforce
+relic,sun,celestial trees
+relic,superhero,thor
+relic,sweets,sugar skull
+relic,sword,lich blade
+relic,the chosen one,horn of man
+relic,time,ancient scrolls
+relic,toy,ball companion
+relic,tree,hesperide's tree
+relic,trident,mind jewel
+relic,turkey day,plymouth rock
+relic,turtle,world turtle
+relic,undead,necrocomicon
+relic,underground,worship stones
+relic,underwater,conch shell of doom
+relic,vampire,vampire killer
+relic,vehicle,omni igniter
+relic,void,the magic dresser
+relic,war,the magic dresser
+relic,water,elemental stones
+relic,wealth,pirate booty
+relic,weapon,vampire killer
+relic,werewolf,silver bullet
+relic,wind,elemental stones
+relic,wings,da vinci flyer
+relic,wizard,death's gifts
+relic,wizarding school,death's gifts
+relic,wolf,silver bullet
 reptile,reptile,dino park
 reptile,robot,general viper
-reptile,science,general viper
+reptile,royal game,dragon mother
+reptile,royalty,turtle king
 reptile,sci-fi,dino park
+reptile,science,general viper
+reptile,sidekick,dino companion
 reptile,snake,serpent cultist
 reptile,space,alien reptile
+reptile,speed,black mamba
 reptile,spirit,spectral dragon
 reptile,strength,gorezilla
 reptile,superhero,turtle warrior
+reptile,sweets,gummy worm
 reptile,sword,turtle warrior
+reptile,the chosen one,ember
 reptile,time,hungry crocodile
 reptile,toy,snakes in a can
 reptile,tree,chameleon
 reptile,trident,naga queen
+reptile,turkey day,turkeyzilla
 reptile,undead,zombiesaur
-reptile,villian,alien reptile
+reptile,underground,tarrasque
+reptile,underwater,turtle
+reptile,vampire,serpent cultist
+reptile,vehicle,lizard rider
+reptile,villain,alien reptile
 reptile,void,death adder shadow
+reptile,war,war turtle
 reptile,water,bubbles
 reptile,water serpent,naga queen
 reptile,wealth,smug
@@ -1605,176 +5224,316 @@ reptile,weapon,turtle warrior
 reptile,wind,death adder shadow
 reptile,wings,snakes on a jet
 reptile,wizard,the snake lord
-robot,science,cyborg
+reptile,wizarding school,basilisk
+robot,rodent,bionic chinchilla
+robot,royalty,robot king
 robot,sci-fi,transformobot
+robot,science,cyborg
+robot,sidekick,astro droid
 robot,snake,general viper
 robot,space,transformobot
+robot,speed,robo ninja
 robot,strength,metal golem
+robot,sun,death ray
 robot,superhero,transformobot
 robot,sword,robo ninja
+robot,the chosen one,transformobot
 robot,time,d-3000
 robot,toy,robotic toy
 robot,trident,robot devil
 robot,turkey day,robot turkey
-robot,villian,alphatron
+robot,turtle,snapping turtle
+robot,underground,golden construct
+robot,underwater,laser shark
+robot,vehicle,transformobot
+robot,villain,alphatron
+robot,war,d-3000
 robot,water,hydrabot
 robot,water serpent,hydrabot
 robot,wealth,golden construct
 robot,weapon,jaeger
+robot,werewolf,k-9000
 robot,wizard,magicianbot
 robot,wolf,cyberwolf
-rodent,angel,fairy godmouse
-rodent,arcade,pikamon
-rodent,ash,dust bath
-rodent,bat,flying squirrel
-rodent,cat,cat and mouse
-rodent,death,rat reaper
-rodent,demon,zombie chipmunk
-rodent,destruction,black death
-rodent,earth,groundhog
-rodent,elf,pied piper
-rodent,energy,pikamon
-rodent,fairy,fairy godmouse
-rodent,fish,shark rider
-rodent,food,rat chef
-rodent,halloween,chinzombie
-rodent,hammer,cat and mouse
-rodent,human,pied piper
-rodent,insect,black death
-rodent,knight,chinchilla knight
-rodent,knowledge,genius and insane
-rodent,leader,sensei rat
-rodent,life,ratatoskr
-rodent,love,care chilla
-rodent,magic,wiz's apprentice
-rodent,medieval,chinchilla knight
-rodent,metal,bionic chinchilla
-rodent,monster,chinzilla
-rodent,moon,ninchilla
-rodent,music,mozart chin
-rodent,myth,ratatoskr
-rodent,poison,poisonous porcupine
-rodent,prehistoric,saberchilla
-rodent,radiation,sensei rat
-rodent,rainbow,care chilla
-rodent,robot,bionic chinchilla
-rodent,science,genius and insane
+rodent,royalty,candy king chin
 rodent,sci-fi,chin trooper
+rodent,science,genius and insane
+rodent,sidekick,rat chef
 rodent,space,chin trooper
+rodent,speed,swift the chin
 rodent,spirit,rat reaper
 rodent,strength,mouse hero
 rodent,superhero,mouse hero
 rodent,sword,ninchilla
+rodent,the chosen one,pikamon
 rodent,time,groundhog
 rodent,toy,stuffed plushie
 rodent,tree,beaver
+rodent,trident,poisonous porcupine
 rodent,turkey day,pilgrim chin
 rodent,turtle,sensei rat
 rodent,undead,zombie chipmunk
+rodent,underground,groundhog
+rodent,underwater,chin cousteau
 rodent,vampire,vampchilla
-rodent,villian,genius and insane
+rodent,villain,genius and insane
 rodent,void,pied piper
+rodent,war,chinchilla knight
 rodent,water,beaver
+rodent,water serpent,beaver
 rodent,weapon,poisonous porcupine
 rodent,wind,flying squirrel
 rodent,wings,flying squirrel
 rodent,wizard,wiz's apprentice
-science,sci-fi,dark matter
-science,snake,general viper
-science,space,einstein
-science,spirit,ghost trapper
-science,strength,dr. savage
-science,sun,death ray
-science,superhero,lieutenant usa
-science,sword,laser sword
-science,time,d-3000
-science,toy,chemistry set
-science,trident,spork of doom
-science,turtle,racing tortoise
-science,undead,frankenstein
-science,void,dark matter
-science,water serpent,hydrabot
-science,wealth,steel hero
-science,weapon,mind control device
-science,werewolf,dr. savage
-science,wings,jet fighter
-science,wolf,dire wolf
+rodent,wizarding school,transmutation
+sci-fi,sci-fi,sharkstorm
+sci-fi,science,dark matter
+sci-fi,sidekick,hairy smuggler
+sci-fi,sleep,hacker hero
 sci-fi,snake,grabbers
 sci-fi,space,alien
+sci-fi,speed,hacker hero
 sci-fi,spirit,invisible dude
 sci-fi,strength,death ray
 sci-fi,sun,death ray
 sci-fi,superhero,hacker hero
+sci-fi,sweets,fluff puff
 sci-fi,sword,laser sword
+sci-fi,the chosen one,hacker hero
 sci-fi,time,time machine
 sci-fi,toy,robotic toy
 sci-fi,tree,killer plant
+sci-fi,trident,robot devil
 sci-fi,turkey day,robot turkey
+sci-fi,turtle,primeval turtle
 sci-fi,undead,space zombie
+sci-fi,underground,grabbers
+sci-fi,underwater,atlantis
 sci-fi,vampire,crying angel
-sci-fi,villian,dark space lord
+sci-fi,vehicle,time machine
+sci-fi,villain,dark space lord
 sci-fi,void,wormhole
+sci-fi,war,battle prodigy
 sci-fi,water,the ooze
 sci-fi,water serpent,xenomorph
 sci-fi,wealth,alien mob boss
 sci-fi,weapon,death ray
 sci-fi,werewolf,dr. savage
+sci-fi,wind,sharkstorm
 sci-fi,wings,space moth
 sci-fi,wizard,dr. what
 sci-fi,wolf,werewolf
+science,sidekick,flux inventor
+science,sleep,cryosleep
+science,snake,general viper
+science,space,einstein
+science,speed,lightspeed
+science,spirit,ghost trapper
+science,strength,dr. savage
+science,sun,death ray
+science,superhero,lieutenant usa
+science,sweets,confectioner will
+science,sword,laser sword
+science,the chosen one,ultimate soldier
+science,time,d-3000
+science,toy,chemistry set
+science,trident,spork of doom
+science,turkey day,robot turkey
+science,turtle,racing tortoise
+science,undead,frankenstein
+science,underground,bomb shelter
+science,underwater,chin cousteau
+science,vampire,bloodlust
+science,vehicle,time machine
+science,villain,alphatron
+science,void,dark matter
+science,war,ultimate soldier
+science,water,chin cousteau
+science,water serpent,hydrabot
+science,wealth,steel hero
+science,weapon,mind control device
+science,werewolf,dr. savage
+science,wings,jet fighter
+science,wizard,dr. what
+science,wolf,dire wolf
+sidekick,sidekick,villain groupies
+sidekick,sleep,winter assassin
+sidekick,snake,water dragon
+sidekick,space,hairy smuggler
+sidekick,speed,surfer dude
+sidekick,spirit,oozer
+sidekick,strength,merry john
+sidekick,sun,planet
+sidekick,superhero,barrel gorilla jr
+sidekick,sweets,musical workers
+sidekick,sword,sir lancelot
+sidekick,the chosen one,dark space lord
+sidekick,time,flux inventor
+sidekick,toy,ball companion
+sidekick,tree,ali-ent
+sidekick,turkey day,black friday
+sidekick,turtle,bubbles
+sidekick,undead,igor
+sidekick,underwater,bastion
+sidekick,vehicle,night dragon
+sidekick,villain,jester sidekick
+sidekick,void,night dragon
+sidekick,war,winter assassin
+sidekick,water,bubbles
+sidekick,water serpent,water dragon
+sidekick,wealth,merry john
+sidekick,weapon,winter assassin
+sidekick,wind,genie
+sidekick,wings,flight deck fairy
+sidekick,wizard,wiz's apprentice
+sidekick,wizarding school,nerdy wizard
+sidekick,wolf,northern king
+sleep,space,cryosleep
+sleep,speed,cat nap
+sleep,spirit,bogeyman
+sleep,strength,snoring monster
+sleep,sun,moon
+sleep,superhero,hacker hero
+sleep,sweets,sugar demon
+sleep,sword,nightmare stalker
+sleep,the chosen one,hacker hero
+sleep,time,rip van winkle
+sleep,toy,stuffed plushie
+sleep,tree,koala
+sleep,turkey day,turkey
+sleep,undead,sleepwalker
+sleep,underground,death
+sleep,underwater,cthulhu
+sleep,vampire,demon queen
+sleep,villain,nightmare stalker
+sleep,void,shadow people
+sleep,war,winter assassin
+sleep,water serpent,cthulhu
+sleep,wealth,smug
+sleep,weapon,tranquilizer dart
+sleep,wind,hypnotic singer
+sleep,wings,smug
+sleep,wizard,mister sandman
 snake,space,snakes on a jet
+snake,speed,black mamba
+snake,spirit,death adder shadow
 snake,strength,anaconda
+snake,sweets,gummy worm
 snake,time,ouroboros
 snake,toy,snakes in a can
 snake,tree,cursed apple
-snake,villian,general viper
+snake,turtle,dragon turtle
+snake,underground,furies
+snake,underwater,electric eel
+snake,vehicle,general viper
+snake,villain,general viper
+snake,void,death adder shadow
 snake,water,water serpent
+snake,wealth,snake oil salesman
 snake,weapon,general viper
 snake,wind,snakes on a jet
 snake,wings,snakes on a jet
 snake,wizard,the snake lord
+snake,wizarding school,the snake lord
+space,space,wormhole
+space,speed,surfer dude
+space,spirit,space ghosts
 space,strength,titan of death
 space,superhero,raccoon guardian
+space,sweets,lunar pie
 space,sword,laser sword
+space,the chosen one,battle prodigy
 space,time,dr. what
 space,toy,spaceship
 space,tree,the world tree
 space,turtle,world turtle
 space,undead,space zombie
-space,villian,titan of death
+space,underground,burrowling
+space,vehicle,spaceship
+space,villain,titan of death
 space,void,black hole
+space,war,ultimate soldier
+space,water,doc lobster
 space,water serpent,xenomorph
 space,wealth,alien mob boss
 space,weapon,death ray
+space,werewolf,hairy smuggler
 space,wings,spaceship
 space,wizard,dr. what
+speed,speed,lightspeed
+speed,spirit,wraith
+speed,strength,ultra dude
+speed,sun,lightspeed
+speed,superhero,the dash
+speed,sweets,sugar demon
+speed,sword,masked swordsman
+speed,the chosen one,super martial artist
+speed,time,time machine
+speed,toy,sleigh
+speed,tree,broomstick
+speed,turkey day,fast food
+speed,turtle,racing tortoise
+speed,undead,demonic bike
+speed,underground,hermes
+speed,underwater,charybdis
+speed,vampire,chiropterang
+speed,vehicle,chiroptercar
+speed,void,black hole
+speed,war,jet fighter
+speed,water,maelstrom
+speed,water serpent,sharkstorm
+speed,wealth,ceryneian hind
+speed,weapon,masked swordsman
+speed,wind,cyclone
+speed,wings,jet fighter
+speed,wizard,eagle rider
+speed,wizarding school,magical soccer
+speed,wolf,cyberwolf
+spirit,spirit,ghost army
+spirit,sun,phoenix
 spirit,superhero,ghost trapper
+spirit,sweets,fluff puff
 spirit,sword,soul harvester
+spirit,the chosen one,zombie hunter
 spirit,toy,chomp dude spirits
 spirit,tree,spooky tree
+spirit,turkey day,turkey zombie
 spirit,undead,tomb keeper
+spirit,underground,opera ghost
+spirit,underwater,ghost pirate
 spirit,vampire,soul stealer
-spirit,villian,soul harvester
+spirit,vehicle,trapper-1
+spirit,villain,soul harvester
 spirit,void,specter
+spirit,war,ghost army
 spirit,water,ghost pirate
+spirit,water serpent,spectral dragon
 spirit,wealth,genie
 spirit,weapon,ancient ark
 spirit,werewolf,spirit wolf
 spirit,wind,air elemental
 spirit,wings,spectral dragon
 spirit,wizard,necromancer
+spirit,wizarding school,nearly limbless larry
 spirit,wolf,spirit wolf
 strength,sun,death ray
 strength,superhero,hercules
+strength,sweets,gingerbread warrior
 strength,sword,barbarian
+strength,the chosen one,super martial artist
 strength,toy,action figure
 strength,tree,immovable object
 strength,trident,triceratops
 strength,turkey day,turkeyzilla
+strength,turtle,primeval turtle
 strength,undead,zombie tank
-strength,vampire,hybrid
-strength,villian,steamroller
+strength,underground,tarrasque
+strength,underwater,mantis shrimp
+strength,vampire,werevamp
+strength,vehicle,tank
+strength,villain,steamroller
 strength,void,void beast
+strength,war,amazon
 strength,water,maelstrom
 strength,water serpent,kraken
 strength,weapon,unstoppable force
@@ -1782,120 +5541,200 @@ strength,werewolf,alpha
 strength,wind,cyclone
 strength,wings,blue bull
 strength,wizard,battle mage
+strength,wizarding school,professor werewolf
 strength,wolf,dire wolf
 sun,sun,super nova
 sun,superhero,ultra dude
+sun,sweets,ez cake oven
 sun,sword,laser sword
+sun,the chosen one,dragon incarnate
 sun,time,black hole
 sun,toy,ez cake oven
 sun,tree,the world tree
 sun,turkey day,harvest
+sun,turtle,parched skeleton
+sun,undead,parched skeleton
+sun,underwater,anglerfish
 sun,vampire,fire
-sun,villian,death ray
+sun,vehicle,death ray
+sun,villain,death ray
 sun,void,black hole
+sun,war,death ray
 sun,water,rainbow
+sun,wealth,persian royalty
 sun,weapon,death ray
 sun,werewolf,human
 sun,wind,radiation
+sun,wings,firefly
+sun,wizarding school,austrian spiketail
+superhero,sweets,gingerbread warrior
 superhero,sword,the badger
+superhero,the chosen one,vampire assassin
 superhero,time,persian royalty
 superhero,toy,action figure
 superhero,tree,vampire hunter
 superhero,trident,poseidon
 superhero,turtle,turtle warrior
 superhero,undead,the reaper
+superhero,underground,super bat
+superhero,underwater,ocean defender
 superhero,vampire,vampire hunter
-superhero,villian,discipliner
+superhero,vehicle,transformobot
+superhero,villain,discipliner
 superhero,void,dark hero
+superhero,war,lieutenant usa
 superhero,water,ocean defender
+superhero,water serpent,ocean defender
 superhero,wealth,super bat
 superhero,weapon,vampire hunter
 superhero,wind,windmaster eng
 superhero,wings,raging bird
 superhero,wizard,arch mage
+superhero,wizarding school,the boy wizard
 superhero,wolf,the badger
+sweets,sweets,candy nation
+sweets,sword,gingerbread warrior
+sweets,time,pb & jelly time
+sweets,toy,ez cake oven
+sweets,tree,candy nation
+sweets,trident,cavities
+sweets,turkey day,fruit cake
+sweets,turtle,cloud rider
+sweets,underground,gummy worm
+sweets,vampire,vamp crunch
+sweets,villain,candy witch
+sweets,void,sugar demon
+sweets,war,gingerbread warrior
+sweets,water,sno-cone
+sweets,water serpent,gummy worm
+sweets,wealth,confectioner will
+sweets,weapon,pinata
+sweets,werewolf,lunar pie
+sweets,wings,pixie sugar
+sweets,wizard,candy witch
+sweets,wizarding school,chocolate lizards
 sword,sword,giant sword
+sword,the chosen one,excaliber
+sword,time,samurai hero
 sword,toy,usb of 999 truths
+sword,trident,sai
 sword,turkey day,carver of doom
 sword,turtle,turtle warrior
 sword,undead,bone sword
-sword,villian,the grater
+sword,underground,miner
+sword,underwater,swordfish
+sword,vampire,sunwalker vampire
+sword,villain,the grater
+sword,void,chaos champion
+sword,war,usb of 999 truths
 sword,water,trident
+sword,water serpent,naga queen
 sword,wealth,diamond sword
 sword,weapon,excaliber
+sword,werewolf,claws
 sword,wizard,battle mage
+sword,wizarding school,courageous founder
+sword,wolf,claws
+the chosen one,time,time adventurers
+the chosen one,toy,master dueler
+the chosen one,tree,the world tree
+the chosen one,turkey day,turkey
+the chosen one,turtle,bubbles
+the chosen one,undead,zombie hunter
+the chosen one,underwater,magicod
+the chosen one,vampire,vampire assassin
+the chosen one,vehicle,broomstick
+the chosen one,villain,dark space lord
+the chosen one,void,specter
+the chosen one,war,battle prodigy
+the chosen one,water,watermaster cora
+the chosen one,weapon,the ring courier
+the chosen one,werewolf,alpha
+the chosen one,wind,windmaster eng
+the chosen one,wings,swarm queen
+the chosen one,wizard,the boy wizard
+the chosen one,wizarding school,the boy wizard
+the chosen one,wolf,nine tails ninja
+time,time,paradox
 time,tree,the world tree
+time,turkey day,hangry
+time,turtle,kung fu master
 time,undead,mummy
-time,villian,d-3000
+time,underground,precious ring bearer
+time,vehicle,time machine
+time,villain,d-3000
+time,void,paradox
+time,war,d-3000
+time,water,fountain of youth
 time,water serpent,cthulhu
 time,wealth,persian royalty
 time,werewolf,young wolf
+time,wizard,dr. what
+time,wizarding school,nerdy wizard
+time,wolf,professor werewolf
 toy,tree,building blocks
 toy,undead,doll
-toy,villian,pinch
+toy,underground,cave monkeys
+toy,vampire,chiropterang
+toy,vehicle,sleigh
+toy,villain,pinch
+toy,void,spaceship
+toy,war,action figure
 toy,water,squirt gun
+toy,water serpent,sea monkey
 toy,wealth,mr. moneybags
 toy,weapon,squirt gun
+toy,werewolf,stuffed plushie
 toy,wind,kite
 toy,wings,kite
 toy,wizard,santa claus
+toy,wizarding school,chocolate lizards
 toy,wolf,stuffed plushie
 tree,turkey day,harvest
 tree,turtle,world turtle
 tree,vampire,death
-tree,villian,poison oak
+tree,vehicle,broomstick
+tree,villain,poison oak
 tree,void,nightshade
+tree,war,catapult
 tree,water,the world tree
 tree,wealth,hesperide's tree
 tree,weapon,club
 tree,wind,cursed flute
 tree,wizard,druid
+tree,wizarding school,broomstick
 trident,turkey day,carver of doom
-trident,villian,devil
+trident,turtle,turtle warrior
+trident,underground,devil
+trident,underwater,mermaid king
+trident,vehicle,broomstick
+trident,villain,devil
+trident,void,void beast
+trident,war,gladiator
+trident,water,poseidon
+trident,wealth,pirate booty
 trident,weapon,sai
+trident,wind,air ship
+trident,wizarding school,naga queen
 turkey day,undead,turkey zombie
+turkey day,vampire,moocher
+turkey day,vehicle,mayflower
+turkey day,villain,turkeyzilla
 turkey day,void,black friday
-turkey day,water,mayflower
+turkey day,war,black friday
+turkey day,water,harvest
 turkey day,wealth,black friday
 turkey day,weapon,carver of doom
+turkey day,werewolf,werechicken
 turkey day,wings,turkey
-turtle,angel,flying trooper
-turtle,arcade,turtle king
-turtle,bird,turtle duck
-turtle,death,parched skeleton
-turtle,demon,kappa
-turtle,destruction,primeval turtle
-turtle,dragon,dragon turtle
-turtle,earth,world turtle
-turtle,energy,racing tortoise
-turtle,fire,turtle king
-turtle,golem,turtle golem
-turtle,hammer,broham
-turtle,human,kappa
-turtle,ice,bubbles
-turtle,knight,turtle warrior
-turtle,knowledge,kung fu master
-turtle,leader,turtle king
-turtle,life,world turtle
-turtle,magic,turtle sorcerer
-turtle,metal,snapping turtle
-turtle,monster,primeval turtle
-turtle,music,turtle drummer
-turtle,myth,world turtle
-turtle,prehistoric,primeval turtle
-turtle,radiation,primeval turtle
-turtle,robot,snapping turtle
-turtle,science,racing tortoise
-turtle,sci-fi,primeval turtle
-turtle,snake,dragon turtle
-turtle,space,world turtle
-turtle,strength,primeval turtle
-turtle,superhero,turtle warrior
-turtle,sword,turtle warrior
-turtle,time,kung fu master
-turtle,tree,world turtle
+turkey day,wizard,honey beer
+turkey day,wizarding school,honey beer
+turkey day,wolf,hangry
 turtle,undead,parched skeleton
-turtle,villian,turtle king
+turtle,vehicle,world turtle
+turtle,villain,turtle king
+turtle,void,hypnoturtle
+turtle,war,war turtle
 turtle,water,bubbles
 turtle,water serpent,dragon turtle
 turtle,wealth,dragon turtle
@@ -1903,116 +5742,133 @@ turtle,weapon,turtle warrior
 turtle,wind,cloud rider
 turtle,wings,flying trooper
 turtle,wizard,turtle sorcerer
-undead,villian,lich
-undead,void,voidwalker
+turtle,wizarding school,turtle sorcerer
+undead,underground,mummy
+undead,underwater,pirate zombie
+undead,vehicle,demonic bike
+undead,villain,lich
+undead,void,void horror
+undead,war,undead knight
 undead,water,pirate zombie
 undead,wealth,mummy
 undead,weapon,bone sword
 undead,wind,ghost
 undead,wings,ghost
 undead,wizard,necromancer
-vampire,villian,dracula
+undead,wizarding school,nearly limbless larry
+underground,underwater,lava
+underground,vehicle,driller
+underground,villain,the mole king
+underground,void,burrowling
+underground,war,terracotta army
+underground,water,charon
+underground,water serpent,cthulhu
+underground,wealth,charon
+underground,weapon,spider mine
+underground,werewolf,cerberus
+underground,wings,furies
+underground,wizard,geomancer
+underground,wizarding school,goblin banker
+underground,wolf,cerberus
+underwater,vampire,vampire squid
+underwater,vehicle,submarine
+underwater,villain,sea witch
+underwater,void,cursed garden
+underwater,war,submarine
+underwater,water serpent,water dragon
+underwater,wealth,pirate booty
+underwater,weapon,kraken
+underwater,wings,flying fish
+underwater,wizard,sea witch
+underwater,wizarding school,transmutation
+underwater,wolf,seal
+vampire,vampire,vampire coven
+vampire,villain,dracula
 vampire,void,soul stealer
+vampire,war,vampire knight
+vampire,water,leech
 vampire,wealth,sparkling vampire
 vampire,weapon,chiropterang
-vampire,werewolf,hybrid
+vampire,werewolf,werevamp
 vampire,wings,bat
 vampire,wizard,dracula
-vehicle,bat,chiroptercar
-vehicle,bird,eagle rider
-vehicle,cat,catron
-vehicle,chinchilla,shark rider
-vehicle,death,demonic bike
-vehicle,demon,clown car
-vehicle,destruction,death ray
-vehicle,dragon,dragon rider
-vehicle,earth,stonemobile
-vehicle,elf,lizard rider
-vehicle,energy,transformobot
-vehicle,fairy,pumpkin carriage
-vehicle,fire,demonic bike
-vehicle,fish,shark rider
-vehicle,food,burgermobile
-vehicle,halloween,broomstick
-vehicle,holidays,sleigh
-vehicle,horse,pumpkin carriage
-vehicle,human,car
-vehicle,ice,ice carrier
-vehicle,insect,moon buggy
-vehicle,knight,horse
-vehicle,knowledge,auto champion
-vehicle,leader,transformobot
-vehicle,life,meteor
-vehicle,magic,broomstick
-vehicle,medieval,dragon rider
-vehicle,metal,tank
-vehicle,monster,monster truck
-vehicle,moon,moon buggy
-vehicle,plant,pumpkin carriage
-vehicle,prehistoric,stonemobile
-vehicle,radiation,monster truck
-vehicle,rainbow,clown car
-vehicle,reptile,lizard rider
-vehicle,robot,transformobot
-vehicle,sci-fi,time machine
-vehicle,science,time machine
-vehicle,snake,general viper
-vehicle,space,spaceship
-vehicle,spirit,trapper-1
-vehicle,strength,tank
-vehicle,sun,death ray
-vehicle,superhero,transformobot
-vehicle,time,time machine
-vehicle,toy,sleigh
-vehicle,tree,broomstick
-vehicle,turkey day,mayflower
-vehicle,turtle,world turtle
-vehicle,undead,demonic bike
-vehicle,villian,death ray
+vampire,wizarding school,the snake lord
+vampire,wolf,werevamp
+vehicle,villain,death ray
 vehicle,void,clown car
+vehicle,war,tank
 vehicle,water,shark rider
 vehicle,wealth,chiroptercar
 vehicle,weapon,tank
+vehicle,werewolf,monster truck
 vehicle,wind,air ship
 vehicle,wings,eagle rider
 vehicle,wizard,broomstick
-villian,void,shadow prelate
-villian,water,ice king
-villian,water serpent,cthulhu
-villian,wealth,smug
-villian,weapon,the grater
-villian,werewolf,cerberus
-villian,wizard,the snake lord
-villian,wolf,cerberus
+vehicle,wizarding school,broomstick
+villain,void,dark hero
+villain,war,winter assassin
+villain,water,ice king
+villain,water serpent,cthulhu
+villain,wealth,smug
+villain,weapon,the grater
+villain,werewolf,cerberus
+villain,wizard,the snake lord
+villain,wizarding school,the snake lord
+villain,wolf,cerberus
+void,void,black hole
+void,war,winter assassin
 void,water,poison
+void,water serpent,cthulhu
 void,wealth,alien mob boss
 void,weapon,pandora's box
 void,wind,cyclone
-void,wings,void horror
+void,wings,night dragon
 void,wizard,void shaman
+void,wizarding school,nearly limbless larry
+war,war,armageddon
+war,water,submarine
+war,wealth,golden construct
+war,weapon,sniper
+war,werewolf,wolf battering ram
+war,wind,air ship
+war,wings,messenger bird
+war,wizard,battle mage
+war,wolf,wolf battering ram
 water,water,flood
+water,water serpent,cthulhu
 water,wealth,pirate booty
 water,weapon,squirt gun
 water,wind,cyclone
 water,wings,penguin
 water,wizard,hydromancer
+water,wizarding school,transmutation
 water serpent,water serpent,hydra
 water serpent,weapon,kraken
+water serpent,wind,sharkstorm
 water serpent,wizard,hydromancer
+water serpent,wizarding school,naga queen
 wealth,weapon,precious ring
 wealth,werewolf,stockbroker wolf
 wealth,wind,genie
 wealth,wings,smug
 wealth,wizard,rumpelstiltskin
+wealth,wizarding school,goblin banker
 wealth,wolf,stockbroker wolf
 weapon,werewolf,claws
 weapon,wind,chiropterang
 weapon,wings,chiropterang
 weapon,wizard,wizard staff
+weapon,wizarding school,death's gifts
 weapon,wolf,claws
 wind,wind,cyclone
+wind,wings,thunderbird
 wind,wizard,aeromancer
 wind,wolf,spirit wolf
+wings,wings,seraphim
 wings,wizard,witch
+wings,wizarding school,magical soccer
+wings,wolf,werechicken
+wizard,wizarding school,wizard headmaster
 wizard,wolf,shapeshifter
+wizarding school,wolf,professor werewolf
 wolf,wolf,wolfpack
