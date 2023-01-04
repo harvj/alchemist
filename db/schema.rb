@@ -1,58 +1,65 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
-# Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to create the application database on another
-# system, you should be using db:schema:load, not running all the migrations
-# from scratch. The latter is a flawed and unsustainable approach (the more migrations
-# you'll amass, the slower it'll run and the greater likelihood for issues).
+# This file is the source Rails uses to define your schema when running `bin/rails
+# db:schema:load`. When creating a new database, `bin/rails db:schema:load` tends to
+# be faster and is potentially less error prone than running all of your
+# migrations from scratch. Old migrations may fail to apply correctly if those
+# migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151201060248) do
-
+ActiveRecord::Schema[7.0].define(version: 2022_12_22_214150) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cards", force: true do |t|
-    t.string   "name"
-    t.string   "color"
-    t.integer  "base_offense"
-    t.integer  "base_defense"
+  create_table "cards", force: :cascade do |t|
+    t.string "name"
+    t.integer "base_offense"
+    t.integer "base_defense"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "classification"
-    t.integer  "score"
+    t.integer "score"
+    t.integer "rarity"
+    t.integer "form"
+    t.integer "fusion"
+    t.index ["form"], name: "index_cards_on_form"
+    t.index ["fusion"], name: "index_cards_on_fusion"
+    t.index ["rarity"], name: "index_cards_on_rarity"
   end
 
-  create_table "combos", force: true do |t|
-    t.integer  "card_id"
-    t.integer  "match_id"
-    t.integer  "final_id"
+  create_table "combos", force: :cascade do |t|
+    t.integer "card_id"
+    t.integer "match_id"
+    t.integer "final_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.float    "score"
-    t.float    "onyx_score"
-    t.integer  "partner_id"
+    t.float "score"
+    t.float "onyx_score"
+    t.integer "partner_id"
+    t.index ["card_id"], name: "index_combos_on_card_id"
+    t.index ["final_id"], name: "index_combos_on_final_id"
+    t.index ["match_id"], name: "index_combos_on_match_id"
+    t.index ["partner_id"], name: "index_combos_on_partner_id"
   end
 
-  add_index "combos", ["card_id"], name: "index_combos_on_card_id", using: :btree
-  add_index "combos", ["final_id"], name: "index_combos_on_final_id", using: :btree
-  add_index "combos", ["match_id"], name: "index_combos_on_match_id", using: :btree
-
-  create_table "deck_cards", force: true do |t|
+  create_table "deck_cards", force: :cascade do |t|
     t.integer "deck_id"
     t.integer "card_id"
     t.integer "level"
     t.boolean "fused"
-    t.string  "color"
+    t.integer "rarity"
+    t.index ["card_id"], name: "index_deck_cards_on_card_id"
+    t.index ["deck_id"], name: "index_deck_cards_on_deck_id"
+    t.index ["level"], name: "index_deck_cards_on_level"
+    t.index ["rarity"], name: "index_deck_cards_on_rarity"
   end
 
-  create_table "decks", force: true do |t|
+  create_table "decks", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "name"
   end
 
 end

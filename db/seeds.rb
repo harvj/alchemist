@@ -4,7 +4,14 @@ require 'csv'
 
 CSV.foreach('db/seeds/cards.csv') do |row|
   puts "Creating card #{row[0]}"
-  Card.create!(name: row[0], color: row[1], base_offense: row[2], base_defense: row[3], classification: row[4])
+  Card.create!(
+    name: row[0],
+    rarity: Card::RARITIES[row[1].to_sym],
+    base_offense: row[2],
+    base_defense: row[3],
+    form: Card::FORMS[row[4].to_sym],
+    fusion: Card::FUSIONS[row[5].tr(' ','_').to_sym]
+  )
 end
 
 CSV.foreach('db/seeds/combos.csv') do |row|
@@ -21,18 +28,17 @@ CSV.foreach('db/seeds/combos.csv') do |row|
   Combo.create!(card_id: card_id, match_id: match_id, final_id: final_id) unless exists
 end
 
-# deck = Deck.create!
+Deck.create!(name: 'arena')
+# Deck.create!(name: 'starter')
 
-# CSV.foreach('db/seeds/deck_cards.csv') do |row|
-#   break if row[0] == 'stop'
-#   row[0].to_i.times do |i|
-#     card = Card.find_by!(name: row[1])
-#     fused = row[2] == 'F'
-#     level = fused ? 5 : row[2]
-#     color = row[3]
-#     deck.deck_cards << DeckCard.create!(card_id: card.id, level: level, fused: fused, color: color)
-#   end
-# end
+CSV.foreach('db/seeds/deck_cards.csv') do |row|
+  puts "Creating deck card #{row[1]}"
+  card_id = Card.find_by(name: row[1])&.id
+  fused = row[2] == 'F'
+  level = fused ? 5 : row[2]
+  rarity = row[3]
+  DeckCard.create!(deck_id: row[0], card_id: card_id, level: level, fused: fused, rarity: rarity)
+end
 
 # Rake::Task['data:combo_scores'].invoke
 # Rake::Task['data:card_scores'].invoke

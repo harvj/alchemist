@@ -11,9 +11,9 @@ air ship,diamond,14,10,final,critical strike
 air sprite,gold,7,10,final,critical strike
 AL 9001,gold,8,7,final,critical strike
 albert,diamond,14,14,final,curse
-alchemist,diamond,16.8,final,curse
+alchemist,diamond,16,8,final,curse
 ali-ent,diamond,18,7,final,crushing blow
-alicorn,diamond,14,11,final,criticall strike
+alicorn,diamond,14,11,final,critical strike
 alien,diamond,15,8,final,counter attack
 alien band,gold,10,6,final,absorb
 alien beastie,diamond,18,3,final,critical strike
@@ -33,7 +33,7 @@ amphisbaena,diamond,16,8,final,absorb
 anaconda,bronze,6,2,final,pierce
 ancient ark,gold,8,8,final,curse
 ancient dragon,diamond,13,12,final,crushing blow
-ancient scrolls,diamond,16,5,curse
+ancient scrolls,diamond,16,5,final,curse
 angel,bronze,1,4,combo,orb
 angel food cake,gold,11,4,final,absorb
 angel kid,gold,10,5,final,critical strike
@@ -123,7 +123,7 @@ black widow,diamond,17,4,final,critical strike
 blacksmith,gold,8,8,final,reflect
 blob,gold,0,9,combo,orb
 blood,gold,4,5,combo,orb
-blood analyst,10,10,final,critical strike
+blood analyst,gold,10,10,final,critical strike
 blood angel,diamond,15,9,final,curse
 blood bath,diamond,14,9,final,absorb
 blood bros,diamond,6,15,final,protection
@@ -383,7 +383,7 @@ electric eel,diamond,10,13,final,absorb
 elemental stones,diamond,16,9,final,critical strike
 elf,bronze,3,2,combo,orb
 elf baker,diamond,12,9,final,absorb
-elf king,gold,14,6,final,counter
+elf king,gold,14,6,final,counter attack
 elf servant,gold,1,15,final,protection
 elf warrior,diamond,16,8,final,critical strike
 elf wizard,gold,8,10,final,siphon
@@ -416,7 +416,7 @@ farmer,gold,7,7,final,pierce
 fast food,gold,14,5,final,absorb
 fat cat,diamond,13,10,final,crushing blow
 fat king,diamond,18,6,final,crushing blow
-fickle eight ball,18,2,final,crushing blow
+fickle eight ball,gold,18,2,final,crushing blow
 fiery shadow demon,diamond,13,12,final,crushing blow
 fighting champion,diamond,13,8,final,crushing blow
 fire,bronze,2,0,combo,orb
@@ -748,13 +748,13 @@ meowmon,diamond,14,7,final,critical strike
 merlin,diamond,16,8,final,critical strike
 mermaid,silver,6,6,final,weaken
 mermaid king,gold,4,15,final,protection
-mermaid princess,17,6,final,critical strike
+mermaid princess,diamond,17,6,final,critical strike
 merry john,gold,13,5,final,absorb
 messenger bird,gold,8,8,final,critical strike
 metal,bronze,0,3,combo,orb
 metal golem,silver,3,11,final,block
 meteor,silver,15,0,final,pierce
-meteorite sword,15,7,final,critical strike
+meteorite sword,diamond,15,7,final,critical strike
 microraptor,diamond,17,7,final,critical strike
 miles,diamond,14,14,final,protection
 milton,gold,10,10,final,crushing blow
@@ -804,7 +804,7 @@ mudslide,gold,13,7,final,crushing blow
 multi dream,diamond,13,12,final,crushing blow
 multiples,gold,5,4,combo,orb
 multiverse,gold,9,8,final,curse
-mumbling kid,gold,3,15,curse
+mumbling kid,gold,3,15,final,curse
 mummy,gold,8,10,final,counter attack
 murder of crows,diamond,14,8,final,counter attack
 muse,silver,7,6,final,amplify
@@ -848,14 +848,14 @@ oasis,gold,0,19,final,protection
 oberon,diamond,13,10,final,counter attack
 ocean defender,silver,7,3,final,siphon
 octopus,diamond,6,16,final,protection
-ogre princess,gold,10,5,final,critical blow
+ogre princess,gold,10,5,final,crushing blow
 olive,gold,7,12,final,critical strike
 omni igniter,diamond,13,10,final,critical strike
 oozer,diamond,16,8,final,absorb
 opera ghost,gold,4,11,final,protection
 optic mutant,gold,12,7,final,critical strike
 orpheus,diamond,12,10,final,curse
-other caroline,10,9,final,curse
+other caroline,gold,10,9,final,curse
 otto,gold,13,6,final,crushing blow
 ouroboros,diamond,8,15,final,critical strike
 outrealm warlord,diamond,13,10,final,critical strike
@@ -910,7 +910,7 @@ plant fatale,diamond,16,8,final,critical strike
 plantasaur,diamond,12,10,final,absorb
 plasma sword,diamond,14,8,final,critical strike
 plymouth rock,gold,6,10,final,protection
-pocket pet,gold,4,5,combo.orb
+pocket pet,gold,4,5,combo,orb
 poison,bronze,3,0,combo,orb
 poison cloud,gold,16,0,final,critical strike
 poison dagger,gold,14,1,final,pierce
@@ -982,7 +982,7 @@ ratatoskr,diamond,17,8,final,critical strike
 rattlesnake,gold,12,6,final,critical strike
 ravenica,gold,13,6,final,curse
 rebel space princess,diamond,12,10,final,critical strike
-red knight,silver,9,5,final,reflect 
+red knight,silver,9,5,final,reflect
 red violin,diamond,13,9,final,critical strike
 relic,gold,4,5,combo,orb
 reptile,gold,5,4,combo,orb
@@ -1084,7 +1084,7 @@ snake charmer,gold,9,8,final,critical strike
 snake oil salesman,diamond,15,7,final,curse
 snakes in a can,gold,18,1,final,critical strike
 snakes on a jet,bronze,7,1,final,pierce
-snapping turtle,gold,11,8,final,counter attack'
+snapping turtle,gold,11,8,final,counter attack
 sniper,diamond,20,4,final,critical strike
 sno-cone,gold,13,6,final,counter attack
 snoring monster,diamond,13,10,final,crushing blow
@@ -1156,7 +1156,7 @@ surfer dude,diamond,17,8,final,critical strike
 swamp monster,diamond,12,12,final,curse
 swarm queen,gold,12,6,final,critical strike
 sweets,gold,7,2,combo,orb
-swift the chin,13,5,final,crushing blow
+swift the chin,gold,13,5,final,crushing blow
 sword,silver,5,1,combo,orb
 sword prince,gold,12,7,final,crushing blow
 swordfish,diamond,13,9,final,critical strike
@@ -1179,7 +1179,7 @@ the brown druid,diamond,15,10,final,crushing blow
 the chosen one,gold,4,5,combo,orb
 the cursed chosen,diamond,17,7,final,curse
 the dash,diamond,5,18,final,protection
-the deranged king,12,11,final,curse
+the deranged king,diamond,12,11,final,curse
 the good giant,gold,0,18,final,protection
 the grater,diamond,9,13,final,counter attack
 the huntsman,diamond,14,9,final,critical strike
@@ -1232,7 +1232,7 @@ trick or treater,diamond,12,11,final,critical strike
 trident,bronze,4,0,combo,orb
 trojan horse,diamond,14,9,final,crushing blow
 troll,diamond,13,8,final,crushing blow
-true love's kiss,gold,15,4,critical strike
+true love's kiss,gold,15,4,final,critical strike
 turkey,gold,9,8,final,absorb
 turkey day,gold,4,3,combo,orb
 turkey zombie,diamond,15,8,final,counter attack

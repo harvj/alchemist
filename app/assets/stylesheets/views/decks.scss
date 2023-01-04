@@ -6,11 +6,12 @@ p {
   margin-bottom: 1px;
 }
 
-p span.badge {
+span.badge {
+  padding-left: 3px;
   width: 80px;
   display: inline-block;
-  border-radius: 2.5px;
-  font-size: 10px;
+  border-radius: 3px;
+  font-size: 12px;
   &.bronze {
     color: #fafafa;
     background-color: $bronze-dark;
@@ -22,6 +23,17 @@ p span.badge {
   &.gold {
     color: #333;
     background-color: $gold-dark;
+  }
+  &.onyx {
+    color: #eee;
+    background-color: #444
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
 
@@ -72,19 +84,39 @@ span.rank {
   }
 }
 
-span.delete {
+form.add_deck_card {
+  display: inline-block;
+  float: right;
+  input {
+    cursor: pointer;
+    border: none;
+  }
+  &.onyx {
+    input {
+      background: #333;
+      color: white;
+      &:hover {
+        background: #111;
+      }
+    }
+  }
+}
+
+form.delete {
   width: 18px;
   display: inline-block;
-  a {
+  input {
     width: 100%;
     display: inline-block;
     color: white;
     background-color: darken(orangered, 10);
     text-align: center;
     font-size: 10px;
-    border-radius: 2.5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
   }
-  a:hover {
+  input:hover {
     text-decoration: none;
     background-color: lighten(red, 10);
   }

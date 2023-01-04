@@ -1,53 +1,35 @@
-1,monster slayer,F,diamond,,,,,,,,
-1,ziz,F,diamond,,,,,,,,
-1,trick or treater,F,diamond,,,,,,,,
-1,kappa,F,diamond,,,,,,,,
-1,ratatoskr,F,diamond,,,,,,,,
-0,bear,5,gold,,,,,,,,
-1,blob,F,gold,,,,,,,,
-1,energy,F,gold,,,,,,,,
-1,food,F,gold,,,,,,,,
-1,holidays,F,gold,,,,,,,,
-1,life,F,gold,,,,,,,,
-1,monster,F,gold,,,,,,,,
-1,moon,F,gold,,,,,,,,
-1,plant,F,gold,,,,,,,,
-1,rodent,F,gold,,,,,,,,
-0,science,5,gold,,,,,,,,
-1,space,F,gold,,,,,,,,
-1,time,F,gold,,,,,,,,
-1,turkey day,F,gold,,,,,,,,
-1,turtle,F,gold,,,,,,,,
-1,villian,F,gold,,,,,,,,
-0,chinchilla,F,silver,,,,,,,,
-0,human,F,silver,,,,,,,,
-1,knight,F,silver,,,,,,,,
-1,knight,F,silver,,,,,,,,
-1,magic,F,silver,,,,,,,,
-1,superhero,F,silver,,,,,,,,
-1,superhero,F,silver,,,,,,,,
-1,sword,F,silver,,,,,,,,
-0,void,F,silver,,,,,,,,
-1,wizard,4,onyx,,,,,,,,
-1,death,4,onyx,,,,,,,,
-1,poison,4,onyx,,,,,,,,
-1,tree,4,onyx,,,,,,,,
-1,wings,4,onyx,,,,,,,,
-1,dragon,F,bronze,,,,,,,,
-1,metal,F,bronze,,,,,,,,
-1,metal,F,bronze,,,,,,,,
-0,radiation,F,bronze,,,,,,,,
-0,rainbow,F,bronze,,,,,,,,
-0,snake,F,bronze,,,,,,,,
-0,sun,F,bronze,,,,,,,,
-0,trident,F,bronze,,,,,,,,
-1,undead,F,bronze,,,,,,,,
-1,water,F,bronze,,,,,,,,
-stop,,,,,,,,,,,
-35,,,,,,,,,,,0
-,,,,,Upgrading Costs,2,3,4,5,Total,Ftotal
-,,,,,Bronze,3,12,27,48,90,180
-,,,,,Silver,12,27,48,75,162,324
-,,,,,Gold,21,48,78,111,258,516
-,,,,,Diamond,48,75,108,147,378,756
-,,,,,Onyx,75,108,147,192,522,1044
+1,monster slayer,F,diamond
+1,smoke screen,F,diamond
+1,smoke screen,F,diamond
+1,barbarian,F,diamond
+1,surfer dude,F,diamond
+1,arcade,F,gold
+1,bear,F,gold
+1,beauty,F,gold
+1,blob,F,gold
+1,camouflage,F,gold
+1,death,F,onyx
+1,earth,F,onyx
+1,fire,4,onyx
+1,life,F,onyx
+1,love,F,gold
+1,monkey,F,gold
+1,monster,F,gold
+1,moon,F,gold
+1,plant,F,gold
+1,poison,F,onyx
+1,prehistoric,4,onyx
+1,radiation,F,onyx
+1,rodent,F,gold
+1,sci-fi,4,onyx
+1,sleep,F,gold
+1,space,F,gold
+1,speed,F,gold
+1,strength,F,gold
+1,tree,F,onyx
+1,turtle,F,gold
+1,vehicle,F,gold
+1,villain,F,onyx
+1,weapon,F,gold
+1,wings,4,onyx
+1,wizard,4,onyx

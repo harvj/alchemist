@@ -1,5 +1,4 @@
 class Combo < ApplicationRecord
-
   TIERS = {
     first: 70.5,
     second: 58.9,
@@ -10,10 +9,9 @@ class Combo < ApplicationRecord
   belongs_to :card
   belongs_to :match, class_name: 'Card'
   belongs_to :final, class_name: 'Card'
-
   belongs_to :partner, class_name: 'Combo'
 
-  validates_presence_of :card_id, :match_id, :final_id
+  validates :card_id, :match_id, :final_id, presence: true
 
   after_save :assign_partner
 
@@ -56,5 +54,4 @@ class Combo < ApplicationRecord
     partner = Combo.where(match_id: card_id, card_id: match_id).first || Combo.create!(match_id: card_id, card_id: match_id, final_id: final_id, partner: self)
     self.update(partner_id: partner.id)
   end
-
 end
