@@ -6,7 +6,7 @@ class DecksController < ApplicationController
   def show
     @deck = Deck.first
     @sets = @deck.cards.group_by {|i| i.card_name }.map do |name,combos|
-      {name: name, combos: combos, set_score: combos.map(&:final_offense).max * combos.select{|c| c.final_offense > 34}.count}
+      {name: name, combos: combos, set_score: combos.select{|c| c.power > 64}.count * 100 + combos.select{|c| c.power > 63}.count}
     end.sort{|a,b| b[:set_score] <=> a[:set_score]}
   end
 end

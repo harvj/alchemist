@@ -1,7 +1,7 @@
 $card-radius: 5px;
 
 ul.cards-list {
-  max-width: 400px;
+  max-width: 800px;
 }
 
 li.card {
@@ -50,7 +50,17 @@ li.card {
   span.badge {
     opacity: 1;
     float: right;
-
+    &.base_defense {
+      color: #fafafa;
+      background: $defense;
+    }
+    &.base_offense {
+      color: #fafafa;
+      background: $offense;
+    }
+    &.power {
+      background: pink;
+    }
     &.defense {
       color: #333;
       background-color: #eee;
@@ -80,6 +90,13 @@ li.card {
     }
     &.diamond {
       background-color: $diamond-dark;
+    }
+    &.onyx-diamond {
+      background-color: $onyx-diamond;
+    }
+    &.onyx {
+      color: #eee;
+      background-color: #333;
     }
     &.tier-1 {
       background-color: limegreen;

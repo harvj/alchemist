@@ -1,7 +1,23 @@
 <h1><%= @card.display_name %></h1>
+<p><%= @card.combos.count %> combos</p>
 
-<ul>
-<% Combo.where(final_id: @card.id).sort_by{|c| c.card.name}.each do |combo| %>
-  <li><%= combo.card.display_name %>, <%= combo.match.display_name %></li>
+<ul class="cards-list">
+<% @card.combos.each do |combo| %>
+  <li class="card <%= combo.final_rarity %>">
+    <span>
+      <%= link_to combo.card_name.titleize, card_path(combo.card_id) %>,
+      <%= link_to combo.match_name.titleize, card_path(combo.match_id) %>,
+      <%= link_to combo.final_name.titleize, card_path(combo.final_id) %>
+    </span>
+    <span class="badge onyx"><%= combo.onyx_defense %></span>
+    <span class="badge onyx"><%= combo.onyx_offense %></span>
+    <span class="badge onyx-diamond"><%= combo.diamond_defense %></span>
+    <span class="badge onyx-diamond"><%= combo.diamond_offense %></span>
+    <span class="badge power"><%= combo.power %></span>
+    <span class="badge <%= combo.final_rarity %>"><%= combo.defense %></span>
+    <span class="badge <%= combo.final_rarity %>"><%= combo.offense %></span>
+    <span class="badge base_defense"><%= combo.base_defense %></span>
+    <span class="badge base_offense"><%= combo.base_offense %></span>
+  </li>
 <% end %>
 </ul>

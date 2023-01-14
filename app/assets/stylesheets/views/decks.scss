@@ -8,10 +8,13 @@ p {
 
 span.badge {
   padding-left: 3px;
-  width: 80px;
   display: inline-block;
   border-radius: 3px;
   font-size: 12px;
+  &.deck-card {
+    width: 80px;
+  }
+
   &.bronze {
     color: #fafafa;
     background-color: $bronze-dark;

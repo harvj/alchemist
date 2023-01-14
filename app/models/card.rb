@@ -1,21 +1,4 @@
 class Card < ApplicationRecord
-  RARITIES = {
-    bronze: 0,
-    silver: 1,
-    gold: 2,
-    diamond: 3,
-    onyx: 4
-  }
-  FORMS = { combo: 0, final: 1 }
-  FUSIONS = { orb: 0,
-    absorb: 1, siphon: 2,
-    critical_strike: 3, amplify: 4,
-    crushing_blow: 5, pierce: 6,
-    counter_attack: 7, reflect: 8,
-    curse: 9, weaken: 10,
-    protection: 11, block: 12
-  }
-
   validates :name, :base_offense, :base_defense, :rarity, :form, :fusion, presence: true
   validates :name, uniqueness: { scope: :rarity }
 
@@ -29,7 +12,48 @@ class Card < ApplicationRecord
   scope :combo, -> { where(form: 'combo') }
 
   def combos
-    super.includes(:final, :match)
+    id_table = combo? ? 'cards' : 'finals'
+    Combo.find_by_sql(<<~SQL
+      SELECT x.*,
+        base_multiplier * 5 + base_offense as offense,
+        base_multiplier * 5 + base_defense as defense,
+        diamond_mod + base_offense + 20 as diamond_offense,
+        diamond_mod + base_defense + 20 as diamond_defense,
+        onyx_mod + base_offense + 20 as onyx_offense,
+        onyx_mod + base_defense + 20 as onyx_defense,
+        (diamond_mod + base_offense + 20) + (diamond_mod + base_defense + 20) as power
+      FROM (SELECT
+          cards.id as card_id,
+          cards.name as card_name,
+          matches.id as match_id,
+          matches.name as match_name,
+          finals.id as final_id,
+          finals.name as final_name,
+          finals.base_offense,
+          finals.base_defense,
+          cards.rarity as card_rarity,
+          matches.rarity as match_rarity,
+          finals.rarity as final_rarity,
+          greatest(cards.rarity, matches.rarity) as high_rarity,
+          greatest(cards.rarity, matches.rarity) + 1 as base_multiplier,
+          (case when finals.rarity = 0 then 9
+                when finals.rarity = 1 then 7
+                when finals.rarity = 2 then 5 else 3 end
+          ) as onyx_mod,
+          (case when finals.rarity = 0 then 7
+                when finals.rarity = 1 then 5
+                when finals.rarity = 2 then 3 else 0 end
+          ) as diamond_mod
+        FROM cards
+        JOIN combos ON combos.card_id = cards.id
+        JOIN cards matches ON combos.match_id = matches.id
+        JOIN cards finals ON combos.final_id = finals.id
+        WHERE cards.form = 0
+        AND #{id_table}.id = #{id}
+      ) as x
+      ORDER BY power DESC, diamond_offense DESC, final_name ASC, card_name ASC
+    SQL
+    )
   end
 
   def display_name

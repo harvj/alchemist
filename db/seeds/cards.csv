@@ -925,7 +925,7 @@ poseidon,silver,8,6,final,pierce
 possession,diamond,18,6,final,curse
 power nap,gold,13,4,final,absorb
 praying mantis,gold,12,7,final,critical strike
-precious ring,gold,15,12,final,curse
+precious ring,gold,15,2,final,curse
 precious ring bearer,gold,13,7,final,curse
 precious ring lore,gold,5,4,combo,orb
 prehistoric,silver,5,2,combo,orb
@@ -942,7 +942,7 @@ protozoan villain,gold,17,1,final,curse
 psychic,gold,5,4,combo,orb
 psychic assassin,gold,11,8,final,critical strike
 psychic clone,gold,12,8,final,curse
-psychic elementalist,gold,13,11,final,critical strike
+psychic elementalist,diamond,13,11,final,critical strike
 psychotic clown,diamond,18,5,final,critical strike
 pterodactyl,gold,11,5,final,weaken
 puff,silver,8,6,final,amplify

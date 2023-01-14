@@ -2,8 +2,11 @@
 
 <% @sets.each do |set| %>
   <%= button_to "x", deck_deck_card_path(@deck, set[:combos].first.deck_card_id), method: :delete, form_class: 'delete' %>
-  <span class='badge <%= Card.rarities.key(set[:combos].first.card_rarity) %>'><%= link_to set[:name], combos_path(card: 1) %></span>
-  <% set[:combos].sort{|a,b|b[:final_offense]<=>a[:final_offense]}.each do |combo| %>
+  <span class='deck-card badge <%= Card.rarities.key(set[:combos].first.card_rarity) %>'>
+    <%= link_to set[:name], card_path(set[:combos].first.card_id) %>
+  </span>
+  <span class="badge"><%= set[:set_score] %></span>
+  <% set[:combos].sort_by{|c| [-c.power, -c.final_offense]}.each do |combo| %>
     <span
       title='<%= "#{combo.final_name} (#{combo.match_name}, #{combo.final_offense} #{combo.final_defense})" %>'
       class='score <%= tier_class(combo.score) %>'

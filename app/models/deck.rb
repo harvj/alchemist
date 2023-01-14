@@ -10,9 +10,11 @@ class Deck < ApplicationRecord
   def cards
     Deck.find_by_sql(<<~SQL
       select bar.*,
-          round(((bar.final_offense * bar.off_adj) * (bar.final_defense * bar.def_adj) / 10),1) as score
+        bar.final_offense + bar.final_defense as power,
+        round(((bar.final_offense * bar.off_adj) * (bar.final_defense * bar.def_adj) / 10),1) as score
       from (
       select
+        foo.card_id,
         foo.deck_card_id,
         foo.card_name,
         foo.card_rarity,
@@ -30,6 +32,7 @@ class Deck < ApplicationRecord
                   else 1 end),2) as def_adj
       from (
       select
+        cards.id as card_id,
         deck_cards.id as deck_card_id,
         deck_cards.rarity as card_rarity,
         cards.name as card_name,

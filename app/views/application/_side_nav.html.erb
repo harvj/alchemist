@@ -1,10 +1,10 @@
 <ul id='side_nav' class='nav nav-pills nav-stacked'>
   <% Card.combo.each do |card| %>
     <%= content_tag(:li, class: card.rarity) do %>
-      <%= link_to card.display_name, combos_path(card: card) %>
-      <%= button_to "5", deck_deck_cards_path(@deck&.id), form_class: 'add_deck_card', params: { card_id: card.id, level: 5, fused: true, rarity: card.rarity } %>
-      <%= button_to "4", deck_deck_cards_path(@deck&.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 4, fused: true, rarity: 'onyx' } %>
-      <%= button_to "5", deck_deck_cards_path(@deck&.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 5, fused: true, rarity: 'onyx' } %>
+      <%= link_to card.display_name, card_path(card) %>
+      <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card', params: { card_id: card.id, level: 5, fused: true, rarity: card.rarity } %>
+      <%= button_to "4", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 4, fused: true, rarity: 'onyx' } %>
+      <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 5, fused: true, rarity: 'onyx' } %>
     <% end %>
   <% end %>
 </ul>
