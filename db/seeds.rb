@@ -2,6 +2,8 @@
 
 require 'csv'
 
+user = User.create(username: 'kalep')
+
 CSV.foreach('db/seeds/cards.csv') do |row|
   puts "Creating card #{row[0]}"
   Card.create!(
@@ -10,7 +12,9 @@ CSV.foreach('db/seeds/cards.csv') do |row|
     base_offense: row[2],
     base_defense: row[3],
     form: Card::FORMS[row[4].to_sym],
-    fusion: Card::FUSIONS[row[5].tr(' ','_').to_sym]
+    fusion: Card::FUSIONS[row[5].tr(' ','_').to_sym],
+    origin: Card::ORIGINS[row[6].tr(' ','_').to_sym],
+    onyx_available: row[7]
   )
 end
 
@@ -38,6 +42,12 @@ CSV.foreach('db/seeds/deck_cards.csv') do |row|
   level = fused ? 5 : row[2]
   rarity = row[3]
   DeckCard.create!(deck_id: row[0], card_id: card_id, level: level, fused: fused, rarity: rarity)
+end
+
+CSV.foreach('db/seeds/user_cards.csv') do |row|
+  puts "Creating user card #{row[0]}"
+  card_id = Card.find_by(name: row[0])&.id
+  UserCard.create!(user_id: user.id, card_id: card_id)
 end
 
 # Rake::Task['data:combo_scores'].invoke

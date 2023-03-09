@@ -1,23 +1,51 @@
-<h1><%= @card.display_name %></h1>
-<p><%= @card.combos.count %> combos</p>
+<% combos = @card.combos %>
 
-<ul class="cards-list">
-<% @card.combos.each do |combo| %>
-  <li class="card <%= combo.final_rarity %>">
-    <span>
-      <%= link_to combo.card_name.titleize, card_path(combo.card_id) %>,
-      <%= link_to combo.match_name.titleize, card_path(combo.match_id) %>,
-      <%= link_to combo.final_name.titleize, card_path(combo.final_id) %>
-    </span>
-    <span class="badge onyx"><%= combo.onyx_defense %></span>
-    <span class="badge onyx"><%= combo.onyx_offense %></span>
-    <span class="badge onyx-diamond"><%= combo.diamond_defense %></span>
-    <span class="badge onyx-diamond"><%= combo.diamond_offense %></span>
-    <span class="badge power"><%= combo.power %></span>
-    <span class="badge <%= combo.final_rarity %>"><%= combo.defense %></span>
-    <span class="badge <%= combo.final_rarity %>"><%= combo.offense %></span>
-    <span class="badge base_defense"><%= combo.base_defense %></span>
-    <span class="badge base_offense"><%= combo.base_offense %></span>
-  </li>
+<h1><%= @card.display_name %></h1>
+<p><%= @card.fusion.titleize if @card.final? %></p>
+<p>
+  <%= combos.count %> combos,
+  <%= current_user.user_combos.researched.where(combo_id: combos.pluck(:combo_id)).count %> known,
+  <%= Combo.where(card_id: @card.id, match_id: current_user.user_cards.pluck(:card_id)).count %> knowable
+</p>
+
+<%= form_tag :user_combos do %>
+  <%= hidden_field_tag :card_id, @card.id %>
+  <%= button_tag 'submit known combos' %>
+  <p>sort:
+    <%= link_to 'power', card_path(@card) %>
+    <%= link_to 'offense', card_path(@card, sort: 'offense') %>
+    <%= link_to 'match name', card_path(@card, sort: 'matchname') %>
+  </p>
+
+  <ul class="cards-list">
+  <% @current_deck_combos.each do |combo| %>
+    <li><%#combo.to_json %></li>
+    <li class="card <%= combo.final_rarity %> <%= combo.deck_match_id ? 'deck' : '' %>">
+      <%= check_box_tag 'combos[]', [combo.combo_id, combo.partner_id].uniq, combo.researched? %>
+      <span>
+        <%= link_to combo.card_name.titleize, card_path(combo.card_id) %>,
+        <%= link_to combo.match_name.titleize, card_path(combo.match_id) %>,
+        <%= link_to combo.final_name.titleize, card_path(combo.final_id) %>
+      </span>
+      <% if combo.card_onyx_avail && combo.match_onyx_avail %>
+        <span class="badge onyx"><%= combo.onyx_defense %></span>
+        <span class="badge onyx"><%= combo.onyx_offense %></span>
+      <% end %>
+      <% if combo.card_onyx_avail || combo.match_onyx_avail %>
+        <span class="badge onyx-diamond"><%= combo.diamond_defense %></span>
+        <span class="badge onyx-diamond"><%= combo.diamond_offense %></span>
+      <% end %>
+      <span class="badge power"><%= combo.power %></span>
+      <span class="badge <%= combo.final_rarity %>"><%= combo.defense %></span>
+      <span class="badge <%= combo.final_rarity %>"><%= combo.offense %></span>
+      <span class="badge base_defense"><%= combo.base_defense %></span>
+      <span class="badge base_offense"><%= combo.base_offense %></span>
+    </li>
+  <% end %>
+  </ul>
 <% end %>
-</ul>
+
+<% if @card.combo? %>
+  <p>Unknown knowable combos: <%= @card.knowable_combo_names.map(&:name).join(', ') %></p>
+  <p>No combo with: <%= @card.cards_no_combo_with.map(&:name).join(', ') %></p>
+<% end %>

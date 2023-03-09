@@ -220,7 +220,7 @@ anger,food,hangry
 anger,galaxy wars,insidious emperor
 anger,giant,gashadokuro
 anger,golem,grouchy monster
-anger,hammer,WMD
+anger,hammer,wmd
 anger,holidays,pinch
 anger,holy water,armageddon
 anger,horn,malevolent
@@ -323,7 +323,7 @@ apocalypse,galaxy wars,death ray
 apocalypse,giant,smog horror
 apocalypse,golem,crying angel
 apocalypse,halloween,zombie outbreak
-apocalypse,hammer,WMD
+apocalypse,hammer,wmd
 apocalypse,holidays,family reunion
 apocalypse,holy water,apocalypse doctrine
 apocalypse,horn,horn of winter
@@ -391,7 +391,7 @@ apocalypse,void,world eater
 apocalypse,war,apocalypse doctrine
 apocalypse,water,the mariner
 apocalypse,water serpent,doomsday omen
-apocalypse,weapon,WMD
+apocalypse,weapon,wmd
 apocalypse,werewolf,the lone wolf
 apocalypse,wind,wind princess
 apocalypse,wings,colossal demon
@@ -904,6 +904,7 @@ bird,science,robot turkey
 bird,sidekick,kid sidekick
 bird,sleep,night owl
 bird,snake,cockatrice
+bird,sun,angel kid
 bird,space,space explorer
 bird,speed,road sprinter
 bird,spirit,phoenix
@@ -912,6 +913,7 @@ bird,superhero,eagle hero
 bird,sword,carver of doom
 bird,trident,carver of doom
 bird,turkey day,turkey
+bird,turtle,turtle duck
 bird,undead,turkey zombie
 bird,underwater,flying fish
 bird,vampire,nosferatu duck
@@ -964,6 +966,7 @@ blob,invention,d-3000
 blob,knight,slime warrior
 blob,knowledge,mind slug
 blob,leader,bumpy princess
+blob,life,virus
 blob,madness,evil symbiote
 blob,magic,gelmancer
 blob,martial arts,hungry panda hero
@@ -1147,6 +1150,8 @@ bone,metal,d-3000
 bone,mind control,the bone king
 bone,miniature,cavities
 bone,monster,gashadokuro
+bone,moon,bone chin
+bone,multiples,gashadokuro
 bone,music,bone xylophone
 bone,myth,gashadokuro
 bone,parasite,abyss knight
@@ -1578,7 +1583,7 @@ cursed,galaxy wars,dark space lord
 cursed,giant,atlas
 cursed,golem,ogre princess
 cursed,halloween,headless rider
-cursed,hammer,WMD
+cursed,hammer,wmd
 cursed,healing,unicorn blood
 cursed,holidays,nutcracker
 cursed,horn,demon hero
@@ -1658,6 +1663,7 @@ cursed,wizarding school,cursed will
 cursed,wolf,werewolf
 death,desert,vulture
 death,destruction,soul harvester
+death,dog,anubis
 death,dragon,skeletal dragon
 death,earth,tombstone
 death,energy,ghost
@@ -2028,6 +2034,7 @@ dog,leader,alpha
 dog,love,puppy love
 dog,madness,insanity wolf
 dog,magic,jack the dog
+dog,martial arts,nine tails ninja
 dog,metal,k-9000
 dog,mind control,cute charm
 dog,miniature,puppy love
@@ -2126,6 +2133,7 @@ dragon,royal game,dragon mother
 dragon,royalty,dragon princess
 dragon,sci-fi,gorezilla
 dragon,science,hydrabot
+dragon,sidekick,water dragon
 dragon,sleep,smug
 dragon,snake,wyvern
 dragon,space,night dragon
@@ -2169,6 +2177,7 @@ earth,healing,mandrake
 earth,holidays,dreidel
 earth,horn,rock dragon
 earth,human,dwarf
+earth,hybrid,skeletal isle
 earth,ice,avalanche
 earth,immortality,thunder god
 earth,insect,earthworm
@@ -2394,6 +2403,7 @@ energy,wings,blue bull
 energy,wizard,insidious emperor
 energy,wizarding school,pixies
 energy,wolf,nine tails ninja
+extraterrestrial,extraterrestrial,alien band
 extraterrestrial,fairy,changeling
 extraterrestrial,fairy tale,asteroid prince
 extraterrestrial,fire,meteor
@@ -2488,6 +2498,7 @@ fairy,hybrid,half-fairy
 fairy,ice,snow angel
 fairy,immortality,oberon
 fairy,insect,firefly
+fairy,invention,gnome gadgeteer
 fairy,knowledge,muse
 fairy,leader,oberon
 fairy,love,cupid
@@ -2631,6 +2642,7 @@ fire,hybrid,dragon incarnate
 fire,ice,water
 fire,immortality,prometheus
 fire,insect,firefly
+fire,invention,dragon fire
 fire,knight,red knight
 fire,knowledge,pyromancer
 fire,leader,prometheus
@@ -2784,6 +2796,7 @@ food,life,punchy
 food,love,candy hearts
 food,madness,confectioner will
 food,magic,pastry cat
+food,martial arts,hungry panda hero
 food,medieval,farmer
 food,mind control,sugar demon
 food,miniature,flapjack octopus
@@ -3295,6 +3308,7 @@ holidays,time,baby new year
 holidays,toy,nutcracker
 holidays,tree,christmas tree
 holidays,trident,carver of doom
+holidays,turkey day,black friday
 holidays,undead,pumpkin prince
 holidays,vampire,black friday
 holidays,vehicle,sleigh
@@ -3353,6 +3367,7 @@ holy water,vampire,fire
 holy water,vehicle,trapper-1
 holy water,void,poison
 holy water,war,armageddon
+holy water,water serpent,lochness
 holy water,wealth,holy grail
 holy water,weapon,excaliber
 holy water,wind,windmaster eng
@@ -3380,6 +3395,7 @@ horn,miniature,rhinocerous beetle
 horn,monster,bahamut
 horn,moon,galactic wizard
 horn,multiples,hydra
+horn,mutation,mutated rhino
 horn,myth,cyclops
 horn,plant,plant dragon
 horn,pocket pet,snoring monster
@@ -4079,6 +4095,7 @@ leader,wings,ziz
 leader,wizard,wizard headmaster
 leader,wizarding school,courageous founder
 leader,wolf,alpha
+life,life,jumping hero
 life,madness,unicorn blood
 life,magic,fairy
 life,martial arts,sarcastic hero
@@ -4226,6 +4243,8 @@ madness,sleep,clown toxin
 madness,snake,general viper
 madness,space,AL 9001
 madness,speed,mask of mischief
+madness,spirit,possession
+madness,strength,mask of mischief
 madness,superhero,sarcastic hero
 madness,sweets,confectioner will
 madness,sword,lich blade
@@ -4690,6 +4709,7 @@ moon,spirit,bogeyman
 moon,strength,great wereape
 moon,sun,blood moon
 moon,superhero,moon heroine
+moon,sweets,lunar pie
 moon,sword,space guardian
 moon,the chosen one,moon heroine
 moon,toy,space shoes
@@ -4886,6 +4906,7 @@ myth,underwater,atlantis
 myth,vampire,dracula
 myth,villain,war god
 myth,void,pandora's box
+myth,war,ares
 myth,water,poseidon
 myth,water serpent,kraken
 myth,wealth,hesperide's tree
@@ -4903,6 +4924,9 @@ parasite,precious ring lore,precious ring
 parasite,prehistoric,mosquito
 parasite,radiation,parasitic bioweapon
 parasite,robot,human battery
+parasite,rodent,black death
+parasite,sci-fi,space zombie
+parasite,science,human battery
 parasite,sidekick,arm parasite
 parasite,sleep,bed bug
 parasite,snake,leech
@@ -4988,6 +5012,7 @@ pocket pet,sidekick,pikamon
 pocket pet,sleep,snoring monster
 pocket pet,snake,cobramon
 pocket pet,space,psychic clone
+pocket pet,speed,pikamon
 pocket pet,spirit,specter
 pocket pet,strength,geode
 pocket pet,sun,emberzard
@@ -5283,6 +5308,7 @@ reptile,space,alien reptile
 reptile,speed,black mamba
 reptile,spirit,spectral dragon
 reptile,strength,gorezilla
+reptile,sun,ember
 reptile,superhero,turtle warrior
 reptile,sweets,gummy worm
 reptile,sword,turtle warrior
@@ -5347,6 +5373,7 @@ rodent,speed,swift the chin
 rodent,spirit,rat reaper
 rodent,strength,mouse hero
 rodent,superhero,mouse hero
+rodent,sweets,candy king chin
 rodent,sword,ninchilla
 rodent,the chosen one,pikamon
 rodent,time,groundhog
@@ -5861,6 +5888,7 @@ trident,water,poseidon
 trident,wealth,pirate booty
 trident,weapon,sai
 trident,wind,air ship
+trident,wizard,wizard staff
 trident,wizarding school,naga queen
 turkey day,undead,turkey zombie
 turkey day,vampire,moocher
@@ -5877,6 +5905,8 @@ turkey day,wizard,honey beer
 turkey day,wizarding school,honey beer
 turkey day,wolf,hangry
 turtle,undead,parched skeleton
+turtle,underground,turtle warrior
+turtle,underwater,bubbles
 turtle,vehicle,world turtle
 turtle,villain,turtle king
 turtle,void,hypnoturtle
@@ -6006,6 +6036,12 @@ weapon,wings,chiropterang
 weapon,wizard,wizard staff
 weapon,wizarding school,death's gifts
 weapon,wolf,claws
+werewolf,werewolf,wolfpack
+werewolf,wind,spirit wolf
+werewolf,wings,werechicken
+werewolf,wizard,transmutation
+werewolf,wizarding school,professor werewolf
+werewolf,wolf,wolfpack
 wind,wind,cyclone
 wind,wings,thunderbird
 wind,wizard,aeromancer

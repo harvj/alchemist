@@ -1,10 +1,18 @@
 <ul id='side_nav' class='nav nav-pills nav-stacked'>
-  <% Card.combo.each do |card| %>
-    <%= content_tag(:li, class: card.rarity) do %>
+  <% Card.combo.order('name ASC').each do |card| %>
+    <li class="
+      <%= card.rarity %>
+      <%= @user_cards.key?(card.name) ? @user_cards[card.name] == 0 ? 'researched' : 'user' : 'not-user' %>
+    ">
       <%= link_to card.display_name, card_path(card) %>
+      <% if @user_cards.key?(card.name) && @user_cards[card.name] > 0 %>
+        <span>(<%= @user_cards[card.name] %>)</span>
+      <% end %>
       <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card', params: { card_id: card.id, level: 5, fused: true, rarity: card.rarity } %>
-      <%= button_to "4", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 4, fused: true, rarity: 'onyx' } %>
-      <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 5, fused: true, rarity: 'onyx' } %>
-    <% end %>
+      <% if card.onyx_available %>
+        <%= button_to "4", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 4, fused: true, rarity: 'onyx' } %>
+        <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 5, fused: true, rarity: 'onyx' } %>
+      <% end %>
+    </li>
   <% end %>
 </ul>

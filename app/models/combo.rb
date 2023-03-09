@@ -10,6 +10,7 @@ class Combo < ApplicationRecord
   enum match_rarity: RARITIES, _prefix: true
   enum final_rarity: RARITIES, _prefix: true
   enum high_rarity: RARITIES, _prefix: true
+  enum fusion: FUSIONS
 
   belongs_to :card
   belongs_to :match, class_name: 'Card'
@@ -19,6 +20,10 @@ class Combo < ApplicationRecord
   validates :card_id, :match_id, :final_id, presence: true
 
   after_save :assign_partner
+
+  def researched?
+    researched.present?
+  end
 
   private
 

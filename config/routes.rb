@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   resources :decks, only: [:show] do
     resources :deck_cards, only: %i(create destroy)
   end
+
+  resources :user_combos, only: [:create]
 end

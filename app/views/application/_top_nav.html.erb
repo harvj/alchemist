@@ -1,6 +1,6 @@
 <nav class='navbar navbar-default' role='navigation'>
   <ul class='nav navbar-nav'>
-    <li><%= link_to 'Cards', cards_path %></li>
-    <li><%= link_to 'Deck Building', deck_path(1) %></li>
+    <li>Current user: <%= current_user.username %> <%= link_to 'Cards', cards_path %></li>
+    <li>Current deck: <%= current_deck.name %> <%= link_to 'Deck Building', deck_path(current_deck) %></li>
   </ul>
 </nav>

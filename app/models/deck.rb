@@ -10,8 +10,8 @@ class Deck < ApplicationRecord
   def cards
     Deck.find_by_sql(<<~SQL
       select bar.*,
-        bar.final_offense + bar.final_defense as power,
-        round(((bar.final_offense * bar.off_adj) * (bar.final_defense * bar.def_adj) / 10),1) as score
+        bar.final_offense + bar.final_defense as power
+        -- round(((bar.final_offense * bar.off_adj) * (bar.final_defense * bar.def_adj) / 10),1) as score
       from (
       select
         foo.card_id,
@@ -23,13 +23,13 @@ class Deck < ApplicationRecord
         foo.final_rarity,
         foo.final_name,
         foo.base_offense + modifier + (level_multiplier * rarity_multiplier) as final_offense,
-        foo.base_defense + modifier + (level_multiplier * rarity_multiplier) as final_defense,
-        round((case when (foo.base_offense + modifier + (level_multiplier * rarity_multiplier) > 28)
-                  then 1.1 + ((foo.base_offense + modifier + (level_multiplier * rarity_multiplier) - 28) / 80.0)
-                  else 1 end),2) as off_adj,
-        round((case when (foo.base_defense + modifier + (level_multiplier * rarity_multiplier) > 26)
-                  then 1.07 + ((foo.base_defense + modifier + (level_multiplier * rarity_multiplier) - 26) / 80.0)
-                  else 1 end),2) as def_adj
+        foo.base_defense + modifier + (level_multiplier * rarity_multiplier) as final_defense
+        -- round((case when (foo.base_offense + modifier + (level_multiplier * rarity_multiplier) > 28)
+        --           then 1.1 + ((foo.base_offense + modifier + (level_multiplier * rarity_multiplier) - 28) / 80.0)
+        --           else 1 end),2) as off_adj,
+        -- round((case when (foo.base_defense + modifier + (level_multiplier * rarity_multiplier) > 26)
+        --           then 1.07 + ((foo.base_defense + modifier + (level_multiplier * rarity_multiplier) - 26) / 80.0)
+        --           else 1 end),2) as def_adj
       from (
       select
         cards.id as card_id,

@@ -40,32 +40,36 @@ span.badge {
   }
 }
 
-span.score {
-  width: 30px;
+span.deck-combo {
+  width: 34px;
   display: inline-block;
   text-align: center;
   color: white;
   font-weight: 500;
   font-size: 11px;
-  border-radius: 2.5px;
+  span {
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 1px;
+  }
   cursor: default;
-  &.tier-0 {
+  .offense-0, .defense-0 {
     background-color: #444;
   }
-  &.tier-1 {
+  .offense-1, .defense-1 {
+    background-color: seagreen;
+  }
+  .offense-2, .defense-2 {
     background-color: limegreen;
   }
-  &.tier-2 {
-    background-color: orangered;
+  .offense-3, .defense-3 {
+    background-color: gold;
   }
-  &.tier-3 {
+  .offense-4, .defense-4 {
     background-color: orange;
   }
-  &.tier-4 {
-    background-color: lighten(goldenrod, 30);
-  }
-  &.tier-5 {
-    background-color: #efefef;
+  .offense-5, .defense-5 {
+    background-color: tomato;
   }
 }
 

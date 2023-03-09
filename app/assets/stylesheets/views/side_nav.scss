@@ -1,4 +1,18 @@
 #side_nav {
+  li.researched {
+    font-weight: 600;
+  }
+
+  li.user {
+    // font-weight: 600;
+  }
+
+  li.not-user {
+    font-weight: 100;
+    font-style: italic;
+    opacity: 0.5;
+  }
+
   li.gold, li.silver, li.bronze {
     .badge {
       border-radius: 2.5px;

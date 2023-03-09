@@ -19,21 +19,37 @@ module ComboHelper
     end
   end
 
-  def tier_class(score, options={})
-    return if score.nil?
-    if score > 100
-      'tier-0'
-    elsif score > Combo::TIERS[:first]
-      'tier-1'
-    elsif score > Combo::TIERS[:second]
-      'tier-2'
-    elsif score > Combo::TIERS[:third]
-      'tier-3'
-    elsif score > Combo::TIERS[:fourth]
-      'tier-4'
+  def offense_class(value)
+    return if value.nil?
+    if value >= 36
+      'offense-0'
+    elsif value >= 34
+      'offense-1'
+    elsif value >= 30
+      'offense-2'
+    elsif value >= 26
+      'offense-3'
+    elsif value >= 22
+      'offense-4'
     else
-      'tier-5'
+      'offense-5'
     end
   end
 
+  def defense_class(value)
+    return if value.nil?
+    if value >= 36
+      'defense-0'
+    elsif value >= 34
+      'defense-1'
+    elsif value >= 30
+      'defense-2'
+    elsif value >= 26
+      'defense-3'
+    elsif value >= 24
+      'defense-4'
+    else
+      'defense-5'
+    end
+  end
 end

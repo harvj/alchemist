@@ -6,12 +6,17 @@
     <%= link_to set[:name], card_path(set[:combos].first.card_id) %>
   </span>
   <span class="badge"><%= set[:set_score] %></span>
-  <% set[:combos].sort_by{|c| [-c.power, -c.final_offense]}.each do |combo| %>
+  <% set[:combos].sort_by{|c| [-c.final_offense, -c.final_defense]}.each do |combo| %>
     <span
-      title='<%= "#{combo.final_name} (#{combo.match_name}, #{combo.final_offense} #{combo.final_defense})" %>'
-      class='score <%= tier_class(combo.score) %>'
+      class='deck-combo'
+      title='<%= "#{combo.final_name} (#{combo.match_name}, #{combo.final_offense} #{combo.final_defense}) #{combo.power}" %>'
     >
-      <%= combo.final_offense %>,<%= combo.final_defense %>
+      <span class="<%= offense_class(combo.final_offense) %>">
+        <%= combo.final_offense %>
+      </span>
+      <span class="<%= defense_class(combo.final_defense) %>">
+        <%= combo.final_defense %>
+      </span>
     </span>
   <% end %><p>
 <% end %>

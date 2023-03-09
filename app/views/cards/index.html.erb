@@ -1,3 +1,4 @@
+<p><%= @cards.count %> cards</p>
 <ul class='cards-list list-group'><% @cards.each do |card| %>
   <%= card_as_list_item(card) %>
 <% end %></ul>
