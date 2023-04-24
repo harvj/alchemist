@@ -1,17 +1,47 @@
+<div class="sets">
+  <% if @sets %>
+    <span class="label">cards</span>
+    <%= @sets.count %>
+    <span class="label">power</span>
+    <%= @all[:known_power] %>/<%= @all[:power] %>
+    <span class="label">combos</span>
+    <%= @all[:known] %>/<%= @all[:total] %>
+  <% end %>
+</div>
+
 <ul id='side_nav' class='nav nav-pills nav-stacked'>
-  <% Card.combo.order('name ASC').each do |card| %>
-    <li class="
-      <%= card.rarity %>
-      <%= @user_cards.key?(card.name) ? @user_cards[card.name] == 0 ? 'researched' : 'user' : 'not-user' %>
-    ">
+  <div class="user-info">
+    <li>
+      <span class="label">user</span>
+      <%= link_to current_user.username, cards_path %>
+    </li>
+    <li>
+      <span class="label">deck</span>
+      <%= link_to current_deck.name, deck_path(current_deck) %>
+    </li>
+  </div>
+
+  <p class="sort">sort:
+    <%= link_to 'deck', current_page_params.merge(ssort: :deck) %>
+    <%= link_to 'alpha', current_page_params.merge(ssort: :alpha) %>
+    <%= link_to 'known', current_page_params.merge(ssort: :known) %>
+    <%= link_to 'unknown', current_page_params.merge(ssort: :unknown) %>
+  </p>
+
+  <% current_user.combo_cards(deck_id: current_deck.id, sort: order_by_param).each do |card| %>
+    <li class="<%= side_nav_card_class(card) %>">
+      <span class="id"><%= card.id %></span>
+      <span class="card-count"><%= card.deck_card_count %></span>
       <%= link_to card.display_name, card_path(card) %>
-      <% if @user_cards.key?(card.name) && @user_cards[card.name] > 0 %>
-        <span>(<%= @user_cards[card.name] %>)</span>
+
+      <% if (current_user.username == 'kalef2p' || current_user.username == 'nolan') && order_by_param != 'unknown' %>
+        <span class="combo-count">(<%= card.known_combo_count %>/<%= card.available_combo_count %>)</span>
+      <% elsif card.unknown_combo_count > 0 %>
+        <span class="combo-count">(<%= card.unknown_combo_count %>)</span>
       <% end %>
-      <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card', params: { card_id: card.id, level: 5, fused: true, rarity: card.rarity } %>
-      <% if card.onyx_available %>
-        <%= button_to "4", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 4, fused: true, rarity: 'onyx' } %>
-        <%= button_to "5", deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card onyx', params: { card_id: card.id, level: 5, fused: true, rarity: 'onyx' } %>
+
+      <% (2..5).each do |i| %>
+        <%= button_to i, deck_deck_cards_path(current_deck.id), form_class: 'add_deck_card', params: { card_id: card.id, level: i, fused: true, rarity: card.rarity } %>
       <% end %>
     </li>
   <% end %>

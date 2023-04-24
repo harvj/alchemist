@@ -1,22 +1,56 @@
-<h2><%= @sets.count %> cards</h2>
+<div
+  class="show-deck"
+  id="deck-<%= current_deck.id %>"
+>
+  <div class="sort">sort:
+    <%= link_to 'alpha', deck_path(current_deck, sort: :alpha) %>
+    <%= link_to 'level', deck_path(current_deck, sort: :level) %>
+    <%= link_to 'power', deck_path(current_deck, sort: :power) %>
+    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :knownpower) %>)</span>
+    <%= link_to 'rarity', deck_path(current_deck, sort: :rarity) %>
+    <span class="label">(
+      <%= link_to 'by power', deck_path(current_deck, sort: :raritypower) %>,
+      <%= link_to 'by known power', deck_path(current_deck, sort: :raritypowerknown) %>
+    )</span>
+    <%= link_to 'offense', deck_path(current_deck, sort: :offense) %>
+    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :knownoffense) %>)</span>
+    <%= link_to 'defense', deck_path(current_deck, sort: :defense) %>
+    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :known_defense) %>)</span>
+  </div>
 
-<% @sets.each do |set| %>
-  <%= button_to "x", deck_deck_card_path(@deck, set[:combos].first.deck_card_id), method: :delete, form_class: 'delete' %>
-  <span class='deck-card badge <%= Card.rarities.key(set[:combos].first.card_rarity) %>'>
-    <%= link_to set[:name], card_path(set[:combos].first.card_id) %>
-  </span>
-  <span class="badge"><%= set[:set_score] %></span>
-  <% set[:combos].sort_by{|c| [-c.final_offense, -c.final_defense]}.each do |combo| %>
-    <span
-      class='deck-combo'
-      title='<%= "#{combo.final_name} (#{combo.match_name}, #{combo.final_offense} #{combo.final_defense}) #{combo.power}" %>'
+  <% @sets.each do |set| %>
+    <% info = set[:combos].first %>
+    <div
+      class="show-deck-card"
+      id="deck-card-<%= info.deck_card_id %>"
     >
-      <span class="<%= offense_class(combo.final_offense) %>">
-        <%= combo.final_offense %>
+      <%= button_to "x", deck_deck_card_path(current_deck, info.deck_card_id), method: :delete, form_class: 'delete' %>
+      <span class='deck-card badge <%= info.card_rarity %>'>
+        <%= link_to info.card_name, card_path(info.card_id) %>
+        <span class="card-level"><%= info.card_level %></span>
       </span>
-      <span class="<%= defense_class(combo.final_defense) %>">
-        <%= combo.final_defense %>
+
+      <span class="stats">
+        <% if set[:known] == set[:total] %>
+          <span class="badge researched"><%= set[:power] %>/<%= set[:total] %></span>
+        <% else %>
+          <span class="badge"><%= set["known_#{display_stat}".to_sym] %>/<%= set[display_stat] %> <%= set[:known] %>/<%= set[:total] %></span>
+        <% end %>
       </span>
-    </span>
-  <% end %><p>
-<% end %>
+
+      <% set[:combos].sort_by{|c| [-c.power, -c.final_offense]}.each do |combo| %>
+        <span
+          class='deck-combo'
+          title='<%= "#{combo.final_name} #{combo.final_level} (#{combo.match_name}, #{combo.final_offense} #{combo.final_defense}) #{combo.power}" %>'
+        >
+          <span class="<%= offense_class(combo) %>">
+            <%= combo.final_offense %>
+          </span>
+          <span class="<%= defense_class(combo) %>">
+            <%= combo.final_defense %>
+          </span>
+        </span>
+      <% end %>
+    </div>
+  <% end %>
+</div>

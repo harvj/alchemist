@@ -9,4 +9,9 @@ module CardHelper
     end
   end
 
+  def side_nav_card_class(card)
+    deck = card.deck_card_count > 0 ? 'deck' : 'not-deck'
+    researched = card.unknown_combo_count == 0 ? 'researched' : ''
+    ['user', card.rarity, researched, deck].join(' ')
+  end
 end

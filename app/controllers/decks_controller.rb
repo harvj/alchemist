@@ -1,20 +1,67 @@
 class DecksController < ApplicationController
   def index
-    @deck = Deck.first.includes(:cards)
+    @deck = current_deck.includes(:cards)
   end
 
   def show
-    @deck = Deck.first
-    @sets = @deck.cards.group_by {|i| i.card_name }.map do |name,combos|
-      offense = combos.select{|c| c.final_offense >= 34 and c.final_defense > 25}.count
-      defense = combos.select{|c| c.final_defense >= 34}.count
-      power = combos.select{|c| c.power >= 65}.count
+    @all = {
+      power: 0,
+      known_power: 0,
+      total: 0,
+      known: 0
+    }
+    @sets = current_deck.cards.group_by {|i| i.deck_card_id }.map do |id,combos|
+      # offense = combos.select{|c| c.final_offense >= 34 and c.final_defense >= 25}.count
+      # defense = combos.select{|c| c.final_defense >= 34}.count
+      # power = combos.select{|c| c.power >= 67}.count
+      gold_combos = combos.select{|c| ['gold', 'diamond', 'onyx'].include?(c.final_rarity)}
+      known_combos = combos.select{|c| c.user_combo_id.present?}
+      known_gold_combos = gold_combos.select{|c| c.user_combo_id.present?}
+      known = known_combos.count
       total = combos.count
+      offense = gold_combos.sum(&:final_offense)
+      known_offense = known_gold_combos.sum(&:final_offense)
+      defense = gold_combos.sum(&:final_defense)
+      known_defense = known_gold_combos.sum(&:final_defense)
+      power = offense + defense
+      known_power = known_offense + known_defense
+
+      @all[:power] += power
+      @all[:known_power] += known_power
+      @all[:total] += total
+      @all[:known] += known
+
+      info = combos.first
+
       {
-        name: name,
         combos: combos,
-        set_score: offense * 1000000 + defense * 10000 + power * 100 + total
+        name: info.card_name,
+        level: info.card_level,
+        rarity: info.card_rarity_value,
+        rarity_name: info.card_rarity,
+        offense: offense,
+        known_offense: known_offense,
+        defense: defense,
+        known_defense: known_defense,
+        power: power,
+        known_power: known_power,
+        total: total,
+        known: known
       }
-    end.sort{|a,b| b[:set_score] <=> a[:set_score]}
+    end.sort_by{ |i| sort_by_criteria(i) }
   end
+
+  private
+
+  def display_stat
+    param_value = [*sort_by_params].map(&:to_s).join
+    if param_value.include?('offense')
+      :offense
+    elsif param_value.include?('defense')
+      :defense
+    else
+      :power
+    end
+  end
+  helper_method :display_stat
 end

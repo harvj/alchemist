@@ -1,10 +1,10 @@
-<% combos = @card.combos %>
+<% combos = Combo.where(card_id: @card.id) %>
 
 <h1><%= @card.display_name %></h1>
 <p><%= @card.fusion.titleize if @card.final? %></p>
 <p>
   <%= combos.count %> combos,
-  <%= current_user.user_combos.researched.where(combo_id: combos.pluck(:combo_id)).count %> known,
+  <%= current_user.user_combos.researched.where(combo_id: combos.pluck(:id)).count %> known,
   <%= Combo.where(card_id: @card.id, match_id: current_user.user_cards.pluck(:card_id)).count %> knowable
 </p>
 
@@ -20,7 +20,7 @@
   <ul class="cards-list">
   <% @current_deck_combos.each do |combo| %>
     <li><%#combo.to_json %></li>
-    <li class="card <%= combo.final_rarity %> <%= combo.deck_match_id ? 'deck' : '' %>">
+    <li class="card <%= combo.final_rarity %> <%= combo.deck_match_count > 0 ? 'deck' : '' %>">
       <%= check_box_tag 'combos[]', [combo.combo_id, combo.partner_id].uniq, combo.researched? %>
       <span>
         <%= link_to combo.card_name.titleize, card_path(combo.card_id) %>,
@@ -45,7 +45,7 @@
   </ul>
 <% end %>
 
-<% if @card.combo? %>
+<% if false #@card.combo? %>
   <p>Unknown knowable combos: <%= @card.knowable_combo_names.map(&:name).join(', ') %></p>
   <p>No combo with: <%= @card.cards_no_combo_with.map(&:name).join(', ') %></p>
 <% end %>

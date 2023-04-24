@@ -1,16 +1,39 @@
+.user-info {
+  margin: 7px 0;
+}
+
 #side_nav {
-  li.researched {
-    font-weight: 600;
+  padding-left: 0;
+  margin-top: 5px;
+
+  li .id {
+    font-weight: 100;
+    font-size: 10px;
+    display: inline-block;
+    width: 18px;
   }
 
-  li.user {
-    // font-weight: 600;
+  li .card-count {
+    font-weight: 300;
   }
 
-  li.not-user {
+  li .combo-count {
+    font-weight: 100;
+  }
+
+  li.deck {
+    font-weight: 500;
+  }
+
+  li.not-deck {
+    a { color: #999 }
     font-weight: 100;
     font-style: italic;
-    opacity: 0.5;
+  }
+
+  li.researched {
+    font-weight: 600;
+    font-style: normal;
   }
 
   li.gold, li.silver, li.bronze {
@@ -32,7 +55,7 @@
   }
 
   li.gold a, li.silver a, li.bronze a {
-    padding: 2px 15px;
+    padding: 2px 5px;
   }
 
   li.gold {
@@ -69,6 +92,24 @@
     .badge.fused {
       color: white;
       background-color: purple;
+    }
+  }
+
+  form.add_deck_card {
+    display: inline-block;
+    float: right;
+    input {
+      cursor: pointer;
+      border: none;
+    }
+    &.onyx {
+      input {
+        background: #333;
+        color: white;
+        &:hover {
+          background: #111;
+        }
+      }
     }
   }
 

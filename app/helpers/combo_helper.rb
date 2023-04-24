@@ -19,37 +19,41 @@ module ComboHelper
     end
   end
 
-  def offense_class(value)
-    return if value.nil?
-    if value >= 36
+  def offense_class(combo)
+    return if combo.final_offense.nil?
+    tier = if combo.final_offense >= 36
       'offense-0'
-    elsif value >= 34
+    elsif combo.final_offense >= 34
       'offense-1'
-    elsif value >= 30
+    elsif combo.final_offense >= 30
       'offense-2'
-    elsif value >= 26
+    elsif combo.final_offense >= 26
       'offense-3'
-    elsif value >= 22
+    elsif combo.final_offense >= 22
       'offense-4'
     else
       'offense-5'
     end
+    known = combo.user_combo_id.present? ? 'known' : 'unknown'
+    [combo.card_rarity, tier, known].join(' ')
   end
 
-  def defense_class(value)
-    return if value.nil?
-    if value >= 36
+  def defense_class(combo)
+    return if combo.final_defense.nil?
+    tier = if combo.final_defense >= 36
       'defense-0'
-    elsif value >= 34
+    elsif combo.final_defense >= 34
       'defense-1'
-    elsif value >= 30
+    elsif combo.final_defense >= 30
       'defense-2'
-    elsif value >= 26
+    elsif combo.final_defense >= 26
       'defense-3'
-    elsif value >= 24
+    elsif combo.final_defense >= 24
       'defense-4'
     else
       'defense-5'
     end
+    known = combo.user_combo_id.present? ? 'known' : 'unknown'
+    [combo.card_rarity, tier, known].join(' ')
   end
 end
