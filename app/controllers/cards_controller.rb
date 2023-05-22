@@ -1,11 +1,11 @@
 class CardsController < ApplicationController
   def index
-    @cards = Card.all.order(:name)
+    @cards = Card.combo.where("id NOT IN (select card_id from user_cards where user_id = ?)", current_user.id).order(:name)
   end
 
   def show
     @card = Card.find(params[:id])
-    @current_deck_combos = @card.combos(deck_id: current_deck.id, user_id: current_user.id, sort: params[:sort])
+    @current_deck_combos = @card.combos(deck_id: current_deck.id, user_id: current_user.id, sort: combo_sort)
   end
 
    def update

@@ -93,7 +93,7 @@ class Card < ApplicationRecord
         WHERE cards.form = 0
         AND #{id_table}.id = #{id}
         #{"AND combos.card_id <= combos.match_id" if final?}
-        AND combos.card_id IN (select card_id from user_cards where user_cards.user_id = #{params[:user_id]})
+        -- AND combos.card_id IN (select card_id from user_cards where user_cards.user_id = #{params[:user_id]})
         AND combos.match_id IN (select card_id from user_cards where user_cards.user_id = #{params[:user_id]})
       ) as x
      ) as y

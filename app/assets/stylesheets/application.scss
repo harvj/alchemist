@@ -44,6 +44,10 @@ ul {
   font-size: 10px;
 }
 
+.active, .complete {
+  font-weight: 600;
+}
+
 span.badge {
   padding-left: 3px;
   display: inline-block;

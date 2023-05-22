@@ -3954,7 +3954,7 @@ knight,underwater,ocean defender
 knight,vampire,sunwalker vampire
 knight,vehicle,horse
 knight,villain,undead knight
-knight,void,shadow prelate
+knight,void,voidwalker
 knight,war,ultimate soldier
 knight,water,blue knight
 knight,water serpent,ocean defender
@@ -5754,7 +5754,7 @@ superhero,underwater,ocean defender
 superhero,vampire,vampire hunter
 superhero,vehicle,transformobot
 superhero,villain,discipliner
-superhero,void,dark hero
+superhero,void,shadow prelate
 superhero,war,lieutenant usa
 superhero,water,ocean defender
 superhero,water serpent,ocean defender

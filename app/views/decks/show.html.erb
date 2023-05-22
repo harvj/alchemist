@@ -3,19 +3,19 @@
   id="deck-<%= current_deck.id %>"
 >
   <div class="sort">sort:
-    <%= link_to 'alpha', deck_path(current_deck, sort: :alpha) %>
-    <%= link_to 'level', deck_path(current_deck, sort: :level) %>
-    <%= link_to 'power', deck_path(current_deck, sort: :power) %>
-    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :knownpower) %>)</span>
-    <%= link_to 'rarity', deck_path(current_deck, sort: :rarity) %>
-    <span class="label">(
-      <%= link_to 'by power', deck_path(current_deck, sort: :raritypower) %>,
-      <%= link_to 'by known power', deck_path(current_deck, sort: :raritypowerknown) %>
-    )</span>
-    <%= link_to 'offense', deck_path(current_deck, sort: :offense) %>
-    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :knownoffense) %>)</span>
-    <%= link_to 'defense', deck_path(current_deck, sort: :defense) %>
-    <span class="label">(<%= link_to 'known', deck_path(current_deck, sort: :known_defense) %>)</span>
+    <%= link_to 'alpha', deck_path(current_deck, decksort: :alpha), class: deck_sort == 'alpha' ? 'active' : '' %>
+    <%= link_to 'level', deck_path(current_deck, decksort: :level), class: deck_sort == 'level' ? 'active' : '' %>
+    <%= link_to 'power', deck_path(current_deck, decksort: :power), class: deck_sort == 'power' ? 'active' : '' %>
+    <span class="label"><%= link_to 'known', deck_path(current_deck, decksort: :knownpower), class: deck_sort == 'knownpower' ? 'active' : '' %></span>
+    <%= link_to 'rarity', deck_path(current_deck, decksort: :rarity), class: deck_sort == 'rarity' ? 'active' : '' %>
+    <span class="label">
+      <%= link_to 'by power', deck_path(current_deck, decksort: :raritypower), class: deck_sort == 'raritypower' ? 'active' : '' %>,
+      <%= link_to 'by known power', deck_path(current_deck, decksort: :raritypowerknown), class: deck_sort == 'raritypowerknown' ? 'active' : '' %>
+    </span>
+    <%= link_to 'offense', deck_path(current_deck, decksort: :offense), class: deck_sort == 'offense' ? 'active' : '' %>
+    <span class="label"><%= link_to 'known', deck_path(current_deck, decksort: :knownoffense), class: deck_sort == 'knownoffense' ? 'active' : '' %></span>
+    <%= link_to 'defense', deck_path(current_deck, decksort: :defense), class: deck_sort == 'defense' ? 'active' : '' %>
+    <span class="label"><%= link_to 'known', deck_path(current_deck, decksort: :knowndefense), class: deck_sort == 'knowndefense' ? 'active' : '' %></span>
   </div>
 
   <% @sets.each do |set| %>
@@ -32,7 +32,7 @@
 
       <span class="stats">
         <% if set[:known] == set[:total] %>
-          <span class="badge researched"><%= set[:power] %>/<%= set[:total] %></span>
+          <span class="badge complete"><%= set[:power] %> / <%= set[:total] %></span>
         <% else %>
           <span class="badge"><%= set["known_#{display_stat}".to_sym] %>/<%= set[display_stat] %> <%= set[:known] %>/<%= set[:total] %></span>
         <% end %>

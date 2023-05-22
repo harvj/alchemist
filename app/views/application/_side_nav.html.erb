@@ -22,10 +22,14 @@
   </div>
 
   <p class="sort">sort:
-    <%= link_to 'deck', current_page_params.merge(ssort: :deck) %>
-    <%= link_to 'alpha', current_page_params.merge(ssort: :alpha) %>
-    <%= link_to 'known', current_page_params.merge(ssort: :known) %>
-    <%= link_to 'unknown', current_page_params.merge(ssort: :unknown) %>
+    <%= link_to 'deck', current_page_params.merge(sidesort: :deck), class: side_sort == 'deck' ? 'active' : '' %>
+    <%= link_to 'alpha', current_page_params.merge(sidesort: :alpha), class: side_sort == 'alpha' ? 'active' : '' %>
+    <%= link_to 'rarity', current_page_params.merge(sidesort: :rarity), class: side_sort == 'rarity' ? 'active' : '' %>
+    <%= link_to 'power', current_page_params.merge(sidesort: :power), class: side_sort == 'power' ? 'active' : '' %>
+  </p>
+  <p class="sort">
+    <%= link_to 'known', current_page_params.merge(sidesort: :known), class: side_sort == 'known' ? 'active' : '' %>
+    <%= link_to 'unknown', current_page_params.merge(sidesort: :unknown), class: side_sort == 'unknown' ? 'active' : '' %>
   </p>
 
   <% current_user.combo_cards(deck_id: current_deck.id, sort: order_by_param).each do |card| %>
@@ -33,6 +37,7 @@
       <span class="id"><%= card.id %></span>
       <span class="card-count"><%= card.deck_card_count %></span>
       <%= link_to card.display_name, card_path(card) %>
+      <span class="id"><%= card.potential_deck_power %></span>
 
       <% if (current_user.username == 'kalef2p' || current_user.username == 'nolan') && order_by_param != 'unknown' %>
         <span class="combo-count">(<%= card.known_combo_count %>/<%= card.available_combo_count %>)</span>
@@ -46,3 +51,5 @@
     </li>
   <% end %>
 </ul>
+
+<%= link_to 'more', cards_path %>

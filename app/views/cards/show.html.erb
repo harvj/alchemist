@@ -12,9 +12,9 @@
   <%= hidden_field_tag :card_id, @card.id %>
   <%= button_tag 'submit known combos' %>
   <p>sort:
-    <%= link_to 'power', card_path(@card) %>
-    <%= link_to 'offense', card_path(@card, sort: 'offense') %>
-    <%= link_to 'match name', card_path(@card, sort: 'matchname') %>
+    <%= link_to 'power', card_path(@card, combosort: 'power'), class: combo_sort == 'power' ? 'active' : '' %>
+    <%= link_to 'offense', card_path(@card, combosort: 'offense'), class: combo_sort == 'offense' ? 'active' : '' %>
+    <%= link_to 'match name', card_path(@card, combosort: 'matchname'), class: combo_sort == 'matchname' ? 'active' : '' %>
   </p>
 
   <ul class="cards-list">

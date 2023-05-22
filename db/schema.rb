@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_10_195820) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_24_170008) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -88,6 +88,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_10_195820) do
     t.string "username", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "deck_sort_pref"
+    t.string "combo_sort_pref"
+    t.string "side_sort_pref"
     t.index ["username"], name: "index_users_on_username"
   end
 

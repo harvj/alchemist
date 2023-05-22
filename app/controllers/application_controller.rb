@@ -22,8 +22,10 @@ class ApplicationController < ActionController::Base
   SQL_ORDER_OPTIONS = {
     'alpha' => "name asc",
     'deck' => "deck_card_count desc, rarity desc, name",
+    'rarity' => "rarity desc, name asc",
     'known' => "known_combo_pct desc, name asc",
-    'unknown' => "unknown_combo_count desc, name asc"
+    'unknown' => "unknown_combo_count desc, name asc",
+    'power' => "potential_deck_power desc"
   }.freeze
 
   def index
@@ -36,28 +38,35 @@ class ApplicationController < ActionController::Base
 
   def current_user
     @current_user ||= User.find_by(username: 'kalef2p')
+    # @current_user ||= User.find_by(username: 'nolan')
   end
   helper_method :current_user
 
   def order_by_param
-    SQL_ORDER_OPTIONS[params[:ssort] || 'deck']
+    SQL_ORDER_OPTIONS[side_sort || 'deck']
   end
   helper_method :order_by_param
 
   def current_page_params
-    request.params.slice(:sort)
+    request.params.slice(:decksort, :combosort, :sidesort)
   end
   helper_method :current_page_params
 
-  def sort_by_params
-    SORT_OPTIONS[params[:sort]] || default_sort
+  def deck_sort
+    current_user.update_column(:deck_sort_pref, params[:decksort]) if params[:decksort].present? && current_user.deck_sort_pref != params[:decksort]
+    current_user.deck_sort_pref
   end
+  helper_method :deck_sort
 
-  def sort_by_criteria(i)
-    [*sort_by_params].map { |param| ASC_SORT_OPTIONS.include?(param) ? i[param] : -i[param] }
+  def combo_sort
+    current_user.update_column(:combo_sort_pref, params[:combosort]) if params[:combosort].present? && current_user.combo_sort_pref != params[:combosort]
+    current_user.combo_sort_pref
   end
+  helper_method :combo_sort
 
-  def default_sort
-    :power
+  def side_sort
+    current_user.update_column(:side_sort_pref, params[:sidesort]) if params[:sidesort].present? && current_user.side_sort_pref != params[:sidesort]
+    current_user.side_sort_pref
   end
+  helper_method :side_sort
 end

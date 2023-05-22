@@ -53,6 +53,14 @@ class DecksController < ApplicationController
 
   private
 
+  def sort_by_params
+    SORT_OPTIONS[deck_sort] || :power
+  end
+
+  def sort_by_criteria(i)
+    [*sort_by_params].map { |param| ASC_SORT_OPTIONS.include?(param) ? i[param] : -i[param] }
+  end
+
   def display_stat
     param_value = [*sort_by_params].map(&:to_s).join
     if param_value.include?('offense')
