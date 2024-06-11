@@ -19,7 +19,8 @@ class User < ApplicationRecord
           (#{available_combo_count_sql}) as available_combo_count,
           (#{known_combo_count_sql}) as known_combo_count,
           (#{unknown_combo_count_sql}) as unknown_combo_count,
-          (#{potential_deck_power_sql}) as potential_deck_power
+          (#{potential_deck_power_sql}) as potential_deck_power,
+          (#{all_combo_count_query}) as all_combo_count
         from user_cards
         join cards on cards.id = user_cards.card_id
         where user_cards.user_id = :id
@@ -27,6 +28,12 @@ class User < ApplicationRecord
       #{order_sql(params[:sort])}
     SQL
     Card.find_by_sql([sql, { id: id }])
+  end
+
+  def all_combo_count_query
+    <<~SQL
+      select count(*) from combos where combos.card_id = cards.id
+    SQL
   end
 
   def available_combos(card_id = nil)

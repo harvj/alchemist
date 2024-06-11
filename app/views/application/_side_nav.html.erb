@@ -13,7 +13,9 @@
   <div class="user-info">
     <li>
       <span class="label">user</span>
-      <%= link_to current_user.username, cards_path %>
+      <% User.find_each do |user| %>
+        <%= link_to user.username, cards_path(user_id: user.id), class: current_user.id == user.id ? 'active' : '' %>
+      <% end %>
     </li>
     <li>
       <span class="label">deck</span>
@@ -39,9 +41,7 @@
       <%= link_to card.display_name, card_path(card) %>
       <span class="id"><%= card.potential_deck_power %></span>
 
-      <% if (current_user.username == 'kalef2p' || current_user.username == 'nolan') && order_by_param != 'unknown' %>
-        <span class="combo-count">(<%= card.known_combo_count %>/<%= card.available_combo_count %>)</span>
-      <% elsif card.unknown_combo_count > 0 %>
+      <% if card.unknown_combo_count > 0 %>
         <span class="combo-count">(<%= card.unknown_combo_count %>)</span>
       <% end %>
 

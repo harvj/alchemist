@@ -31,11 +31,12 @@
       </span>
 
       <span class="stats">
-        <% if set[:known] == set[:total] %>
-          <span class="badge complete"><%= set[:power] %> / <%= set[:total] %></span>
-        <% else %>
-          <span class="badge"><%= set["known_#{display_stat}".to_sym] %>/<%= set[display_stat] %> <%= set[:known] %>/<%= set[:total] %></span>
-        <% end %>
+        <span class="badge <%= set["known_#{display_stat}".to_sym] == set[display_stat] ? 'complete' : '' %>">
+          <%= set["known_#{display_stat}".to_sym] %>/<%= set[display_stat] %>
+        </span>
+        <span class="badge <%= set[:known] == set[:total] ? 'complete' : '' %>">
+          <%= set[:known] %>/<%= set[:total] %>
+        </span>
       </span>
 
       <% set[:combos].sort_by{|c| [-c.power, -c.final_offense]}.each do |combo| %>

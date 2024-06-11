@@ -8,17 +8,19 @@ class ApplicationRecord < ActiveRecord::Base
   FUSIONS = {
     orb: 0,
     absorb: 1,
-    critical_strike: 3,
-    crushing_blow: 5,
-    counter_attack: 7,
-    curse: 9,
-    protection: 11,
     siphon: 2,
+    critical_strike: 3,
     amplify: 4,
+    crushing_blow: 5,
     pierce: 6,
+    counter_attack: 7,
     reflect: 8,
+    curse: 9,
     weaken: 10,
-    block: 12
+    protection: 11,
+    block: 12,
+    plunder: 13,
+    pillage: 14
   }
 
   ORIGINS = {
@@ -120,6 +122,16 @@ class ApplicationRecord < ActiveRecord::Base
     wingman_pack: 168,
     wizarding_pack: 169,
     yuletide_pack: 170,
-    zoom_zoom_pack: 171
+    zoom_zoom_pack: 171,
+    jungle_pack: 172,
+    shrine_pack: 173,
+    the_dark_pack: 174,
+    anniversary_pack: 175,
+    wintertide_pack: 176,
+    hope_pack: 177,
+    meta_pack: 178,
+    arachnid_pack: 179,
+    pirate_pack: 180,
+    adventure_pack: 181
   }
 end
