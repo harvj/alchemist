@@ -37,8 +37,8 @@ class ApplicationController < ActionController::Base
   helper_method :current_deck
 
   def current_user
-    @current_user ||= User.find_by(username: 'kalef2p')
-    # @current_user ||= User.find_by(username: 'nolan')
+    session[:user_id] = params[:user_id] if params[:user_id].present?
+    @current_user ||= User.find_by(id: session[:user_id]) || User.first
   end
   helper_method :current_user
 
