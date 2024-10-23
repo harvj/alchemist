@@ -14,6 +14,7 @@ class User < ApplicationRecord
         (known_combo_count::numeric / available_combo_count) as known_combo_pct
       from (
         select
+          user_cards.onyx,
           cards.*,
           (select #{deck_card_sql(params[:deck_id])}) as deck_card_count,
           (#{available_combo_count_sql}) as available_combo_count,

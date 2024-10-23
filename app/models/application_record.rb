@@ -132,6 +132,11 @@ class ApplicationRecord < ActiveRecord::Base
     meta_pack: 178,
     arachnid_pack: 179,
     pirate_pack: 180,
-    adventure_pack: 181
+    adventure_pack: 181,
+    atomic_aftermath_pack: 182,
+    summertide_pack: 183,
+    portal_pack: 184,
+    future_fight_pack: 185,
+    spycraft_pack: 186
   }
 end
